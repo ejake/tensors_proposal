@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.17)  18 FEB 2016 09:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.2.17)  18 FEB 2016 18:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -715,7 +715,7 @@ rted-to.pdf>]
 Here is how much of TeX's memory you used:
  11012 strings out of 493304
  200439 string characters out of 6139871
- 245767 words of memory out of 5000000
+ 246767 words of memory out of 5000000
  14222 multiletter control sequences out of 15000+600000
  10026 words of font info for 37 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -723,7 +723,7 @@ Here is how much of TeX's memory you used:
 {/usr/share/texmf/fonts/enc/dvips/cm-sup
 er/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb><
 /usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on tensorfactorization_propossal.pdf (1 page, 40986 bytes).
+Output written on tensorfactorization_propossal.pdf (1 page, 54326 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
