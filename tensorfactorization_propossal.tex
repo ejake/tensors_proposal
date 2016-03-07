@@ -3,6 +3,7 @@
 \usepackage[T1]{fontenc}
 % \usepackage[latin9]{inputenc}
 \usepackage{amstext}
+\usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{geometry}
@@ -45,13 +46,17 @@
 
 %checkboxes
 \begin{tabular}{l c l c}
- DOCTORAL THESIS: & \framebox[0.5cm][c]{x} & MASTER THESIS: & \framebox[0.5cm][c]{}\\
- MASTER FINAL WORK: & \framebox[0.5cm][c]{} & SPECIALIZATION FINAL WORK: & \framebox[0.5cm][c]{}\\ 
+ DOCTORAL THESIS: & \framebox[0.5cm][c]{x} & MASTER THESIS: & 
+\framebox[0.5cm][c]{}\\
+ MASTER FINAL WORK: & \framebox[0.5cm][c]{} & SPECIALIZATION FINAL WORK: & 
+\framebox[0.5cm][c]{}\\ 
 \end{tabular}
 \vspace{20pt}
  \begin{enumerate}
-  \item \textbf{BIDDER:} Robinson Andr\'es Jaque Pirab\'an \qquad\qquad \textbf{ID:} 80190790
-  \item \textbf{PROGRAM:} Phylosophy Doctoral in Computer Science and Systems Engineering
+  \item \textbf{BIDDER:} Robinson Andr\'es Jaque Pirab\'an \qquad\qquad 
+\textbf{ID:} 80190790
+  \item \textbf{PROGRAM:} Phylosophy Doctoral in Computer Science and Systems 
+Engineering
   \item \textbf{ADVISOR:} Fabio Augusto Gonz\'alez Osorio\\
   \textbf{DEPARTMENT:} Computer Science and Industrial Engineering
   \item \textbf{TITLE: Kernel Tensor Factorization }%check
@@ -59,7 +64,8 @@
   \item \textbf{LINE OF RESEARCH:} Machine Learning
   \item COMMENTARY WITH ADVISOR APROVAL
   \vspace{120pt}
-% % 14. COMENTARIO CON VISTO BUENO DEL DIRECTOR: (calificar los siguientes aspectos: organización, pertinencia, relevancia y originalidad).
+% % 14. COMENTARIO CON VISTO BUENO DEL DIRECTOR: (calificar los siguientes 
+aspectos: organización, pertinencia, relevancia y originalidad).
   \item BIDDER SIGNATURE 
 %  
 %  Robinson Andr\'es Jaque Pirab\'an
@@ -73,13 +79,51 @@
   
 %   \item \textbf{BACKGROUND AND JUSTIFICATION:}\\
   
-% 5. ANTECEDENTES Y JUSTIFICACIÓN: (Indicar los desarrollos previos, circunstancias y condiciones que llevaron a la conclusión de la necesidad y conveniencia del proyecto)
+% 5. ANTECEDENTES Y JUSTIFICACIÓN: (Indicar los desarrollos previos, 
+% circunstancias y condiciones que llevaron a la conclusión de la necesidad y 
+% conveniencia del proyecto)
 
 %  \item \textbf{PROBLEM STATEMENT:}\\
 % 6. IDENTIFICACIÓN DEL PROBLEMA: 
 
 
 \clearpage
+
+%Portada
+
+\clearpage
+
+\tableofcontents
+
+\section{Basics of the tensor decomposition}
+
+
+\subsection{Formulation for tensor completion}
+
+low rank matrix completion
+
+\begin{equation} 
+ \begin{split}
+  \min_X & \text{ rank}(X)\\
+  \text{s.t. } & X_\Omega = M_\Omega
+ \end{split}
+\end{equation}
+where $\Omega$ is an index set, then $X_\Omega$ is coping entries of $X$ in the 
+indexes $\Omega$ and missed entries $\hat{\Omega}$ would be $0$
+
+The missing entries in $X$ are determined in order to minimize the matrix $X$ 
+rank. i.e. a non convex optimization problem since rank is nonconvex.
+
+Frequently, trace norm (or nuclear norm) $||\cdot ||_*$
+
+\subsection{Tensor probability}
+
+Given a sample set
+
+
+
+
+
 %  \item \textbf{GENERAL AND SPECIFIC OBJECTIVES} 
 % 7. OBJETIVO GENERAL Y OBJETIVOS ESPECÍFICOS: (Evaluables)
 
@@ -90,7 +134,8 @@
 % \subsection*{Specific objectives}
 % 
 % \item \textbf{METHODOLOGY}\\ 
-% % 8. METODOLOGÍA: (Descripción del procedimiento a emplear para obtener los objetivos propuestos).
+% % 8. METODOLOGÍA: (Descripción del procedimiento a emplear para obtener los 
+% objetivos propuestos).
 % % 
 % 
 % \end{enumerate}
@@ -99,11 +144,14 @@
 % % 9. ACTIVIDADES A DESARROLLAR:
 % 
 % 
-% Project activities and results are structured within \textit{Work Packages} (WP) in terms of \textit{Tasks} and \textit{Deliverables}, as described below.
+% Project activities and results are structured within \textit{Work Packages} 
+% (WP) in terms of \textit{Tasks} and \textit{Deliverables}, as described below.
 % 
 % \subsection*{WP0: PROPOSSAL}
 % 
-% This WP will assure a suitable scope of propossal due to evaluation of risk and feasibility. In addition, activities and schedule will be delimited in concordance with objectives stablished.
+% This WP will assure a suitable scope of propossal due to evaluation of risk 
+% and feasibility. In addition, activities and schedule will be delimited in 
+% concordance with objectives stablished.
 % 
 % \subsubsection*{TASKS}
 % \begin{itemize}
@@ -121,12 +169,19 @@
 % 
 % \subsection*{WP1: MANAGEMENT }
 % 
-% This WP will ensure effective planning, implementation, coordination and achievement of the project activities, including successful completion of the tasks and timely production of deliverables.
+% This WP will ensure effective planning, implementation, coordination and 
+achievement of the project activities, including successful completion of the 
+tasks and timely production of deliverables.
 % 
 % \subsubsection*{TASKS }
 % \begin{itemize}
-% \item T1.1: ADMINISTRATION AND MANAGEMENT. Will take care of financial and resource accounting. It will also be in charge of managing the relations with collaborating institutions and administrative bodies within.
-% \item T1.2: PROJECT FOLLOW UP AND QUALITY CONTROL. Will act as the final stage before delivery hand over to ensure compliance and coherence. Also, it will follow up project progress anticipating corrective actions and assessing risk mitigation actions.
+% \item T1.1: ADMINISTRATION AND MANAGEMENT. Will take care of financial and 
+resource accounting. It will also be in charge of managing the relations with 
+collaborating institutions and administrative bodies within.
+% \item T1.2: PROJECT FOLLOW UP AND QUALITY CONTROL. Will act as the final 
+stage before delivery hand over to ensure compliance and coherence. Also, it 
+will follow up project progress anticipating corrective actions and assessing 
+risk mitigation actions.
 % \end{itemize}
 % 
 % \subsubsection*{DELIVERABLES}
@@ -176,7 +231,8 @@
 % 
 % 
 % %  \item \textbf{EQUIPMENT AND SUPPLIES}\\
-% % 12. RECURSOS FÍSICOS: (Especificar la disponibilidad y adjuntar carta de compromiso de la dependencia o empresa cuando sea necesario).
+% % 12. RECURSOS FÍSICOS: (Especificar la disponibilidad y adjuntar carta de 
+% compromiso de la dependencia o empresa cuando sea necesario).
 % A work station with a computer with internet and bibliographic material.
 % 
 % 
@@ -191,7 +247,8 @@
 %  \hline
 %  Salary researcher & Researcher & \$144 \\
 %  Advisor salary & Universidad Nacional de Colombia & \$80\\
-%  Conferences and events & Universidad Nacional de Colombia/Researcher & \$10 \\
+%  Conferences and events & Universidad Nacional de Colombia/Researcher & \$10 
+\\
 %  \hline
 %  Notebook & Researcher & \$2\\
 %  Desktop computer & Research group MindLAB & \$1.6\\
@@ -209,7 +266,8 @@
 % 
 % 
 % %  \item COMMENTARY WITH ADVISOR APROVAL
-% % 14. COMENTARIO CON VISTO BUENO DEL DIRECTOR: (calificar los siguientes aspectos: organización, pertinencia, relevancia y originalidad).
+% % 14. COMENTARIO CON VISTO BUENO DEL DIRECTOR: (calificar los siguientes 
+% aspectos: organización, pertinencia, relevancia y originalidad).
 % %  \item BIDDER SIGNATURE 
 %  
 %  Robinson Andr\'es Jaque Pirab\'an
