@@ -100,6 +100,8 @@ aspectos: organización, pertinencia, relevancia y originalidad).
 
 \subsection{Formulation for tensor completion}
 
+Following Ji Lu et. al notation
+
 low rank matrix completion
 
 \begin{equation} 
@@ -114,12 +116,35 @@ indexes $\Omega$ and missed entries $\hat{\Omega}$ would be $0$
 The missing entries in $X$ are determined in order to minimize the matrix $X$ 
 rank. i.e. a non convex optimization problem since rank is nonconvex.
 
-Frequently, trace norm (or nuclear norm) $||\cdot ||_*$
+Frequently, trace norm (or nuclear norm) $||\cdot ||_*$ is used to approximate the rank of matrices.
+Trace norm is the tighest convex envelop for the matrices rank.
+
+\begin{equation} 
+ \begin{split}
+  \min_X & ||X||_*\\
+  \text{s.t. } & X_\Omega = M_\Omega
+ \end{split}
+\end{equation}
+
+Since tensor is a generalization of the matrix concept, we generalize the optimization problem as
+
+\begin{equation} 
+ \begin{split}
+  \min_{\mathcal{X}} & ||\mathcal{X}||_*\\
+  \text{s.t. } & \mathcal{X}_\Omega = \mathcal{T}_\Omega
+ \end{split}
+\end{equation}
+
+Where $\mathcal{X}$ and $\mathcal{T}$ are $n$-order tensors with identical size.
+
+
 
 \subsection{Tensor probability}
 
 Given a sample set
 
+
+\subsection{Kernel matrix}
 
 
 

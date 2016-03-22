@@ -80,8 +80,8 @@ aspectos: organización, pertinencia, relevancia y originalidad).
 %   \item \textbf{BACKGROUND AND JUSTIFICATION:}\\
   
 % 5. ANTECEDENTES Y JUSTIFICACIÓN: (Indicar los desarrollos previos, 
-circunstancias y condiciones que llevaron a la conclusión de la necesidad y 
-conveniencia del proyecto)
+% circunstancias y condiciones que llevaron a la conclusión de la necesidad y 
+% conveniencia del proyecto)
 
 %  \item \textbf{PROBLEM STATEMENT:}\\
 % 6. IDENTIFICACIÓN DEL PROBLEMA: 
@@ -100,6 +100,8 @@ conveniencia del proyecto)
 
 \subsection{Formulation for tensor completion}
 
+Following Ji Lu et. al notation
+
 low rank matrix completion
 
 \begin{equation} 
@@ -114,7 +116,28 @@ indexes $\Omega$ and missed entries $\hat{\Omega}$ would be $0$
 The missing entries in $X$ are determined in order to minimize the matrix $X$ 
 rank. i.e. a non convex optimization problem since rank is nonconvex.
 
-Frequently, trace norm (or nuclear norm) $||\cdot ||_*$
+Frequently, trace norm (or nuclear norm) $||\cdot ||_*$ is used to approximate the rank of matrices.
+Trace norm is the tighest convex envelop for the matrices rank.
+
+\begin{equation} 
+ \begin{split}
+  \min_X & ||X||_*\\
+  \text{s.t. } & X_\Omega = M_\Omega
+ \end{split}
+\end{equation}
+
+Since tensor is a generalization of the matrix concept, we generalize the optimization problem as
+
+\begin{equation} 
+ \begin{split}
+  \min_{\mathcal{X}} & ||\mathcal{X}||_*\\
+  \text{s.t. } & \mathcal{X}_\Omega = \mathcal{T}_\Omega
+ \end{split}
+\end{equation}
+
+Where $\mathcal{X}$ and $\mathcal{T}$ are $n$-order tensors with identical size.
+
+
 
 \subsection{Tensor probability}
 
@@ -135,7 +158,7 @@ Given a sample set
 % 
 % \item \textbf{METHODOLOGY}\\ 
 % % 8. METODOLOGÍA: (Descripción del procedimiento a emplear para obtener los 
-objetivos propuestos).
+% objetivos propuestos).
 % % 
 % 
 % \end{enumerate}
@@ -145,13 +168,13 @@ objetivos propuestos).
 % 
 % 
 % Project activities and results are structured within \textit{Work Packages} 
-(WP) in terms of \textit{Tasks} and \textit{Deliverables}, as described below.
+% (WP) in terms of \textit{Tasks} and \textit{Deliverables}, as described below.
 % 
 % \subsection*{WP0: PROPOSSAL}
 % 
 % This WP will assure a suitable scope of propossal due to evaluation of risk 
-and feasibility. In addition, activities and schedule will be delimited in 
-concordance with objectives stablished.
+% and feasibility. In addition, activities and schedule will be delimited in 
+% concordance with objectives stablished.
 % 
 % \subsubsection*{TASKS}
 % \begin{itemize}
@@ -232,7 +255,7 @@ risk mitigation actions.
 % 
 % %  \item \textbf{EQUIPMENT AND SUPPLIES}\\
 % % 12. RECURSOS FÍSICOS: (Especificar la disponibilidad y adjuntar carta de 
-compromiso de la dependencia o empresa cuando sea necesario).
+% compromiso de la dependencia o empresa cuando sea necesario).
 % A work station with a computer with internet and bibliographic material.
 % 
 % 
@@ -267,7 +290,7 @@ compromiso de la dependencia o empresa cuando sea necesario).
 % 
 % %  \item COMMENTARY WITH ADVISOR APROVAL
 % % 14. COMENTARIO CON VISTO BUENO DEL DIRECTOR: (calificar los siguientes 
-aspectos: organización, pertinencia, relevancia y originalidad).
+% aspectos: organización, pertinencia, relevancia y originalidad).
 % %  \item BIDDER SIGNATURE 
 %  
 %  Robinson Andr\'es Jaque Pirab\'an
