@@ -65,7 +65,7 @@ Engineering
   \item COMMENTARY WITH ADVISOR APROVAL
   \vspace{120pt}
 % % 14. COMENTARIO CON VISTO BUENO DEL DIRECTOR: (calificar los siguientes 
-aspectos: organización, pertinencia, relevancia y originalidad).
+% aspectos: organización, pertinencia, relevancia y originalidad).
   \item BIDDER SIGNATURE 
 %  
 %  Robinson Andr\'es Jaque Pirab\'an
@@ -95,10 +95,33 @@ aspectos: organización, pertinencia, relevancia y originalidad).
 
 \tableofcontents
 
-\section{Basics of the tensor decomposition}
+\section{Introduction}
+
+Tensors are multidimensional arraies. i.e. An $N$-way or $N$-order tensor is an 
+element of tensor product of $N$ vector spaces, each of which has its own 
+coordinate system. A first order tensor is a vector, a second order tensor is a 
+matrix, tensors of higher order are called high-order tensors.
 
 
-\subsection{Formulation for tensor completion}
+
+Third-order tensor 
+
+
+\subsection{Basics of the tensor decomposition}
+
+
+Tensor decomposition originated with Hitchcock in 1927 (Reference of Kolda), 
+and the the multi-way model is attribuited to Cattel in 1944 (Reference of 
+Kolda).
+
+Tensor works had attention in 60s with Tucker, Carroll and Chang (Reference of 
+Kolda) and Harshman in 1970 with applications in psychometrics.
+
+
+We suggest to readers to refer to (Kolda, 2009) for an exhaustive a 
+detailed review of fundamental decomposition methods.
+
+\subsubsection{Formulation for tensor completion}
 
 Following Ji Lu et. al notation
 
@@ -116,7 +139,8 @@ indexes $\Omega$ and missed entries $\hat{\Omega}$ would be $0$
 The missing entries in $X$ are determined in order to minimize the matrix $X$ 
 rank. i.e. a non convex optimization problem since rank is nonconvex.
 
-Frequently, trace norm (or nuclear norm) $||\cdot ||_*$ is used to approximate the rank of matrices.
+Frequently, trace norm (or nuclear norm) $||\cdot ||_*$ is used to approximate 
+the rank of matrices.
 Trace norm is the tighest convex envelop for the matrices rank.
 
 \begin{equation} 
@@ -126,7 +150,8 @@ Trace norm is the tighest convex envelop for the matrices rank.
  \end{split}
 \end{equation}
 
-Since tensor is a generalization of the matrix concept, we generalize the optimization problem as
+Since tensor is a generalization of the matrix concept, we generalize the 
+optimization problem as
 
 \begin{equation} 
  \begin{split}
@@ -143,6 +168,8 @@ Where $\mathcal{X}$ and $\mathcal{T}$ are $n$-order tensors with identical size.
 
 Given a sample set
 
+
+\subsection{Kernel matrix}
 
 
 
