@@ -1,5 +1,5 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
-\contentsline {subsection}{\numberline {1.1}Basics of the tensor decomposition}{2}
+\contentsline {subsection}{\numberline {1.1}Tensor decomposition}{2}
 \contentsline {subsubsection}{\numberline {1.1.1}Formulation for tensor completion}{2}
 \contentsline {subsection}{\numberline {1.2}Tensor probability}{3}
 \contentsline {subsection}{\numberline {1.3}Kernel matrix}{3}

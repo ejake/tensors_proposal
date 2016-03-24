@@ -102,24 +102,38 @@ element of tensor product of $N$ vector spaces, each of which has its own
 coordinate system. A first order tensor is a vector, a second order tensor is a 
 matrix, tensors of higher order are called high-order tensors.
 
-
+The order (ways or modes) of a tensor is the number of dimensions. Vectors will 
+be denot
 
 Third-order tensor 
 
 
-\subsection{Basics of the tensor decomposition}
+\subsection{Tensor decomposition}
 
 
-Tensor decomposition originated with Hitchcock in 1927 (Reference of Kolda), 
-and the the multi-way model is attribuited to Cattel in 1944 (Reference of 
-Kolda).
+Tensor decomposition originated with Hitchcock in 1927 (Reference of Kolda), and 
+the the multi-way model is attribuited to Cattel in 1944 (Reference of Kolda).
 
 Tensor works had attention in 60s with Tucker, Carroll and Chang (Reference of 
-Kolda) and Harshman in 1970 with applications in psychometrics.
+ Kolda) and Harshman in 1970 with applications in psychometrics. In 1981 
+Appellof and Davidson used tensor decomposition in chemometrics which have been 
+an popular field of application of tensor decomposition since then.
+
+In last twenty years tensor decomposition applications have expanded to many 
+fields such as signal processing, numberical linear algebra, computer vision, 
+numerical analysis, neuroscience, data mining, graph analysis.
 
 
-We suggest to readers to refer to (Kolda, 2009) for an exhaustive a 
-detailed review of fundamental decomposition methods.
+% include figure about application fields.
+
+% Extend applications descriptions and cite paper and survey Specific for each 
+% field.
+
+
+We suggest to readers to refer to (Kolda, 2009) for an exhaustive a detailed 
+review of fundamental decomposition methods.
+
+
 
 \subsubsection{Formulation for tensor completion}
 
