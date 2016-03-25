@@ -9,6 +9,8 @@
 \usepackage{geometry}
 \usepackage{tikz}
 \usepackage{esint}
+\usepackage{caption}
+\usepackage{subcaption}
 
 \geometry{
  letterpaper,
@@ -95,23 +97,46 @@ Engineering
 
 \tableofcontents
 
+\newpage
+
 \section{Introduction}
 
-Tensors are multidimensional arraies. i.e. An $N$-way or $N$-order tensor is an 
-element of tensor product of $N$ vector spaces, each of which has its own 
-coordinate system. A first order tensor is a vector, a second order tensor is a 
-matrix, tensors of higher order are called high-order tensors.
+Tensors are multidimensional arraies. i.e. An $N$-way or $N$-order tensor is an element of tensor product of $N$ vector spaces, each of which has its own coordinate system. A first order tensor is a vector, a second order tensor is a matrix, tensors of higher order are called high-order tensors. The order (ways or modes) of a tensor is the number of dimensions. In figure \ref{fig:3tensor} represents a 3-order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$.
 
-The order (ways or modes) of a tensor is the number of dimensions. In figure 
+\begin{figure}[!h]
+ \includegraphics[scale=0.5]{Images/3rd-order_tensor.eps}\label{fig:3tensor}
+ \caption{Third-order tensor}
+\end{figure}
 
-Third-order tensor 
+\textit{Fibers} are defined by fixing every index by one. In a third-order tensor a column is a mode-1 fiber, denoted by $x_{:jk}$; a row is a mode-2 fiber, denoted by $x_{i:k}$; while a tube is a mode-3 fiber, denoted by $x_{i:k}$. \ref{fig:3tensor-fibers} shows a fibers representation in 3rd-order tensor.
 
+\begin{figure}[!h]
+ \centering
+ \begin{subfigure}[b]{0.29\textwidth}
+  \includegraphics[width=\textwidth]{Images/3rd-order-tensor-fiber_mode-1.eps}\label{fig:3tensor-columns}
+  \caption{columns}
+ \end{subfigure}
+ \begin{subfigure}[b]{0.33\textwidth}
+  \includegraphics[width=\textwidth]{Images/3rd-order-tensor-fiber_mode-2.eps}\label{fig:3tensor-rows}
+  \caption{rows}
+ \end{subfigure}
+ \begin{subfigure}[b]{0.33\textwidth}
+  \includegraphics[width=\textwidth]{Images/3rd-order-tensor-fiber_mode-3.eps}\label{fig:3tensor-tubes}
+  \caption{tubes}
+ \end{subfigure}
+\caption{3rd-order tensor fibers}\label{fig:3tensor-fibers}
+\end{figure}
+
+\textit{Slices} are two-dimensional sections of a tensor defined by fixing two indexes. For instance, slices of 3rd-order tensor $\mathcal{X}$ are denoted by $X_{i::}$ (horizontal), $X_{:j:}$ (lateral) and $X_{::k}$ (frontal).
+
+%include slices figures when I can
+
+The \textit{norm} of a tensor $\mathcal{X}\in \mathbb{R}^{I_1\times I_2 \ldots \times I_N}$
 
 \subsection{Tensor decomposition}
 
 
-Tensor decomposition originated with Hitchcock in 1927 (Reference of Kolda), and 
-the the multi-way model is attribuited to Cattel in 1944 (Reference of Kolda).
+Tensor decomposition originated with Hitchcock in 1927 (Reference of Kolda), and the the multi-way model is attribuited to Cattel in 1944 (Reference of Kolda).
 
 Tensor works had attention in 60s with Tucker, Carroll and Chang (Reference of 
  Kolda) and Harshman in 1970 with applications in psychometrics. In 1981 
