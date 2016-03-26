@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tensorfactorization_propossal.aux
+The style file: plain.bst
+Database file #1: refs.bib
+Warning--I didn't find a database entry for "shawe2004kernel"
+Warning--I didn't find a database entry for "kwok2004preimage"
+Warning--empty journal in Anandkumar2012
+Warning--empty journal in Dartois2016
+Warning--empty journal in Dourbal2016
+Warning--empty journal in Espin-Noboa2016
+You've used 39 entries,
+            2118 wiz_defined-function locations,
+            756 strings with 11652 characters,
+and the built_in function-call counts, 13318 in all, are:
+= -- 1318
+> -- 667
+< -- 6
++ -- 263
+- -- 224
+* -- 1021
+:= -- 2242
+add.period$ -- 117
+call.type$ -- 39
+change.case$ -- 229
+chr.to.int$ -- 0
+cite$ -- 43
+duplicate$ -- 466
+empty$ -- 968
+format.name$ -- 224
+if$ -- 2706
+int.to.chr$ -- 0
+int.to.str$ -- 39
+missing$ -- 37
+newline$ -- 196
+num.names$ -- 78
+pop$ -- 209
+preamble$ -- 1
+purify$ -- 190
+quote$ -- 0
+skip$ -- 345
+stack$ -- 0
+substring$ -- 849
+swap$ -- 85
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 156
+warning$ -- 4
+while$ -- 135
+width$ -- 41
+write$ -- 414
+(There were 6 warnings)
