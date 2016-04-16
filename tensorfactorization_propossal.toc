@@ -14,4 +14,5 @@
 \contentsline {subsection}{\numberline {2.2}Other methods}{7}
 \contentsline {subsection}{\numberline {2.3}Tensor completion}{7}
 \contentsline {subsection}{\numberline {2.4}Kernel methods}{8}
-\contentsline {section}{\numberline {3}Problem Statement}{9}
+\contentsline {section}{\numberline {3}Kernel Non-negative Matrix Factorization}{9}
+\contentsline {section}{\numberline {4}Problem Statement}{10}

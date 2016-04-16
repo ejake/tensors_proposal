@@ -371,6 +371,21 @@ The cluster centroids estimated by the kernel versions of both algorithms are in
 \end{equation}
 
 
+\section{Kernel Non-negative Matrix Factorization}
+
+Kernel Non-negative Matrix Factorization (KNMF) can be naturally derivated of convex NMF (insert cites 92, 98 and 120 from Cichocki book). Given a kernel function $\phi:x\in X \rightarrow \phi(x)\in F $, mapping for $N$ elements $\phi(X) = [ \phi(x_1),\ldots \phi(x_N) ]$. Then, KNMF can be defined as
+\begin{equation}
+ \phi(X)\cong\phi(X)WH^T
+\end{equation}\label{eq:KNMF}
+
+Therefore, the cost function to minimize is
+
+\begin{equation}
+ || \phi(X) - \phi(X)WH^T ||_F^2 = tr(K) - 2 tr(H^TKW)+tr(W^TKWH^TH)
+\end{equation}
+
+ Where kernel $K=\phi^T(X)phi(X)$
+
 
 \section{Problem Statement}
 

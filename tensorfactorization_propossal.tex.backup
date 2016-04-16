@@ -371,21 +371,33 @@ The cluster centroids estimated by the kernel versions of both algorithms are in
 \end{equation}
 
 
+\section{Kernel Non-negative Matrix Factorization}
+
+Kernel Non-negative Matrix Factorization (KNMF) can be naturally derivated of convex NMF (insert cites 92, 98 and 120 from Cichocki book). Given a kernel function $\phi$, matrix $X$ is mapped as $X \rightarrow \phi (X) = [ \phi(x_1),\ldots \phi(x_N) ]$. Hence, KNMF can be defined as
+\begin{equation}
+ \phi(X)\cong\phi(X)WH^T
+\end{equation}\label{eq:KNMF}
+
+Therefore, the cost function to minimize is
+
+\begin{equation}
+ || \phi(X) - \phi(X)WH^T ||_F^2 = tr(K) - 2 tr(H^TKW)+tr(W^TKWH^TH)
+\end{equation}
+
+ Where kernel $K=\phi^T(X)phi(X)$
+
 
 \section{Problem Statement}
 
 The general problem addressed by this research proposal is the design of non-supervised learning algorithms, in particular tensor factorization algorithms, applied in the space induced by a kernel function. Matrix and analogous tensor factorization is central to different important tasks in machine learning and information retrieval such as: clustering, latent topic analysis, recommendation, among others. Another important focus of this research is to study robustness from a kernel method perspective. 
 
-Kernel methods are ubiquitous in machine learning and there are some connections between some types of kernels (Guassian kernels) and robustness that has not been fully explored yet. The general research question to be addressed by this research is whether the use of some types of kernels may bring robustness to particular clustering and factorization methods. A satisfactory solution of this general challenge requires to answer some particular \textbf{research questions}: 
+Kernel methods are ubiquitous in machine learning and there are some connections between some types of kernels (Guassian kernels) and robustness that has not been fully explored yet. The general research question to be addressed by this research is whether the use of some types of kernels may bring robustness to particular clustering and factorization methods. A satisfactory solution of this general challenge requires to answer some particular \textbf{research question}: 
 
 \begin{itemize}
  \item How to decompose tensors in an space induced by a kernel function? %- exploratory
- \item What are the effects of decompose tensors in an space induced by a kernel function? %- analytical
 \end{itemize}
 
-First question would be answer proposing a method which factorize a given tensor in the feature space induced by a Kernel function.
-
-And second question open space to to evaluate the proposal method capabilities dealing with multimodal data, scalability and robustness to noise and outliers.
+An answer to the question derivate in a method which factorize a given tensor in the feature space induced by a Kernel function. Naturally, to inquire about the effects of decompose tensors in an space induced by a kernel function open space to evaluate the proposal method performance as well as its capabilities dealing with multimodal data, scalability and robustness to noise and outliers.
 
 
 
