@@ -99,9 +99,9 @@ Engineering
 
 \newpage
 
-\section{Basics of tensors}
+\section{Introduction}
 
-Tensors are multidimensional arraies. i.e. An $N$-way or $N$-order tensor is an element of tensor product of $N$ vector spaces, each of which has its own coordinate system. A first order tensor is a vector, a second order tensor is a matrix, tensors of higher order are called high-order tensors. The order (ways or modes) of a tensor is the number of dimensions. Figure \ref{fig:3tensor} represents a 3-order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$.
+Tensors are multidimensional arraies, i.e. an $N$-way or $N$-order tensor is an element of tensor product of $N$ vector spaces, each of which has its own coordinate system. A first order tensor is a vector, a second order tensor is a matrix, tensors of higher order are called high-order tensors. The order (ways or modes) of a tensor is the number of dimensions. Figure \ref{fig:3tensor} represents a 3-order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$.
 
 \begin{figure}[!ht]
 \centering
@@ -128,9 +128,24 @@ Tensors are multidimensional arraies. i.e. An $N$-way or $N$-order tensor is an 
 \caption{3rd-order tensor fibers}\label{fig:3tensor-fibers}
 \end{figure}
 
-\textit{Slices} are two-dimensional sections of a tensor defined by fixing two indexes. For instance, slices of 3rd-order tensor $\mathcal{X}$ are denoted by $X_{i::}$ (horizontal), $X_{:j:}$ (lateral) and $X_{::k}$ (frontal).
+\textit{Slices} are two-dimensional sections of a tensor defined by fixing two indexes. For instance, slices of 3rd-order tensor $\mathcal{X}$ are denoted by $X_{i::}$ (horizontal), $X_{:j:}$ (lateral) and $X_{::k}$ (frontal) and we ilustrate them in figure \ref{fig:3tensor-slices}.
 
-%include slices figures when I can
+\begin{figure}[!ht]
+ \centering
+ \begin{subfigure}[b]{0.29\textwidth}
+  \includegraphics[width=\textwidth]{Images/slices-frontal.eps}
+  \caption{Frontal slices}\label{fig:3tensor-frontalslices}
+ \end{subfigure}
+ \begin{subfigure}[b]{0.33\textwidth}
+  \includegraphics[width=\textwidth]{Images/slices-horizontal.eps}
+  \caption{Horizontal slices}\label{fig:3tensor-horizontalslices}
+ \end{subfigure}
+ \begin{subfigure}[b]{0.33\textwidth}
+  \includegraphics[width=\textwidth]{Images/slices-vertical.eps}
+  \caption{Vertical slices}\label{fig:3tensor-verticalslices}
+ \end{subfigure}
+\caption{3rd-order tensor slices}\label{fig:3tensor-slices}
+\end{figure}
 
 The \textit{norm} of a tensor $\mathcal{X}\in \mathbb{R}^{I_1\times I_2 \ldots \times I_N}$ is analogous to the matrix Frobenius norm, i.e.
 \begin{equation}
@@ -497,7 +512,7 @@ An answer to the question derivate in a method which factorize a given tensor in
 \begin{thebibliography}{References}
 
 \bibliographystyle{plain}
- \bibliography{refs} 
+% \bibliography{refs} 
  
 \end{thebibliography}
 % 

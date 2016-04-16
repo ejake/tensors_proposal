@@ -1,18 +1,18 @@
-\contentsline {section}{\numberline {1}Basics of tensors}{3}
+\contentsline {section}{\numberline {1}Introduction}{3}
 \contentsline {subsection}{\numberline {1.1}Unfolding and Folding Tensors}{4}
 \contentsline {section}{\numberline {2}Tensor Decomposition}{4}
 \contentsline {paragraph}{Chemometrics}{4}
-\contentsline {paragraph}{Bioinformatics}{4}
-\contentsline {paragraph}{Image processing}{4}
-\contentsline {paragraph}{Machine Learning}{4}
-\contentsline {paragraph}{Text mining}{4}
+\contentsline {paragraph}{Bioinformatics}{5}
+\contentsline {paragraph}{Image processing}{5}
+\contentsline {paragraph}{Machine Learning}{5}
+\contentsline {paragraph}{Text mining}{5}
 \contentsline {paragraph}{Numerical analysis}{5}
-\contentsline {paragraph}{Neuroscience}{5}
-\contentsline {paragraph}{Signal processing}{5}
+\contentsline {paragraph}{Neuroscience}{6}
+\contentsline {paragraph}{Signal processing}{6}
 \contentsline {paragraph}{Other applications}{6}
 \contentsline {subsection}{\numberline {2.1}Canonica Polyadic Decomposition / PARAFAC}{6}
-\contentsline {subsection}{\numberline {2.2}Other methods}{7}
+\contentsline {subsection}{\numberline {2.2}Other methods}{6}
 \contentsline {subsection}{\numberline {2.3}Tensor completion}{7}
-\contentsline {subsection}{\numberline {2.4}Kernel methods}{8}
-\contentsline {section}{\numberline {3}Kernel Non-negative Matrix Factorization}{9}
+\contentsline {subsection}{\numberline {2.4}Kernel methods}{9}
+\contentsline {section}{\numberline {3}Kernel Non-negative Matrix Factorization}{10}
 \contentsline {section}{\numberline {4}Problem Statement}{10}
