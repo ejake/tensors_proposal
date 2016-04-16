@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  16 APR 2016 08:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  16 APR 2016 15:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -638,21 +638,25 @@ Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count123
 \c@subtable=\count124
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks32
+)
 (./tensorfactorization_propossal.aux)
 \openout1 = `tensorfactorization_propossal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -661,12 +665,12 @@ LaTeX Font Info:    ... okay on input line 24.
 \scratchbox=\box37
 \nofMPsegments=\count126
 \nofMParguments=\count127
-\everyMPshowfont=\toks32
+\everyMPshowfont=\toks33
 \MPscratchCnt=\count128
 \MPscratchDim=\dimen173
 \MPnumerator=\count129
 \makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks33
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -756,7 +760,7 @@ Package epstopdf Info: Source file: <Images/un_logo.eps>
 (epstopdf)                    size: 15844 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/un_logo-eps-convert
 ed-to.pdf Images/un_logo.eps>
-(epstopdf)             \includegraphics on input line 26.
+(epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/un_logo-eps-converted-to.pdf, id=4, 314.17375pt x 155.58125pt>
@@ -764,19 +768,19 @@ File: Images/un_logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/un_logo-eps-converted-to.pdf>
 Package pdftex.def Info: Images/un_logo-eps-converted-to.pdf used on input line
- 26.
+ 27.
 (pdftex.def)             Requested size: 170.71652pt x 84.53963pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+LaTeX Font Info:    Try loading font information for U+msa on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+LaTeX Font Info:    Try loading font information for U+msb on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+esint on input line 50.
+LaTeX Font Info:    Try loading font information for U+esint on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
@@ -801,7 +805,7 @@ df>
 (epstopdf)                    size: 14317 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order_tensor-ep
 s-converted-to.pdf Images/3rd-order_tensor.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/3rd-order_tensor-eps-converted-to.pdf, id=19, 447.6725pt x 297.11pt>
@@ -809,7 +813,7 @@ File: Images/3rd-order_tensor-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/3rd-order_tensor-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3rd-order_tensor-eps-converted-to.pdf used on i
-nput line 108.
+nput line 111.
 (pdftex.def)             Requested size: 179.06583pt x 118.84189pt.
 Package epstopdf Info: Source file: <Images/3rd-order-tensor-fiber_mode-1.eps>
 (epstopdf)                    date: 2016-03-25 11:46:41
@@ -820,7 +824,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 27534 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order-tensor-fi
 ber_mode-1-eps-converted-to.pdf Images/3rd-order-tensor-fiber_mode-1.eps>
-(epstopdf)             \includegraphics on input line 117.
+(epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/3rd-order-tensor-fiber_mode-1-eps-converted-to.pdf, id=20, 278.03876pt 
@@ -829,7 +833,7 @@ File: Images/3rd-order-tensor-fiber_mode-1-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use Images/3rd-order-tensor-fiber_mode-1-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3rd-order-tensor-fiber_mode-1-eps-converted-to.
-pdf used on input line 117.
+pdf used on input line 120.
 (pdftex.def)             Requested size: 125.74689pt x 138.00546pt.
 Package epstopdf Info: Source file: <Images/3rd-order-tensor-fiber_mode-2.eps>
 (epstopdf)                    date: 2016-03-25 11:47:28
@@ -840,7 +844,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 26966 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order-tensor-fi
 ber_mode-2-eps-converted-to.pdf Images/3rd-order-tensor-fiber_mode-2.eps>
-(epstopdf)             \includegraphics on input line 121.
+(epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/3rd-order-tensor-fiber_mode-2-eps-converted-to.pdf, id=21, 305.14pt x 2
@@ -849,7 +853,7 @@ File: Images/3rd-order-tensor-fiber_mode-2-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use Images/3rd-order-tensor-fiber_mode-2-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3rd-order-tensor-fiber_mode-2-eps-converted-to.
-pdf used on input line 121.
+pdf used on input line 124.
 (pdftex.def)             Requested size: 143.09538pt x 129.44829pt.
 Package epstopdf Info: Source file: <Images/3rd-order-tensor-fiber_mode-3.eps>
 (epstopdf)                    date: 2016-03-25 11:48:55
@@ -860,7 +864,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 43077 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order-tensor-fi
 ber_mode-3-eps-converted-to.pdf Images/3rd-order-tensor-fiber_mode-3.eps>
-(epstopdf)             \includegraphics on input line 125.
+(epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.pdf, id=22, 319.1925pt x
@@ -869,7 +873,7 @@ File: Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.
-pdf used on input line 125.
+pdf used on input line 128.
 (pdftex.def)             Requested size: 143.09538pt x 129.59517pt.
 Package epstopdf Info: Source file: <Images/slices-frontal.eps>
 (epstopdf)                    date: 2016-04-16 08:12:42
@@ -880,7 +884,7 @@ Package epstopdf Info: Source file: <Images/slices-frontal.eps>
 (epstopdf)                    size: 6954 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/slices-frontal-eps-
 converted-to.pdf Images/slices-frontal.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/slices-frontal-eps-converted-to.pdf, id=23, 440.64626pt x 361.35pt>
@@ -888,7 +892,7 @@ File: Images/slices-frontal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/slices-frontal-eps-converted-to.pdf>
 Package pdftex.def Info: Images/slices-frontal-eps-converted-to.pdf used on inp
-ut line 136.
+ut line 139.
 (pdftex.def)             Requested size: 125.74689pt x 103.11815pt.
 Package epstopdf Info: Source file: <Images/slices-horizontal.eps>
 (epstopdf)                    date: 2016-04-16 08:13:05
@@ -899,7 +903,7 @@ pdf>
 (epstopdf)                    size: 35381 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/slices-horizontal-e
 ps-converted-to.pdf Images/slices-horizontal.eps>
-(epstopdf)             \includegraphics on input line 140.
+(epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/slices-horizontal-eps-converted-to.pdf, id=24, 440.64626pt x 361.35pt>
@@ -907,7 +911,7 @@ File: Images/slices-horizontal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/slices-horizontal-eps-converted-to.pdf>
 Package pdftex.def Info: Images/slices-horizontal-eps-converted-to.pdf used on 
-input line 140.
+input line 143.
 (pdftex.def)             Requested size: 143.09538pt x 117.34361pt.
 Package epstopdf Info: Source file: <Images/slices-vertical.eps>
 (epstopdf)                    date: 2016-04-16 08:13:30
@@ -918,7 +922,7 @@ f>
 (epstopdf)                    size: 22827 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/slices-vertical-eps
 -converted-to.pdf Images/slices-vertical.eps>
-(epstopdf)             \includegraphics on input line 144.
+(epstopdf)             \includegraphics on input line 147.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/slices-vertical-eps-converted-to.pdf, id=25, 440.64626pt x 361.35pt>
@@ -926,134 +930,135 @@ File: Images/slices-vertical-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/slices-vertical-eps-converted-to.pdf>
 Package pdftex.def Info: Images/slices-vertical-eps-converted-to.pdf used on in
-put line 144.
+put line 147.
 (pdftex.def)             Requested size: 143.09538pt x 117.34361pt.
+ [3 <./Images/3rd-order_tensor-eps-converted-to.pdf> <./Images/3rd-order-tensor
+-fiber_mode-1-eps-converted-to.pdf> <./Images/3rd-order-tensor-fiber_mode-2-eps
+-converted-to.pdf> <./Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.pdf
+>]
+
+LaTeX Warning: Citation `Kolda2009' on page 4 undefined on input line 174.
 
 
-LaTeX Warning: Citation `Kolda2009' on page 3 undefined on input line 164.
-
-[3 <./Images/3rd-order_tensor-eps-converted-to.pdf> <./Images/3rd-order-tensor-
-fiber_mode-1-eps-converted-to.pdf> <./Images/3rd-order-tensor-fiber_mode-2-eps-
-converted-to.pdf> <./Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.pdf>
-]
-
-LaTeX Warning: Citation `Ding2015' on page 4 undefined on input line 181.
+LaTeX Warning: Citation `Ding2015' on page 4 undefined on input line 191.
 
 
-LaTeX Warning: Citation `Dourbal2016' on page 4 undefined on input line 183.
+LaTeX Warning: Citation `Dourbal2016' on page 4 undefined on input line 193.
 
 
-LaTeX Warning: Citation `Hitchcock1927' on page 4 undefined on input line 188.
+LaTeX Warning: Citation `Hitchcock1927' on page 4 undefined on input line 198.
 
 
-LaTeX Warning: Citation `Cattell1944' on page 4 undefined on input line 188.
+LaTeX Warning: Citation `Cattell1944' on page 4 undefined on input line 198.
 
 
-LaTeX Warning: Citation `Tucker1963' on page 4 undefined on input line 190.
+LaTeX Warning: Citation `Tucker1963' on page 4 undefined on input line 200.
 
 
-LaTeX Warning: Citation `Tucker1964' on page 4 undefined on input line 190.
+LaTeX Warning: Citation `Tucker1964' on page 4 undefined on input line 200.
 
 
-LaTeX Warning: Citation `Tucker1966' on page 4 undefined on input line 190.
+LaTeX Warning: Citation `Tucker1966' on page 4 undefined on input line 200.
 
 
-LaTeX Warning: Citation `Carroll1970' on page 4 undefined on input line 190.
+LaTeX Warning: Citation `Carroll1970' on page 4 undefined on input line 200.
 
 
-LaTeX Warning: Citation `Harshman1970' on page 4 undefined on input line 190.
+LaTeX Warning: Citation `Harshman1970' on page 4 undefined on input line 200.
 
 
-LaTeX Warning: Citation `Appellof1981' on page 4 undefined on input line 190.
+LaTeX Warning: Citation `Appellof1981' on page 4 undefined on input line 200.
 
-Package epstopdf Info: Source file: <Images/application_fields.eps>
-(epstopdf)                    date: 2016-03-26 07:27:49
-(epstopdf)                    size: 359869 bytes
-(epstopdf)             Output file: <Images/application_fields-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2016-03-26 07:33:07
-(epstopdf)                    size: 260119 bytes
-(epstopdf)             Command: <repstopdf --outfile=Images/application_fields-
-eps-converted-to.pdf Images/application_fields.eps>
-(epstopdf)             \includegraphics on input line 196.
+Package epstopdf Info: Source file: <Images/time-line.eps>
+(epstopdf)                    date: 2016-04-16 08:35:24
+(epstopdf)                    size: 185062 bytes
+(epstopdf)             Output file: <Images/time-line-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-04-16 08:45:43
+(epstopdf)                    size: 86418 bytes
+(epstopdf)             Command: <repstopdf --outfile=Images/time-line-eps-conve
+rted-to.pdf Images/time-line.eps>
+(epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
+<Images/time-line-eps-converted-to.pdf, id=52, 901.3675pt x 433.62pt>
+File: Images/time-line-eps-converted-to.pdf Graphic file (type pdf)
 
-<Images/application_fields-eps-converted-to.pdf, id=53, 1161.33875pt x 971.63pt
->
-File: Images/application_fields-eps-converted-to.pdf Graphic file (type pdf)
- <use Images/application_fields-eps-converted-to.pdf>
-Package pdftex.def Info: Images/application_fields-eps-converted-to.pdf used on
- input line 196.
-(pdftex.def)             Requested size: 348.40431pt x 291.49126pt.
+<use Images/time-line-eps-converted-to.pdf>
+Package pdftex.def Info: Images/time-line-eps-converted-to.pdf used on input li
+ne 206.
+(pdftex.def)             Requested size: 450.68263pt x 216.80946pt.
 
-
-LaTeX Warning: Citation `Fanaee-T2016' on page 4 undefined on input line 204.
-
-
-LaTeX Warning: Citation `Kolda2009' on page 4 undefined on input line 207.
+Overfull \hbox (17.06262pt too wide) in paragraph at lines 206--207
+ [][] 
+ []
 
 
-LaTeX Warning: Citation `Acar2009' on page 4 undefined on input line 207.
+LaTeX Warning: Citation `Kolda2009' on page 4 undefined on input line 219.
 
 
-LaTeX Warning: Citation `Comon2014' on page 4 undefined on input line 207.
+LaTeX Warning: Citation `Acar2009' on page 4 undefined on input line 219.
 
 
-LaTeX Warning: Citation `Dartois2016' on page 4 undefined on input line 207.
+LaTeX Warning: Citation `Comon2014' on page 4 undefined on input line 219.
 
 
-LaTeX Warning: Citation `Chaudhury2014' on page 4 undefined on input line 212.
+LaTeX Warning: Citation `Dartois2016' on page 4 undefined on input line 219.
 
 
-LaTeX Warning: Citation `Acar2015' on page 4 undefined on input line 217.
-
-
-LaTeX Warning: Citation `Acar2014' on page 4 undefined on input line 217.
+LaTeX Warning: Citation `Fanaee-T2016' on page 4 undefined on input line 219.
 
 [4 <./Images/slices-frontal-eps-converted-to.pdf> <./Images/slices-horizontal-e
 ps-converted-to.pdf> <./Images/slices-vertical-eps-converted-to.pdf>]
 
-LaTeX Warning: Citation `An2015' on page 5 undefined on input line 222.
+LaTeX Warning: Citation `Chaudhury2014' on page 5 undefined on input line 225.
 
 
-LaTeX Warning: Citation `Anandkumar2012' on page 5 undefined on input line 227.
+LaTeX Warning: Citation `Acar2015' on page 5 undefined on input line 230.
 
 
-
-LaTeX Warning: Citation `Anisimov2014' on page 5 undefined on input line 231.
-
-
-LaTeX Warning: Citation `Antolin2015' on page 5 undefined on input line 236.
+LaTeX Warning: Citation `Acar2014' on page 5 undefined on input line 230.
 
 
-LaTeX Warning: Citation `Benner2016' on page 5 undefined on input line 238.
+LaTeX Warning: Citation `An2015' on page 5 undefined on input line 235.
 
 
-LaTeX Warning: Citation `Cherif2008' on page 5 undefined on input line 241.
-
-[5 <./Images/application_fields-eps-converted-to.pdf>]
-
-LaTeX Warning: Citation `Arnedo2015' on page 6 undefined on input line 245.
-
-
-LaTeX Warning: Citation `Cichocki2015' on page 6 undefined on input line 250.
-
-
-LaTeX Warning: Citation `Barker2014' on page 6 undefined on input line 252.
-
-
-LaTeX Warning: Citation `Bilen2016' on page 6 undefined on input line 254.
-
-
-LaTeX Warning: Citation `Fitzgerald2006' on page 6 undefined on input line 256.
+LaTeX Warning: Citation `Anandkumar2012' on page 5 undefined on input line 240.
 
 
 
-LaTeX Warning: Citation `Espin-Noboa2016' on page 6 undefined on input line 260
+LaTeX Warning: Citation `Anisimov2014' on page 5 undefined on input line 244.
+
+
+LaTeX Warning: Citation `Antolin2015' on page 5 undefined on input line 249.
+
+[5 <./Images/time-line-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `Benner2016' on page 6 undefined on input line 251.
+
+
+LaTeX Warning: Citation `Cherif2008' on page 6 undefined on input line 254.
+
+
+LaTeX Warning: Citation `Arnedo2015' on page 6 undefined on input line 258.
+
+
+LaTeX Warning: Citation `Cichocki2015' on page 6 undefined on input line 263.
+
+
+LaTeX Warning: Citation `Barker2014' on page 6 undefined on input line 265.
+
+
+LaTeX Warning: Citation `Bilen2016' on page 6 undefined on input line 267.
+
+
+LaTeX Warning: Citation `Fitzgerald2006' on page 6 undefined on input line 269.
+
+
+
+LaTeX Warning: Citation `Espin-Noboa2016' on page 6 undefined on input line 273
 .
 
 
-LaTeX Warning: Citation `Figueiredo2014' on page 6 undefined on input line 262.
+LaTeX Warning: Citation `Figueiredo2014' on page 6 undefined on input line 275.
 
 
 Package epstopdf Info: Source file: <Images/tensor_decomposition_methods.eps>
@@ -1065,7 +1070,7 @@ nverted-to.pdf>
 (epstopdf)                    size: 61419 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/tensor_decompositio
 n_methods-eps-converted-to.pdf Images/tensor_decomposition_methods.eps>
-(epstopdf)             \includegraphics on input line 268.
+(epstopdf)             \includegraphics on input line 284.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/tensor_decomposition_methods-eps-converted-to.pdf, id=75, 922.44624pt x
@@ -1074,78 +1079,103 @@ File: Images/tensor_decomposition_methods-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use Images/tensor_decomposition_methods-eps-converted-to.pdf>
 Package pdftex.def Info: Images/tensor_decomposition_methods-eps-converted-to.p
-df used on input line 268.
+df used on input line 284.
 (pdftex.def)             Requested size: 461.22198pt x 283.55867pt.
 
-Overfull \hbox (27.60197pt too wide) in paragraph at lines 268--269
+Overfull \hbox (27.60197pt too wide) in paragraph at lines 284--285
  [][][] 
  []
 
-
-LaTeX Warning: Citation `Domanov2015' on page 6 undefined on input line 279.
-
-
-LaTeX Warning: Citation `Domanov2014' on page 6 undefined on input line 279.
-
-
-LaTeX Warning: Citation `Domanov2013' on page 6 undefined on input line 279.
-
-
-LaTeX Warning: Citation `Bernardi2013' on page 6 undefined on input line 289.
-
-
-LaTeX Warning: Citation `Acar2011' on page 6 undefined on input line 294.
-
 [6]
 
-LaTeX Warning: Citation `Cao2015' on page 7 undefined on input line 296.
+LaTeX Warning: Citation `Domanov2015' on page 7 undefined on input line 301.
 
 
-LaTeX Warning: Citation `Chen2014' on page 7 undefined on input line 298.
+LaTeX Warning: Citation `Domanov2014' on page 7 undefined on input line 301.
+
+
+LaTeX Warning: Citation `Domanov2013' on page 7 undefined on input line 301.
 
 [7 <./Images/tensor_decomposition_methods-eps-converted-to.pdf>]
 
-LaTeX Warning: Citation `Liu2013' on page 8 undefined on input line 300.
-
-
-LaTeX Warning: Citation `shawe2004kernel' on page 8 undefined on input line 348
-.
+LaTeX Warning: Citation `Ding-NMF-KKM-Equivalence' on page 8 undefined on input
+ line 337.
 
 [8]
 
-LaTeX Warning: Citation `kwok2004preimage' on page 9 undefined on input line 38
-2.
+LaTeX Warning: Citation `Bernardi2013' on page 9 undefined on input line 360.
+
+
+LaTeX Warning: Citation `shawe2004kernel' on page 9 undefined on input line 365
+.
 
 [9]
-Overfull \hbox (4.54803pt too wide) in paragraph at lines 407--408
+
+LaTeX Warning: Citation `kwok2004preimage' on page 10 undefined on input line 4
+00.
+
+
+LaTeX Warning: Citation `Liu2013' on page 10 undefined on input line 430.
+
+[10]
+
+LaTeX Warning: Citation `Acar2011' on page 11 undefined on input line 465.
+
+
+LaTeX Warning: Citation `Cao2015' on page 11 undefined on input line 465.
+
+
+LaTeX Warning: Citation `Chen2014' on page 11 undefined on input line 468.
+
+[11]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 486.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 486.
+
+Overfull \hbox (4.54803pt too wide) in paragraph at lines 498--499
 \T1/cmr/m/n/12 The gen-eral prob-lem ad-dressed by this re-search pro-posal is 
 the de-sign of non-supervised
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 412.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 412.
+Overfull \hbox (16.23097pt too wide) in paragraph at lines 512--513
+[]\T1/cmr/m/n/12 To eval-u-ate scal-a-bil-ity com-par-ing al-go-rithms' com-ple
+x-ity and par-al-leliza-tion prospec-
+ []
+
+[12] (./tensorfactorization_propossal.bbl
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{thebibliography}{}
+                             
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Empty `thebibliography' environment on input line 517.
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-[10] (./tensorfactorization_propossal.aux)
+) [13] (./tensorfactorization_propossal.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12795 strings out of 493304
- 229977 string characters out of 6139871
- 280131 words of memory out of 5000000
- 15965 multiletter control sequences out of 15000+600000
+ 12823 strings out of 493304
+ 230435 string characters out of 6139871
+ 280538 words of memory out of 5000000
+ 15987 multiletter control sequences out of 15000+600000
  16097 words of font info for 45 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,17n,55p,1724b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,17n,55p,857b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-
@@ -1163,10 +1193,10 @@ ublic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1
 728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/
 texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sfti1200.pfb>
-Output written on tensorfactorization_propossal.pdf (10 pages, 737794 bytes).
+Output written on tensorfactorization_propossal.pdf (13 pages, 579347 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 164 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

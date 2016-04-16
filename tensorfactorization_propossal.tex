@@ -11,6 +11,7 @@
 \usepackage{esint}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{enumerate}
 
 \geometry{
  letterpaper,
@@ -101,7 +102,9 @@ Engineering
 
 \section{Introduction}
 
-Tensors are multidimensional arraies, i.e. an $N$-way or $N$-order tensor is an element of tensor product of $N$ vector spaces, each of which has its own coordinate system. A first order tensor is a vector, a second order tensor is a matrix, tensors of higher order are called high-order tensors. The order (ways or modes) of a tensor is the number of dimensions. Figure \ref{fig:3tensor} represents a 3-order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$.
+\subsection{Basics of tensors}
+
+Tensors are multidimensional arrays, i.e. an $N$-way or $N$-order tensor is an element of tensor product of $N$ vector spaces, each of which has its own coordinate system. A first order tensor is a vector, a second order tensor is a matrix, tensors of higher order are called high-order tensors. The order (ways or modes) of a tensor is the number of dimensions. Figure \ref{fig:3tensor} represents a 3-order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$.
 
 \begin{figure}[!ht]
 \centering
@@ -154,11 +157,18 @@ The \textit{norm} of a tensor $\mathcal{X}\in \mathbb{R}^{I_1\times I_2 \ldots \
 
 %also include here
 %inner product of two same-size tensors
+
 % rank one tensors
+$\mathcal{X}$ is a \textit{Rank-one} tensor if it is equal to the outer product of N vectors, i.e.,
+\[
+\mathcal{X} = a^{(1)}\otimes a^{(2)} \otimes \ldots \otimes a^{(N)}
+\]
+
 % simetry
+
 % diagonal tensor
 
-\subsection{Unfolding and Folding Tensors}
+\subsubsection{Unfolding and Folding Tensors}
 
 \textit{Unfolding} is the process of \textit{matricization} of a tensor. In other words, elements of a tensors are sorted to assemble a matrix. The mode-$k$ unfolding of a tensor $\mathcal{X}\in \mathbb{R}^{I_1\times I_2 \ldots \times I_N}$ is denoted by
  $X_{(k)} \in \mathbb{R}^{I_1\times \prod_{k'\neq k}I_{k'} }$ and arrenges the mode-$k$ tensor fibers as columns of resulting matrix. In addition, Kolda \cite{Kolda2009} presents a more general procedures of unfolding
@@ -189,23 +199,26 @@ Tensor decomposition originated with Hitchcock in 1927 \cite{Hitchcock1927}, and
 
 Tensor works had attention in 60s with Tucker (\cite{Tucker1963}, \cite{Tucker1964}, \cite{Tucker1966}) and Carroll and Chang \cite{Carroll1970} and Harshman in 1970 \cite{Harshman1970} with applications in psychometrics. In 1981 Appellof and Davidson \cite{Appellof1981} used tensor decomposition in chemometrics which have been an popular field of application of tensor decomposition since then.
 
-In last twenty years tensor decomposition applications have expanded to many fields such as signal processing, numberical linear algebra, computer vision, numerical analysis, neuroscience, data mining, graph analysis. Figure \ref{fig:applications} attempt to summarize application fields of tensor decomposition. 
+In last twenty years tensor decomposition applications have expanded to many fields such as signal processing, numberical linear algebra, computer vision, numerical analysis, neuroscience, data mining, graph analysis. Figure \ref{fig:applications} shows seminal papers which opened broad application fields to tensor decomposition, plot also shows the amount of documents published about these works according to Scopus.
 
 \begin{figure}[!ht]
 \centering
- \includegraphics[scale=0.3]{Images/application_fields.eps}
- \caption{Application fields of tensor decomposition}\label{fig:applications}
+ \includegraphics[scale=0.5]{Images/time-line.eps}
+ \caption{Time-line of tensor decomposition}\label{fig:applications}
 \end{figure}
+
+% \begin{figure}[!ht]
+% \centering
+%  \includegraphics[scale=0.3]{Images/application_fields.eps}
+%  \caption{Application fields of tensor decomposition}\label{fig:applications}
+% \end{figure}
 
 
 % Extend applications descriptions and cite paper and survey Specific for each field.
 
+Kolda \cite{Kolda2009}, Acar \cite{Acar2009} and \cite{Comon2014} present an exhaustive and detailed review of fundamental decomposition methods and applications. Furthermore, \cite{Dartois2016} presents tensor properties as extension of estructural properties of matrices. On the other hand, Fanaee and Gama \cite{Fanaee-T2016} introduce an interdisciplinary survey about tensor-based anomaly detection.
 
-Fanaee and Gama \cite{Fanaee-T2016} introduce an interdisciplinary survey about tensor-based anomaly detection.
-
-
-We suggest to readers to refer to Kolda \cite{Kolda2009}, Acar \cite{Acar2009} and \cite{Comon2014} for an exhaustive a detailed review of fundamental decomposition methods and applications. Furthermore, \cite{Dartois2016} presents tensor properties as extension of estructural properties of matrices.
-
+In following sections we explain some of basic methods to tensor decomposition which have been inspiration to many others methods propossed. Also, we summarize recently  works and approaches of tensor decomposition on different application fields.
 
 \paragraph{Chemometrics}
 
@@ -259,9 +272,12 @@ Barker and Virtanen \cite{Barker2014} deal with monaural sound source separation
 
 \cite{Espin-Noboa2016} Discovering and Characterizing Mobility Patterns in Urban Spaces: A Study of Manhattan Taxi Data. by using non-negative tensor factorization (NTF), we are able to cluster human behavior based on spatio-temporal dimensions. Second, for understanding these clusters, we propose to use HypTrails, a Bayesian approach for expressing and comparing hypotheses about human trails.
 
-\cite{Figueiredo2014} NNTF factorization for household electrical seasonal consumption disaggregation
+\cite{Figueiredo2014} NTF factorization for household electrical seasonal consumption disaggregation
 
 
+\subsection{Tensor Factorization Methods}
+
+Main 
 
 \begin{figure}[!ht]
 \centering
@@ -269,86 +285,88 @@ Barker and Virtanen \cite{Barker2014} deal with monaural sound source separation
  \caption{Tensor decomposition methods}
 \end{figure}
 
+\subsubsection{Canonica Polyadic Decomposition / PARAFAC}
 
-\subsection{Canonica Polyadic Decomposition / PARAFAC}
+Canonica Polyadic (CP) decomposition (Kolda,2009) (Mocks, cite 166 Kolda), CANDECOMP(Carroll and Chang, cite 70 Kolda) or PARAFAC (Harshman, cite 90 Kolda) decompose a tensor as a finite sum of rank-one tensors. For instance, given a third order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$, CP decomposition express it as 
 
-Canonica Polyadic (CP) decomposition or PARAFAC decompose a tensor as a finite sum of rank-one tensors.
+\begin{equation}
+ \mathcal{X}\approx \sum_{r=1}^{R}a_r\otimes b_r \otimes c_r
+\end{equation}\label{eq:cp}
+
+where $a_r\in\mathbb{R}^I$, $b_r\in\mathbb{R}^J$, $c_r\in\mathbb{R}^K$ and $R$ is a positive integer.
+
 
 %figure
 
 Domanov \cite{Domanov2015} shows relaxed uniqueness conditions and algebraic algorithm for Canonical polyadic decomposition, as well as a reduction to generalized eigenvalue decomposition \cite{Domanov2014} and uniqueness properties \cite{Domanov2013} of third-order tensors.
 
 
-% \subsection{TUCKER Decomposition}
+\subsubsection{TUCKER Decomposition}
 
+Tucker decomposition was introduced by Tucker (Tucker, 1963, 1966). It is also named N-mode PCA (kapteyn, 1986, cite 113 Kolda), High-order SVD (HOSVD) (De Lathauwer, 2000, cite 63 Kolda) or N-mode SVD (Vasilescu, 2002, cite 229 Kolda).
 
+The Tucker decomposition is a form of higher-order PCA (Kolda, 2009). It descomposes a tensor into a core tensor $\mathcal{G}$ multiplied by a matrix algong each mode. For instance, given a third order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$, Tucker decomposition express it as 
 
-
-\subsection{Other methods}
-
-\cite{Bernardi2013} The tensor decomposition addressed in this paper may be seen as a generalization of Singular Value Decomposition of matrices. We consider general multilinear and multihomogeneous tensors. We show how to reduce the problem to a truncated moment matrix problem and give a new criterion for flat extension of Quasi-Hankel matrices. We connect this criterion to the commutation characterization of border bases.
-
-
-\subsection{Tensor completion}
-
-Acar et.al \cite{Acar2011} presents a scalable tensor factorization method to deal with completion problem using PARAFAC method.
-
-\cite{Cao2015} The existing studies involving matrix or tensor completion problems are commonly under the nuclear norm penalization framework due to the computational efficiency of the resulting convex optimization problem. Folded-concave penalization methods have demonstrated surprising developments in sparse learning problems due to their nice practical and theoretical properties. To share the same light of folded-concave penalization methods, we propose a new tensor completion model via folded-concave penalty for estimating missing values in tensor data. Two typical folded-concave penalties, the minmax concave plus (MCP) penalty and the smoothly clipped absolute deviation (SCAD) penalty, are employed in the new model. To solve the resulting nonconvex optimization problem, we develop a local linear approximation augmented Lagrange multiplier (LLA-ALM) algorithm which combines a two-step LLA strategy to search a local optimum of the proposed model efficiently. Finally, we provide numerical experiments with phase transitions, synthetic data sets, real image and video data sets to exhibit the superiority of the proposed model over the nuclear norm penalization method in terms of the accuracy and robustness.
-
-\cite{Chen2014} The success of research on matrix completion is evident in a variety of real-world applications. Tensor completion, which is a high-order extension of matrix completion, has also generated a great deal of research interest in recent years. Given a tensor with incomplete entries, existing methods use either factorization or completion schemes to recover the missing parts. However, as the number of missing entries increases, factorization schemes may overfit the model because of incorrectly predefined ranks, while completion schemes may fail to interpret the model factors. In this paper, we introduce a novel concept: complete the missing entries and simultaneously capture the underlying model structure. To this end, we propose a method called simultaneous tensor decomposition and completion (STDC) that combines a rank minimization technique with Tucker model decomposition. Moreover, as the model structure is implicitly included in the Tucker model, we use factor priors, which are usually known a priori in real-world tensor objects, to characterize the underlying joint-manifold drawn from the model factors. By exploiting this auxiliary information, our method leverages two classic schemes and accurately estimates the model factors and missing entries. We conducted experiments to empirically verify the convergence of our algorithm on synthetic data and evaluate its effectiveness on various kinds of real-world data. The results demonstrate the efficacy of the proposed method and its potential usage in tensor-based applications. It also outperforms state-of-the-art methods on multilinear model analysis and visual data completion tasks.
-
-Following Ji Lu et.al \cite{Liu2013} notation
-
-low rank matrix completion
-
-\begin{equation} 
- \begin{split}
-  \min_X & \text{ rank}(X)\\
-  \text{s.t. } & X_\Omega = M_\Omega
- \end{split}
-\end{equation}
-where $\Omega$ is an index set, then $X_\Omega$ is coping entries of $X$ in the 
-indexes $\Omega$ and missed entries $\hat{\Omega}$ would be $0$
-
-The missing entries in $X$ are determined in order to minimize the matrix $X$ 
-rank. i.e. a non convex optimization problem since rank is nonconvex.
-
-Frequently, trace norm (or nuclear norm) $||\cdot ||_*$ is used to approximate 
-the rank of matrices.
-Trace norm is the tighest convex envelop for the matrices rank.
-
-\begin{equation} 
- \begin{split}
-  \min_X & ||X||_*\\
-  \text{s.t. } & X_\Omega = M_\Omega
- \end{split}
+\begin{equation}
+ \mathcal{X}\approx \mathcal{G}\times_1 A \times_2 B \times_3 C
 \end{equation}
 
-Since tensor is a generalization of the matrix concept, we generalize the 
-optimization problem as
+Where $\times_k$ is the mode-$k$ product, $A\in \mathbb{R}^{I\times P}$, $B\in \mathbb{R}^{J\times Q}$, $C\in \mathbb{R}^{K\times R}$ are the factor matrices (usually orthogonals) and can be interpreted as the principal components for each mode. $\mathcal{G}\in\mathbb{R}^{P\times Q \times R}$ is the core tensor and its entries show the interactions between the different components.
 
-\begin{equation} 
- \begin{split}
-  \min_{\mathcal{X}} & ||\mathcal{X}||_*\\
-  \text{s.t. } & \mathcal{X}_\Omega = \mathcal{T}_\Omega
- \end{split}
+\subsubsection{Non-negative Tensor Factorization}
+
+\paragraph{Non-negative Matrix Factorization}
+
+The general problem of non-negative matrix factorization (NMF) is to decompose a matrix $X \in \mathbb{R}_{\geq 0}^{n\times l}$ into two matrix factors: basis $W \in \mathbb{R}_{\geq 0}^{n\times k}$  and coefficients $H \in \mathbb{R}_{\geq 0}^{k\times l}$, i,e.
+
+\begin{equation}
+X\cong W H\label{eq:matrix-factorization}
+\end{equation}
+ 
+The factorization problem can be seem as an optimization problem:
+
+\begin{equation}
+\min_{W,H}d(X,WH)\label{eq:objective-function-factorization}
 \end{equation}
 
-Where $\mathcal{X}$ and $\mathcal{T}$ are $n$-order tensors with identical size.
+
+where $d(,)$ is a distance or divergence function and the problem could have different types of restrictions. For instance, if $d(,)$
+is the Euclidean Distance and there are not restrictions, the problem is solved by finding the SVD; if $X$, $W$ and $H$ are restricted
+to be positive, then the problem is solved by NMF. An comprehensive survey of NMF variants and algorithms is finded in (Wang and Zhang, 2013)
+
+One NMF approach is Symmetric-NMF \cite{Ding-NMF-KKM-Equivalence}, (SNMF) which produces a factorization: 
+
+\begin{equation}
+(X_{lxn}^{T}X_{nxl})=H_{lxk}H_{kxl}^{T}\label{eq:symmetric-nmf}
+\end{equation}
+
+An important characteristic of this version of NMF is that it is amenable to be used as a kernel method. This is discussed in the next subsection.
+
+\paragraph{Non-negative Tensor Factorization}%rewrite and chec since this section is a direct copy&paste from (Wang and Zhang, 2013)
+
+An natural extension of nonnegative matrix factorization with high-order arrays is nonnegative n-dimensional tensor factorization (n-NTF). This kind of generalization is indeed not trivial since NTF possesses many new properties varying from NMF (cites [117], [118] of (Wang and Zhang, 2013))  
+
+(cp Wang and Zhang, 2013) First, the data to be processed in NMF are vectors in essence. However, in some applications the original data may not be vectors, and the vectorization might result in some undesirable problems. For instance, the vectorization of image data, which is two dimensional, will lose the local spatial and structural information. Second, one of the core concerns in NMF is the uniqueness issue, and to remedy the ill-posedness some strong constraints have to be imposed. Nevertheless, tensor factorization will be unique under only some weak conditions. Besides, the uniqueness of the solution will be enhanced as the tensor order increases.
+
+There are generally two types of NTF model—NTD [119] and more restricted NPARAFAC [117], whose main difference lies in the core factor tensor. As for the solution, there are some feasible approaches. For example, NTF can be restated as regular NMF by matricizing the array [116], [119]. Or the alternating iteration method can be utilized directly on the outer product definition of tensors [117], [118], [23]. Similarly, SED, GKLD and other forms of divergence can also be used as the objective functions [23], [120], [121]. And some specific update models can adopt the existing conclusions in NMF. For thorough understanding one may refer to [9], [122]. What must be scrutinized here is that the convergence of these algorithms is not guaranteed by the simple generation from matrix to tensor forms in itself.
+
+What’s more, the concepts in Constrained NMF can also be incorporated in NTF, such as sparse NTF [123], [124], [125], discriminant NTF [126], NTF on manifold [127], and the like.
 
 
+%Include Cichocki approaches
 
-% \subsection{Tensor probability}
+\subsubsection{Other methods}
 
-% Given a sample set
+ The tensor decomposition addressed in \cite{Bernardi2013} may be seen as a generalization of Singular Value Decomposition of matrices. They consider general multilinear and multihomogeneous tensors. Then, they show how to reduce the problem to a truncated moment matrix problem and give a new criterion for flat extension of Quasi-Hankel matrices. 
 
-
+ 
 \subsection{Kernel methods}
 
 In contrast with traditional learning techniques, kernel methods do not need a vectorial representation of data. Instead, they use a kernel function. Therefore, kernel methods are naturally applied to unstructured, or complex structured, data such as texts, strings, trees and images \cite{shawe2004kernel}. 
 
 Informally, a kernel function measures the similarity of two objects. Formally, a kernel function, $k:X\times X\rightarrow\mathbb{R}$,
 maps pairs $(x,y)$ of objects in a set $X$, the problem space, to the reals. A kernel function implicitly generates a map, $\Phi:X\rightarrow F$, where $F$ corresponds to a Hilbert space called the feature space. The dot product in $F$ is calculated by $k$, specifically $k(x,y)=<\Phi(x),\Phi(y)>_{F}$. Given an appropriate kernel function, complex patterns in the problem space may correspond to simpler patterns in the feature space. For instance, non-linear patterns in the problem space may correspond to linear patterns in the feature space. 
+
 
 Both $k$-means and SNMF have kernelized versions, which receive as input a kernel matrix instead of a set of sample represented by feature vectors. The kernel version of $k$-means is called, unsurprisingly, kernel $k$-means (KKM). In the case of SNMF, the kernelized version works as follows.
 
@@ -400,31 +418,120 @@ Therefore, the cost function to minimize is
 \end{equation}
 
  Where kernel $K=\phi^T(X)phi(X)$
+ 
+ 
 
+\subsection{General problems}
+
+ Usually, tensor factorization address the folowing problems independent of the application: blind source separation, tensor completion.
+
+ \subsection{Tensor completion}
+ 
+ In tensor completion, an given incomplete tensor is given, i.e. some of its entries are missing and we should complete that. Following Ji Lu et.al \cite{Liu2013} notation,  low rank matrix completion is noted as
+
+\begin{equation} 
+ \begin{split}
+  \min_X & \text{ rank}(X)\\
+  \text{s.t. } & X_\Omega = M_\Omega
+ \end{split}
+\end{equation}
+
+where $\Omega$ is an index set, then $X_\Omega$ is coping entries of $X$ in the indexes $\Omega$ and missed entries $\hat{\Omega}$ would be $0$
+
+The missing entries in $X$ are determined in order to minimize the matrix $X$ rank. i.e. a non convex optimization problem since rank is nonconvex.
+
+Frequently, trace norm (or nuclear norm) $||\cdot ||_*$ is used to approximate the rank of matrices.
+
+Trace norm is the tighest convex envelop for the matrices rank.
+
+\begin{equation} 
+ \begin{split}
+  \min_X & ||X||_*\\
+  \text{s.t. } & X_\Omega = M_\Omega
+ \end{split}
+\end{equation}
+
+Since tensor is a generalization of the matrix concept, we generalize the  optimization problem as
+
+\begin{equation} 
+ \begin{split}
+  \min_{\mathcal{X}} & ||\mathcal{X}||_*\\
+  \text{s.t. } & \mathcal{X}_\Omega = \mathcal{T}_\Omega
+ \end{split}
+\end{equation}
+
+Where $\mathcal{X}$ and $\mathcal{T}$ are $n$-order tensors with identical size.
+
+Acar et.al \cite{Acar2011} presents a scalable tensor factorization method to deal with completion problem using PARAFAC method. Cao \cite{Cao2015} propose a new tensor completion model via folded-concave penalty for estimating missing values in tensor data.To solve the resulting nonconvex optimization problem, we develop a local linear approximation augmented Lagrange multiplier (LLA-ALM) algorithm which combines a two-step LLA strategy to search a local optimum of the proposed model efficiently. They show numerical results in image and video data sets and compare with nuclear norm penalization method in order of demostrate its advantage in terms of the accuracy and robustness.
+
+
+\cite{Chen2014} propose a method to deal with the completion problem when the number of missing entries increases, since factorization schemes may overfit the model because of incorrectly predefined ranks, while completion schemes may fail to interpret the model factors.  
+Hence, they present an approach to complete the missing entries and simultaneously capture the underlying model structure that combines a rank minimization technique with Tucker model decomposition. Moreover, as the model structure is implicitly included in the Tucker model, they  use factor priors, which are usually known a priori in real-world tensor objects, to characterize the underlying joint-manifold drawn from the model factors.
+
+
+
+% \subsection{Tensor probability}
+
+% Given a sample set
 
 \section{Problem Statement}
 
-The general problem addressed by this research proposal is the design of non-supervised learning algorithms, in particular tensor factorization algorithms, applied in the space induced by a kernel function. Matrix and analogous tensor factorization is central to different important tasks in machine learning and information retrieval such as: clustering, latent topic analysis, recommendation, among others. Another important focus of this research is to study robustness from a kernel method perspective. 
+Matrix and analogous tensor factorization is central to different important tasks in machine learning and information retrieval such as: clustering, latent topic analysis, recommendation, blind source separation, completion, among others.  The widespread use of multisensor technology and the emergence of big data sets have highlighted the limitations of standard flat-view matrix models and the necessity to move toward more versatile data analysis tools (Cichocki, 2015). Conventional methods preprocess multiway data by arranging them into a matrix, which might lose the original multiway structure of the data  (Wang and Zhang, 2013). Hence, tensors address multimodal or multiview data, and tensor factorization brings tools to perform common machine learning tasks.
 
-Kernel methods are ubiquitous in machine learning and there are some connections between some types of kernels (Guassian kernels) and robustness that has not been fully explored yet. The general research question to be addressed by this research is whether the use of some types of kernels may bring robustness to particular factorization methods. A satisfactory solution of this general challenge requires to answer some particular \textbf{research question}: 
+On the other hand, kernel methods are ubiquitous in machine learning, performance of these methods have been broadly demostrated, and there are evidence between some types of kernels and robustness. However, there are few exploration of kernel tensor factorization approaches.
+
+A satisfactory solution of this general challenge requires to answer some particular\textbf{research question}: 
 
 \begin{itemize}
- \item How to decompose tensors in an space induced by a kernel function? %- exploratory
+ \item How incorporate kernel methods in tensor factorization in order to deal with multiway data? %- exploratory
 \end{itemize}
 
 An answer to the question derivate in a method which factorize a given tensor in the feature space induced by a Kernel function. Naturally, to inquire about the effects of decompose tensors in an space induced by a kernel function open space to evaluate the proposal method performance as well as its capabilities dealing with multimodal data, scalability and robustness to noise and outliers.
 
 
-
-
 %  \item \textbf{GENERAL AND SPECIFIC OBJECTIVES} 
 % 7. OBJETIVO GENERAL Y OBJETIVOS ESPECÍFICOS: (Evaluables)
 
-% \subsection*{General objective}
+
+\section{Goals}
+
+The general problem addressed by this research proposal is the design of non-supervised learning algorithms, in particular tensor factorization algorithms, applied in the space induced by a kernel function. 
+
+\subsection*{General objective}
+
+To design and implement an kernel-based tensor factorization algorithm for unsupervised learning.
 % 
 % 
 % 
-% \subsection*{Specific objectives}
+\subsection*{Specific objectives}
+
+\begin{enumerate}[(a)]
+ \item To evaluate the impact, in terms of robustness and accuracy, of using particular kernels in kernel-based methods for tensor factorization.
+ \item To design an efficient and effective kernel tensor factorization algorithms.
+ \item To evaluate the performance of the proposed algorithms in both synthetic and real world datasets, and its impact in particular learning tasks: completion, clustering and blind source separation.
+ \item To evaluate scalability comparing algorithms’ complexity and parallelization prospectives.
+\end{enumerate}
+
+
+\section{Jusification}
+
+
+
+Due to the rich characteristics of natural processes and environments, it is rare that a single acquisition method provides complete understanding thereof. Information about a phenomenon or a system of interest can be obtained from different types of instruments, measurement techniques, experimental setups, and other types of sources. The increasing availability of multiple data sets that contain information, obtained using different acquisition methods, about the same system, introduces new degrees of freedom that raise questions beyond those related to analyzing each data set separately.
+
+By treating that natural high-order array as a matrix, information is lost since lack the original multiway structure of the data.
+
+
+Tensor factorizations have several advantages over two-way matrix factorizations including uniqueness of the optimal solution and component identification even when most of the data is missing. (Morup, 2015)
+
+multiway decomposition techniques explicitly exploit the multiway structure that is lost when collapsing some of the modes of the tensor in order to analyze the data by regular matrix factorization approaches.
+
+Tensor decompositions are in frequent use today in a variety of fields ranging from psychology, chemometrics, signal processing, bioinformatics, neuroscience, web mining, and computer vision to mention but a few.
+
+Matrix and analogous tensor factorization is central to different important tasks in machine learning and information retrieval such as: clustering, latent topic analysis, recommendation, tensor completion, blind source separation, among others.
+
+
+
 % 
 % \item \textbf{METHODOLOGY}\\ 
 % % 8. METODOLOGÍA: (Descripción del procedimiento a emplear para obtener los 
@@ -512,7 +619,7 @@ An answer to the question derivate in a method which factorize a given tensor in
 \begin{thebibliography}{References}
 
 \bibliographystyle{plain}
-% \bibliography{refs} 
+\bibliography{refs} 
  
 \end{thebibliography}
 % 
