@@ -1,3 +1,349 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Acar2009}
+E.~Acar and B.~Yener.
+\newblock {Unsupervised Multiway Data Analysis: A Literature Survey}.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  21(1):6--20, jan 2009.
+
+\bibitem{Acar2015}
+Evrim Acar, Rasmus Bro, and Age~K. Smilde.
+\newblock {Data Fusion in Metabolomics Using Coupled Matrix and Tensor
+  Factorizations}.
+\newblock {\em Proceedings of the IEEE}, 103(9):1602--1620, sep 2015.
+
+\bibitem{Acar2011}
+Evrim Acar, Daniel~M. Dunlavy, Tamara~G. Kolda, and Morten M{\o}rup.
+\newblock {Scalable tensor factorizations for incomplete data}.
+\newblock {\em Chemometrics and Intelligent Laboratory Systems}, 106(1):41--56,
+  mar 2011.
+
+\bibitem{Acar2014}
+Evrim Acar, Evangelos~E Papalexakis, G{\"{o}}zde G{\"{u}}rdeniz, Morten~A
+  Rasmussen, Anders~J Lawaetz, Mathias Nilsson, and Rasmus Bro.
+\newblock {Structure-revealing data fusion.}
+\newblock {\em BMC bioinformatics}, 15(1):239, jan 2014.
+
+\bibitem{An2015}
+Gaoyun An, Shuai Liu, and Qiuqi Ruan.
+\newblock {A sparse neighborhood preserving non-negative tensor factorization
+  algorithm for facial expression recognition}.
+\newblock {\em Pattern Analysis and Applications}, aug 2015.
+
+\bibitem{Anandkumar2012}
+Anima Anandkumar, Rong Ge, Daniel Hsu, Sham~M. Kakade, and Matus Telgarsky.
+\newblock {Tensor decompositions for learning latent variable models}.
+\newblock pages 2773--2832, oct 2012.
+
+\bibitem{Anisimov2014}
+A.~V. Anisimov, O.~O. Marchenko, and T.~G. Vozniuk.
+\newblock {Determining Semantic Valences of Ontology Concepts by Means of
+  Nonnegative Factorization of Tensors of Large Text Corpora}.
+\newblock {\em Cybernetics and Systems Analysis}, 50(3):327--337, jun 2014.
+
+\bibitem{Antolin2015}
+P.~Antolin, A.~Buffa, F.~Calabr{\`{o}}, M.~Martinelli, and G.~Sangalli.
+\newblock {Efficient matrix computation for tensor-product isogeometric
+  analysis: The use of sum factorization}.
+\newblock {\em Computer Methods in Applied Mechanics and Engineering},
+  285:817--828, mar 2015.
+
+\bibitem{Appellof1981}
+C.~J. Appellof and E.~R. Davidson.
+\newblock {Strategies for analyzing data from video fluorometric monitoring of
+  liquid chromatographic effluents}.
+\newblock {\em Analytical Chemistry}, 53(13):2053--2056, nov 1981.
+
+\bibitem{Arnedo2015}
+Javier Arnedo, Daniel Mamah, David~A Baranger, Michael~P Harms, Deanna~M Barch,
+  Dragan~M Svrakic, Gabriel~A de~Erausquin, C~Robert Cloninger, and Igor Zwir.
+\newblock {Decomposition of brain diffusion imaging data uncovers latent
+  schizophrenias with distinct patterns of white matter anisotropy.}
+\newblock {\em NeuroImage}, 120:43--54, oct 2015.
+
+\bibitem{Barker2014}
+Tom Barker and Tuomas Virtanen.
+\newblock {Semi-supervised non-negative tensor factorisation of modulation
+  spectrograms for monaural speech separation}.
+\newblock In {\em 2014 International Joint Conference on Neural Networks
+  (IJCNN)}, pages 3556--3561. IEEE, jul 2014.
+
+\bibitem{Benetos2010}
+E~Benetos and C~Kotropoulos.
+\newblock {Non-Negative Tensor Factorization Applied to Music Genre
+  Classification}.
+\newblock {\em IEEE Transactions on Audio, Speech, and Language Processing},
+  18(8):1955--1967, nov 2010.
+
+\bibitem{Benner2016}
+Peter Benner, Venera Khoromskaia, and Boris~N. Khoromskij.
+\newblock {A reduced basis approach for calculation of the Bethe–Salpeter
+  excitation energies by using low-rank tensor factorisations}.
+\newblock {\em Molecular Physics}, pages 1--14, feb 2016.
+
+\bibitem{Bernardi2013}
+A.~Bernardi, J.~Brachat, P.~Comon, and B.~Mourrain.
+\newblock {General tensor decomposition, moment matrices and applications}.
+\newblock {\em Journal of Symbolic Computation}, 52:51--71, may 2013.
+
+\bibitem{Bilen2016}
+Cagdas Bilen, Alexey Ozerov, and Patrick P{\'{e}}rez.
+\newblock {Automatic Allocation of NTF Components for User-Guided Audio Source
+  Separation}, mar 2016.
+
+\bibitem{Cao2015}
+Wenfei Cao, Yao Wang, Can Yang, Xiangyu Chang, Zhi Han, and Zongben Xu.
+\newblock {Folded-concave penalization approaches to tensor completion}.
+\newblock {\em Neurocomputing}, 152:261--273, mar 2015.
+
+\bibitem{Carroll1970}
+J.~Douglas Carroll and Jih-Jie Chang.
+\newblock {Analysis of individual differences in multidimensional scaling via
+  an n-way generalization of “Eckart-Young” decomposition}.
+\newblock {\em Psychometrika}, 35(3):283--319, sep 1970.
+
+\bibitem{Cattell1944}
+Raymond~B. Cattell.
+\newblock {“Parallel proportional profiles” and other principles for
+  determining the choice of factors by rotation}.
+\newblock {\em Psychometrika}, 9(4):267--283, dec 1944.
+
+\bibitem{Chaudhury2014}
+Anwesha Chaudhury, Ivan Oseledets, and Rohit Ramachandran.
+\newblock {A computationally efficient technique for the solution of
+  multi-dimensional PBMs of granulation via tensor decomposition}.
+\newblock {\em Computers {\&} Chemical Engineering}, 61:234--244, feb 2014.
+
+\bibitem{Chen2014}
+Yi-Lei Chen, Chiou-Ting Hsu, and Hong-Yuan~Mark Liao.
+\newblock {Simultaneous tensor decomposition and completion using factor
+  priors.}
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  36(3):577--91, mar 2014.
+
+\bibitem{Cherif2008}
+I.~Cherif and F.~Fnaiech.
+\newblock {Blind identification of a second order Volterra-Hammerstein series
+  using cumulant cubic tensor analysis}.
+\newblock In {\em 2008 34th Annual Conference of IEEE Industrial Electronics},
+  pages 1851--1856. IEEE, nov 2008.
+
+\bibitem{Cichocki2015}
+Andrzej Cichocki, Danilo Mandic, Lieven {De Lathauwer}, Guoxu Zhou, Qibin Zhao,
+  Cesar Caiafa, and HUY~ANH PHAN.
+\newblock {Tensor Decompositions for Signal Processing Applications: From
+  two-way to multiway component analysis}.
+\newblock {\em IEEE Signal Processing Magazine}, 32(2):145--163, mar 2015.
+
+\bibitem{Cichocki2007}
+Andrzej Cichocki, Rafal Zdunek, Seungjin Choi, Robert Plemmons, and Shun-ichi
+  Amari.
+\newblock {Non-Negative Tensor Factorization using Alpha and Beta Divergences}.
+\newblock In {\em 2007 IEEE International Conference on Acoustics, Speech and
+  Signal Processing - ICASSP '07}, volume~3, pages III--1393--III--1396. IEEE,
+  2007.
+
+\bibitem{Comon2014}
+Pierre Comon.
+\newblock {Tensors : A brief introduction}.
+\newblock {\em IEEE Signal Processing Magazine}, 31(3):44--53, may 2014.
+
+\bibitem{Dartois2016}
+Stephane Dartois.
+\newblock {Tensor Models: extending the matrix models structures and methods}.
+\newblock page~13, mar 2016.
+
+\bibitem{DeLathauwer2000}
+Lieven {De Lathauwer}, Bart {De Moor}, and Joos Vandewalle.
+\newblock {A Multilinear Singular Value Decomposition}.
+\newblock {\em SIAM Journal on Matrix Analysis and Applications},
+  21(4):1253--1278, jan 2000.
+
+\bibitem{Ding2005}
+CHQ Ding, X~He, and HD~Simon.
+\newblock {On the Equivalence of Nonnegative Matrix Factorization and Spectral
+  Clustering.}
+\newblock In {\em 2005 SIAM International Conference on Data Mining - SDM},
+  2005.
+
+\bibitem{Ding2015}
+Weiyang Ding, Liqun Qi, and Yimin Wei.
+\newblock {Fast Hankel tensor-vector product and its application to exponential
+  data fitting}.
+\newblock {\em Numerical Linear Algebra with Applications}, 22(5):814--832, oct
+  2015.
+
+\bibitem{Domanov2015}
+I~Domanov and L~De Lathauwer.
+\newblock {Canonical polyadic decomposition of third-order tensors: relaxed
+  uniqueness conditions and algebraic algorithm}.
+\newblock {\em arXiv preprint arXiv:1501.07251}, 2015.
+
+\bibitem{Domanov2014}
+I~Domanov and LD~Lathauwer.
+\newblock {Canonical polyadic decomposition of third-order tensors: reduction
+  to generalized eigenvalue decomposition}.
+\newblock {\em SIAM Journal on Matrix Analysis and Applications}, 2014.
+
+\bibitem{Domanov2013}
+Ignat Domanov and Lieven {De Lathauwer}.
+\newblock {On the Uniqueness of the Canonical Polyadic Decomposition of
+  Third-Order Tensors---Part II: Uniqueness of the Overall Decomposition}.
+\newblock {\em SIAM Journal on Matrix Analysis and Applications},
+  34(3):876--903, jul 2013.
+
+\bibitem{Dourbal2016}
+Pavel Dourbal.
+\newblock {Synthesis of fast multiplication algorithms for arbitrary tensors}.
+\newblock page~79, feb 2016.
+
+\bibitem{Espin-Noboa2016}
+Lisette Esp{\'{i}}n-Noboa, Florian Lemmerich, Philipp Singer, and Markus
+  Strohmaier.
+\newblock {Discovering and Characterizing Mobility Patterns in Urban Spaces: A
+  Study of Manhattan Taxi Data}.
+\newblock {\em arXiv preprint}, jan 2016.
+
+\bibitem{Fanaee-T2016}
+Hadi Fanaee-T and Joao Gama.
+\newblock {Tensor-based anomaly detection: An interdisciplinary survey}.
+\newblock {\em Knowledge-Based Systems}, feb 2016.
+
+\bibitem{Figueiredo2014}
+M~Figueiredo.
+\newblock {Exploring the performance of non-negative multi-way factorization
+  for household electrical seasonal consumption disaggregation}.
+\newblock {\em Neural Networks (IJCNN) {\ldots}}, 2014.
+
+\bibitem{Fitzgerald2006}
+D.~Fitzgerald, M.~Cranitch, and E.~Coyle.
+\newblock {Shifted 2D Non-negative Tensor Factorisation}, 2006.
+
+\bibitem{Harshman1970}
+RA~Harshman.
+\newblock {Foundations of the PARAFAC procedure: Models and conditions for an"
+  explanatory" multi-modal factor analysis}.
+\newblock {\em UCLA Working Papers in Phonetics}, 1970.
+
+\bibitem{Hazan2005}
+T.~Hazan, S.~Polak, and A.~Shashua.
+\newblock {Sparse image coding using a 3D non-negative tensor factorization}.
+\newblock In {\em Tenth IEEE International Conference on Computer Vision
+  (ICCV'05) Volume 1}, volume~1, pages 50--57 Vol. 1. IEEE, 2005.
+
+\bibitem{Hitchcock1927}
+Frank~L. Hitchcock.
+\newblock {The Expression of a Tensor or a Polyadic as a Sum of Products}.
+\newblock {\em Journal of Mathematics and Physics}, 6(1-4):164--189, apr 1927.
+
+\bibitem{Kapteyn1986}
+Arie Kapteyn, Heinz Neudecker, and Tom Wansbeek.
+\newblock {An approach ton-mode components analysis}.
+\newblock {\em Psychometrika}, 51(2):269--275, jun 1986.
+
+\bibitem{Kolda2009}
+Tamara~G. Kolda and Brett~W. Bader.
+\newblock {Tensor Decompositions and Applications}.
+\newblock {\em SIAM Review}, 51(3):455--500, aug 2009.
+
+\bibitem{Kulis2006}
+Brian Kulis, M{\'{a}}ty{\'{a}}s Sustik, and Inderjit Dhillon.
+\newblock {Learning low-rank kernel matrices}.
+\newblock In {\em Proceedings of the 23rd international conference on Machine
+  learning - ICML '06}, pages 505--512, New York, New York, USA, jun 2006. ACM
+  Press.
+
+\bibitem{Li2005}
+Yang Li, Yangzhou Du, and Xueyin Lin.
+\newblock {Kernel-based multifactor analysis for image synthesis and
+  recognition}.
+\newblock In {\em Tenth IEEE International Conference on Computer Vision
+  (ICCV'05) Volume 1}, volume~1, pages 114--119 Vol. 1. IEEE, 2005.
+
+\bibitem{Liu2013}
+Ji~Liu, Przemyslaw Musialski, Peter Wonka, and Jieping Ye.
+\newblock {Tensor completion for estimating missing values in visual data.}
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence},
+  35(1):208--20, jan 2013.
+
+\bibitem{Mocks1988}
+J~M{\"{o}}cks.
+\newblock {Topographic components model for event-related potentials and some
+  biophysical considerations.}
+\newblock {\em IEEE transactions on bio-medical engineering}, 35(6):482--4, jun
+  1988.
+
+\bibitem{Morup2011}
+Morten M{\o}rup.
+\newblock {Applications of tensor (multiway array) factorizations and
+  decompositions in data mining}.
+\newblock {\em Wiley Interdisciplinary Reviews: Data Mining and Knowledge
+  Discovery}, 1(1):24--40, jan 2011.
+
+\bibitem{Morup2008}
+Morten M{\o}rup, Lars~Kai Hansen, and Sidse~M Arnfred.
+\newblock {Algorithms for sparse nonnegative Tucker decompositions.}
+\newblock {\em Neural computation}, 20(8):2112--31, aug 2008.
+
+\bibitem{Rosipal2001}
+Roman Rosipal, Mark Girolami, Leonard~J. Trejo, and Andrzej Cichocki.
+\newblock {Kernel PCA for Feature Extraction and De-Noising in Nonlinear
+  Regression}.
+\newblock {\em Neural Computing {\&} Applications}, 10(3):231--243, dec 2001.
+
+\bibitem{Shashua2005}
+Amnon Shashua and Tamir Hazan.
+\newblock {Non-negative tensor factorization with applications to statistics
+  and computer vision}.
+\newblock In {\em Proceedings of the 22nd international conference on Machine
+  learning - ICML '05}, pages 792--799, New York, New York, USA, aug 2005. ACM
+  Press.
+
+\bibitem{Shawe-Taylor2004}
+John Shawe-Taylor and Nello Cristianini.
+\newblock {\em {Kernel Methods for Pattern Analysis}}.
+\newblock Cambridge University Press, 2004.
+
+\bibitem{Tucker1966}
+Ledyard~R Tucker.
+\newblock {Some mathematical notes on three-mode factor analysis}.
+\newblock {\em Psychometrika}, 31(3):279--311, sep 1966.
+
+\bibitem{Tucker1963}
+LR~Tucker.
+\newblock {Implications of factor analysis of three-way matrices for
+  measurement of change}.
+\newblock {\em Problems in measuring change}, 1963.
+
+\bibitem{Tucker1964}
+LR~Tucker.
+\newblock {The extension of factor analysis to three-dimensional matrices}.
+\newblock {\em Contributions to mathematical psicology}, 1964.
+
+\bibitem{Vasilescu2002}
+M.~Alex~O. Vasilescu and Demetri Terzopoulos.
+\newblock {Multilinear Analysis of Image Ensembles: TensorFaces}.
+\newblock In Anders Heyden, Gunnar Sparr, Mads Nielsen, and Peter Johansen,
+  editors, {\em Computer Vision — ECCV 2002}, volume 2350 of {\em Lecture
+  Notes in Computer Science}, Berlin, Heidelberg, apr 2002. Springer Berlin
+  Heidelberg.
+
+\bibitem{Wang2013}
+Yu-Xiong Wang and Yu-Jin Zhang.
+\newblock {Nonnegative Matrix Factorization: A Comprehensive Review}.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering},
+  25(6):1336--1353, jun 2013.
+
+\bibitem{Welling2001}
+Max Welling and Markus Weber.
+\newblock {Positive tensor factorization}.
+\newblock {\em Pattern Recognition Letters}, 22(12):1255--1261, oct 2001.
+
+\bibitem{Zafeiriou2011}
+S~Zafeiriou and M~Petrou.
+\newblock {Nonnegative tensor factorization as an alternative Csiszar–Tusnady
+  procedure: algorithms, convergence, probabilistic interpretations and novel
+  probabilistic tensor}.
+\newblock {\em Data Mining and Knowledge Discovery}, 2011.
 
 \end{thebibliography}

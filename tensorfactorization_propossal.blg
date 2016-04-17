@@ -2,87 +2,50 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tensorfactorization_propossal.aux
 The style file: plain.bst
-I found no \bibdata command---while reading file tensorfactorization_propossal.aux
-Warning--I didn't find a database entry for "Kolda2009"
-Warning--I didn't find a database entry for "Ding2015"
-Warning--I didn't find a database entry for "Dourbal2016"
-Warning--I didn't find a database entry for "Hitchcock1927"
-Warning--I didn't find a database entry for "Cattell1944"
-Warning--I didn't find a database entry for "Tucker1963"
-Warning--I didn't find a database entry for "Tucker1964"
-Warning--I didn't find a database entry for "Tucker1966"
-Warning--I didn't find a database entry for "Carroll1970"
-Warning--I didn't find a database entry for "Harshman1970"
-Warning--I didn't find a database entry for "Appellof1981"
-Warning--I didn't find a database entry for "Acar2009"
-Warning--I didn't find a database entry for "Comon2014"
-Warning--I didn't find a database entry for "Dartois2016"
-Warning--I didn't find a database entry for "Fanaee-T2016"
-Warning--I didn't find a database entry for "Chaudhury2014"
-Warning--I didn't find a database entry for "Acar2015"
-Warning--I didn't find a database entry for "Acar2014"
-Warning--I didn't find a database entry for "An2015"
-Warning--I didn't find a database entry for "Anandkumar2012"
-Warning--I didn't find a database entry for "Anisimov2014"
-Warning--I didn't find a database entry for "Antolin2015"
-Warning--I didn't find a database entry for "Benner2016"
-Warning--I didn't find a database entry for "Cherif2008"
-Warning--I didn't find a database entry for "Arnedo2015"
-Warning--I didn't find a database entry for "Cichocki2015"
-Warning--I didn't find a database entry for "Barker2014"
-Warning--I didn't find a database entry for "Bilen2016"
-Warning--I didn't find a database entry for "Fitzgerald2006"
-Warning--I didn't find a database entry for "Espin-Noboa2016"
-Warning--I didn't find a database entry for "Figueiredo2014"
-Warning--I didn't find a database entry for "Domanov2015"
-Warning--I didn't find a database entry for "Domanov2014"
-Warning--I didn't find a database entry for "Domanov2013"
-Warning--I didn't find a database entry for "Bernardi2013"
-Warning--I didn't find a database entry for "Acar2011"
-Warning--I didn't find a database entry for "Cao2015"
-Warning--I didn't find a database entry for "Chen2014"
-Warning--I didn't find a database entry for "Liu2013"
-Warning--I didn't find a database entry for "shawe2004kernel"
+Database file #1: refs.bib
 Warning--I didn't find a database entry for "kwok2004preimage"
-You've used 0 entries,
+Warning--empty journal in Anandkumar2012
+Warning--empty journal in Dartois2016
+Warning--empty journal in Dourbal2016
+You've used 57 entries,
             2118 wiz_defined-function locations,
-            576 strings with 4878 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            880 strings with 15227 characters,
+and the built_in function-call counts, 20370 in all, are:
+= -- 2047
+> -- 963
+< -- 15
++ -- 377
+- -- 320
+* -- 1561
+:= -- 3350
+add.period$ -- 177
+call.type$ -- 57
+change.case$ -- 328
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 60
+duplicate$ -- 729
+empty$ -- 1532
+format.name$ -- 320
+if$ -- 4211
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 57
+missing$ -- 56
+newline$ -- 286
+num.names$ -- 116
+pop$ -- 306
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 272
 quote$ -- 0
-skip$ -- 1
+skip$ -- 533
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 1408
+swap$ -- 156
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+type$ -- 226
+warning$ -- 3
+while$ -- 207
+width$ -- 59
+write$ -- 622
+(There were 4 warnings)

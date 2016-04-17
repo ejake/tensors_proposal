@@ -7,7 +7,7 @@
 \contentsline {paragraph}{Image processing}{5}
 \contentsline {paragraph}{Machine Learning}{5}
 \contentsline {paragraph}{Text mining}{5}
-\contentsline {paragraph}{Numerical analysis}{5}
+\contentsline {paragraph}{Numerical analysis}{6}
 \contentsline {paragraph}{Neuroscience}{6}
 \contentsline {paragraph}{Signal processing}{6}
 \contentsline {paragraph}{Other applications}{6}
