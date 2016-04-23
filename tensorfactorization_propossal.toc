@@ -25,3 +25,4 @@
 \contentsline {section}{\numberline {4}Problem Statement}{11}
 \contentsline {section}{\numberline {5}Goals}{12}
 \contentsline {section}{\numberline {6}Jusification}{13}
+\contentsline {section}{\numberline {7}Methodology}{13}

@@ -284,7 +284,7 @@ Barker and Virtanen \cite{Barker2014} deal with monaural sound source separation
 \subsubsection{Canonica Polyadic Decomposition / PARAFAC}
 
 %check missed cite
-Canonica Polyadic (CP) decomposition (\cite{Kolda2009}, \cite{missed} Mocks, cite 166 Kolda), CANDECOMP \cite{Carroll1970} or PARAFAC \cite{Harshman1970} decompose a tensor as a finite sum of rank-one tensors. For instance, given a third order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$, CP decomposition express it as 
+Canonica Polyadic (CP) decomposition (\cite{Kolda2009}, \cite{Mocks1988}), CANDECOMP \cite{Carroll1970} or PARAFAC \cite{Harshman1970} decompose a tensor as a finite sum of rank-one tensors. For instance, given a third order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$, CP decomposition express it as 
 
 \begin{equation}
  \mathcal{X}\approx \sum_{r=1}^{R}a_r\otimes b_r \otimes c_r
@@ -301,7 +301,7 @@ Domanov \cite{Domanov2015} shows relaxed uniqueness conditions and algebraic alg
 \subsubsection{TUCKER Decomposition}
 
 %check missing cites
-Tucker decomposition was introduced by Tucker (\cite{Tucker1963}, \cite{Tucker1964}). It is also named N-mode PCA (kapteyn, 1986, cite 113 Kolda), High-order SVD (HOSVD) (De Lathauwer, 2000, cite 63 Kolda) or N-mode SVD (Vasilescu, 2002, cite 229 Kolda).
+Tucker decomposition was introduced by Tucker (\cite{Tucker1963}, \cite{Tucker1964}). It is also named N-mode PCA \cite{Kapteyn1986}, High-order SVD (HOSVD) \cite{DeLathauwer2000} or N-mode SVD \cite{Vasilescu2002}.
 
 The Tucker decomposition is a form of higher-order PCA \cite{Kolda2009}. It descomposes a tensor into a core tensor $\mathcal{G}$ multiplied by a matrix algong each mode. For instance, given a third order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$, Tucker decomposition express it as 
 
@@ -332,7 +332,7 @@ where $d(,)$ is a distance or divergence function and the problem could have dif
 is the Euclidean Distance and there are not restrictions, the problem is solved by finding the SVD; if $X$, $W$ and $H$ are restricted
 to be positive, then the problem is solved by NMF. An comprehensive survey of NMF variants and algorithms is finded in \cite{Wang2013}.
 %check missing reference
-One NMF approach is Symmetric-NMF \cite{Ding,2005}, (SNMF) which produces a factorization: 
+One NMF approach is Symmetric-NMF \cite{Ding2005}, (SNMF) which produces a factorization: 
 
 \begin{equation}
 (X_{lxn}^{T}X_{nxl})=H_{lxk}H_{kxl}^{T}\label{eq:symmetric-nmf}
@@ -343,13 +343,13 @@ An important characteristic of this version of NMF is that it is amenable to be 
 \paragraph{Non-negative Tensor Factorization}%rewrite and chec since this section is a direct copy&paste from (Wang and Zhang, 2013)
 
 
-An natural extension of nonnegative matrix factorization with high-order arrays is nonnegative n-dimensional tensor factorization (n-NTF). This kind of generalization is indeed not trivial since NTF possesses many new properties varying from NMF (\cite{Hazan2005}, \cite{Mørup2008}).  
+An natural extension of nonnegative matrix factorization with high-order arrays is nonnegative n-dimensional tensor factorization (n-NTF). This kind of generalization is indeed not trivial since NTF possesses many new properties varying from NMF (\cite{Hazan2005}, \cite{Morup2008}).  
 
 % (cp Wang and Zhang, 2013) 
 First, the data to be processed in NMF are vectors in essence. However, in some applications the original data may not be vectors, and the vectorization might result in some undesirable problems. For instance, the vectorization of image data, which is two dimensional, will lose the local spatial and structural information. Second, one of the core concerns in NMF is the uniqueness issue, and to remedy the ill-posedness some strong constraints have to be imposed. Nevertheless, tensor factorization will be unique under only some weak conditions. Besides, the uniqueness of the solution will be enhanced as the tensor order increases\cite{Wang2013}.
 
 %check miss cite
-There are generally two types of NTF model—NTD \cite{Mørup2008} and more restricted NPARAFAC \cite{Hazan2005}, whose main difference lies in the core factor tensor. As for the solution, there are some feasible approaches. For example, NTF can be restated as regular NMF by matricizing the array \cite{miss}Welling,2001, \cite{Mørup2008}. Or the alternating iteration method can be utilized directly on the outer product definition of tensors \cite{Hazan2005}, \cite{Shashua2005}, \cite{miss}Beneto2010. Similarly, SED, GKLD and other forms of divergence can also be used as the objective functions \cite{miss}Beneto2010, \cite{miss}Cichocki2007, \cite{miss}Zafeiriou2011. And some specific update models can adopt the existing conclusions in NMF. %For thorough understanding one may refer to [9], [122]. 
+There are generally two types of NTF model—NTD \cite{Morup2008} and more restricted NPARAFAC \cite{Hazan2005}, whose main difference lies in the core factor tensor. As for the solution, there are some feasible approaches. For example, NTF can be restated as regular NMF by matricizing the array \cite{Welling2001}, \cite{Morup2008}. Or the alternating iteration method can be utilized directly on the outer product definition of tensors \cite{Hazan2005}, \cite{Shashua2005}, \cite{Benetos2010}. Similarly, SED, GKLD and other forms of divergence can also be used as the objective functions \cite{Benetos2010}, \cite{Cichocki2007}, \cite{Zafeiriou2011}. And some specific update models can adopt the existing conclusions in NMF. %For thorough understanding one may refer to [9], [122]. 
 %What must be scrutinized here is that the convergence of these algorithms is not guaranteed by the simple generation from matrix to tensor forms in itself.
 
 %What’s more, the concepts in Constrained NMF can also be incorporated in NTF, such as sparse NTF [123], [124], [125], discriminant NTF [126], NTF on manifold [127], and the like.
@@ -364,7 +364,7 @@ There are generally two types of NTF model—NTD \cite{Mørup2008} and more rest
  
 \subsection{Kernel methods}
 
-In contrast with traditional learning techniques, kernel methods do not need a vectorial representation of data. Instead, they use a kernel function. Therefore, kernel methods are naturally applied to unstructured, or complex structured, data such as texts, strings, trees and images \cite{miss}Cristianini2004. 
+In contrast with traditional learning techniques, kernel methods do not need a vectorial representation of data. Instead, they use a kernel function. Therefore, kernel methods are naturally applied to unstructured, or complex structured, data such as texts, strings, trees and images \cite{Shawe-Taylor2004}. 
 
 Informally, a kernel function measures the similarity of two objects. Formally, a kernel function, $k:X\times X\rightarrow\mathbb{R}$,
 maps pairs $(x,y)$ of objects in a set $X$, the problem space, to the reals. A kernel function implicitly generates a map, $\Phi:X\rightarrow F$, where $F$ corresponds to a Hilbert space called the feature space. The dot product in $F$ is calculated by $k$, specifically $k(x,y)=<\Phi(x),\Phi(y)>_{F}$. Given an appropriate kernel function, complex patterns in the problem space may correspond to simpler patterns in the feature space. For instance, non-linear patterns in the problem space may correspond to linear patterns in the feature space. 
@@ -408,7 +408,7 @@ The cluster centroids estimated by the kernel versions of both algorithms are in
 
 \section{Kernel Non-negative Matrix Factorization}
 
-Kernel Non-negative Matrix Factorization (KNMF) can be naturally derivated of convex NMF (\cite{miss}Kulis2006, \cite{miss}Li2005 and \cite{miss}Rosipal2001 from Cichocki book). Given a kernel function $\phi:x\in X \rightarrow \phi(x)\in F $, mapping for $N$ elements $\phi(X) = [ \phi(x_1),\ldots \phi(x_N) ]$. Then, KNMF can be defined as
+Kernel Non-negative Matrix Factorization (KNMF) can be naturally derivated of convex NMF (\cite{Kulis2006}, \cite{Li2005} and \cite{Rosipal2001}). Given a kernel function $\phi:x\in X \rightarrow \phi(x)\in F $, mapping for $N$ elements $\phi(X) = [ \phi(x_1),\ldots \phi(x_N) ]$. Then, KNMF can be defined as
 \begin{equation}
  \phi(X)\cong\phi(X)WH^T
 \end{equation}\label{eq:KNMF}
@@ -501,15 +501,16 @@ The general problem addressed by this research proposal is the design of non-sup
 
 \subsection*{General objective}
 
-To design and implement an kernel-based tensor factorization algorithm for unsupervised learning.
+To build an kernel-based tensor factorization algorithm for unsupervised learning.
 % 
 % 
 % 
 \subsection*{Specific objectives}
 
 \begin{enumerate}[(a)]
- \item To evaluate the impact, in terms of robustness and accuracy, of using particular kernels in kernel-based methods for tensor factorization.
  \item To design an efficient and effective kernel tensor factorization algorithms.
+ \item To Implement algorithm.
+ \item To evaluate the impact, in terms of robustness and accuracy, of using particular kernels in kernel-based methods for tensor factorization. 
  \item To evaluate the performance of the proposed algorithms in both synthetic and real world datasets, and its impact in particular learning tasks: completion, clustering and blind source separation.
  \item To evaluate scalability comparing algorithms’ complexity and parallelization prospectives.
 \end{enumerate}
@@ -524,7 +525,7 @@ Due to the rich characteristics of natural processes and environments, it is rar
 By treating that natural high-order array as a matrix, information is lost since lack the original multiway structure of the data.
 
 
-Tensor factorizations have several advantages over two-way matrix factorizations including uniqueness of the optimal solution and component identification even when most of the data is missing \cite{Mørup2011}. 
+Tensor factorizations have several advantages over two-way matrix factorizations including uniqueness of the optimal solution and component identification even when most of the data is missing \cite{Morup2011}. 
 
 multiway decomposition techniques explicitly exploit the multiway structure that is lost when collapsing some of the modes of the tensor in order to analyze the data by regular matrix factorization approaches.
 
@@ -533,7 +534,22 @@ Tensor decompositions are in frequent use today in a variety of fields ranging f
 Matrix and analogous tensor factorization is central to different important tasks in machine learning and information retrieval such as: clustering, latent topic analysis, recommendation, tensor completion, blind source separation, among others.
 
 
+\section{Methodology}
 
+Each specific objective is to be attained through the following approaches:
+
+\begin{itemize}[(a)]
+ \item Design and implementation of Kernel Tensor Factorization algorithm: An kernel matrix factorization methods will be adapted to use tensorial kernels. Efficient implementations will be developed exploiting particularities of the used kernels. In particular, an on-line learning strategy for matrix factorization will be designed.
+ \item Strategy to evaluate robustness: In order to evaluete algorithm capabilities to deal with noise and outliers, a collection of synthetic and real datasets with different degrees of contamination will be assembled. An experimental setup for algorithm evaluation will be designed taking into account different factors (kernel type, contamination degree, etc) and the robustness measures as influence curve and/or the breakdown bound adapted to tensor factorization.
+\end{itemize}
+
+\item 
+
+To evaluate the impact, in terms of robustness and accuracy, of using particular kernels in kernel-based methods for tensor factorization.
+ \item To design an efficient and effective kernel tensor factorization algorithms.
+ \item To Implement algorithm.
+ \item To evaluate the performance of the proposed algorithms in both synthetic and real world datasets, and its impact in particular learning tasks: completion, clustering and blind source separation.
+ \item To evaluate scalability comparing algorithms’ complexity and parallelization prospectives.
 % 
 % \item \textbf{METHODOLOGY}\\ 
 % % 8. METODOLOGÍA: (Descripción del procedimiento a emplear para obtener los 

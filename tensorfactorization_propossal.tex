@@ -501,15 +501,16 @@ The general problem addressed by this research proposal is the design of non-sup
 
 \subsection*{General objective}
 
-To design and implement an kernel-based tensor factorization algorithm for unsupervised learning.
+To build an kernel-based tensor factorization algorithm for unsupervised learning.
 % 
 % 
 % 
 \subsection*{Specific objectives}
 
 \begin{enumerate}[(a)]
- \item To evaluate the impact, in terms of robustness and accuracy, of using particular kernels in kernel-based methods for tensor factorization.
  \item To design an efficient and effective kernel tensor factorization algorithms.
+ \item To Implement algorithm.
+ \item To evaluate the impact, in terms of robustness and accuracy, of using particular kernels in kernel-based methods for tensor factorization. 
  \item To evaluate the performance of the proposed algorithms in both synthetic and real world datasets, and its impact in particular learning tasks: completion, clustering and blind source separation.
  \item To evaluate scalability comparing algorithms’ complexity and parallelization prospectives.
 \end{enumerate}
@@ -533,8 +534,18 @@ Tensor decompositions are in frequent use today in a variety of fields ranging f
 Matrix and analogous tensor factorization is central to different important tasks in machine learning and information retrieval such as: clustering, latent topic analysis, recommendation, tensor completion, blind source separation, among others.
 
 
+\section{Methodology}
 
-% 
+Each specific objective is to be attained through the following approaches:
+
+\begin{enumerate}[(a)]
+ \item Design and implementation of Kernel Tensor Factorization algorithm: An kernel matrix factorization methods will be adapted to use tensorial kernels. Efficient implementations will be developed exploiting particularities of the used kernels. In particular, an on-line learning strategy for matrix factorization will be designed.
+ \item Strategy to evaluate robustness and accuracy: In order to evaluete algorithm capabilities to deal with noise and outliers, a collection of synthetic and real datasets with different degrees of contamination will be assembled. An experimental setup for algorithm evaluation will be designed taking into account different factors (kernel type, contamination degree, etc) and the robustness measures as influence curve and/or the breakdown bound adapted to tensor factorization.
+ \item Performance evaluation in specific tasks: Algorithm will be tested in specific machine learning task, such as completion, clustering and blind source separation on synthetic and real data sets.
+ \item Evaluation of algorithm scalability: An theoretical time and space complexity bound will be assesed to the algorithm. Furthermore, an parallelizable version of algorithm will be suggested.
+\end{enumerate}
+
+
 % \item \textbf{METHODOLOGY}\\ 
 % % 8. METODOLOGÍA: (Descripción del procedimiento a emplear para obtener los 
 % objetivos propuestos).
