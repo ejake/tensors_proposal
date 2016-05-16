@@ -102,6 +102,8 @@ Engineering
 
 \section{Introduction}
 
+Data-driven unsupervised learning has been establishing itself as a critical component of scientific discovery in domains ranging from astrophysics to social sciences and computational journalism. It manifests itself, among many forms, through modeling, machine learning, data mining, pattern recognition, data analytics, anomaly detection, and visualization. Nowaday, have rised a high volume of multiway data since the widespread use of multisensor technology and natural multiway structure of multimedia data, such as images, video or audio. This context have highlighted the limitations of standard flat-view matrix models and the necessity to move toward more versatile data analysis tools. In that sense, multiway analysis is of paramount importance. Data analysis techniques using tensor decompositions are shown to have great flexibility in the choice of constraints which match data properties and extract more general latent components in the data than matrix-based methods.
+
 \subsection{Basics of tensors}
 
 Tensors are multidimensional arrays, i.e. an $N$-way or $N$-order tensor is an element of tensor product of $N$ vector spaces, each of which has its own coordinate system. A first order tensor is a vector, a second order tensor is a matrix, tensors of higher order are called high-order tensors. The order (ways or modes) of a tensor is the number of dimensions. Figure \ref{fig:3tensor} represents a 3-order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$.
@@ -191,12 +193,13 @@ Ding and Wei \cite{Ding2015} present a fast algorithm for Hankel tensor-vector p
 
 \section{Tensor Decomposition}
 
+% The tensor decomposition problem consists of break down a tensor in a 
 
 Tensor decomposition originated with Hitchcock in 1927 \cite{Hitchcock1927}, and the the multi-way model is attribuited to Cattell in 1944 \cite{Cattell1944}.
 
 Tensor works had attention in 60s with Tucker (\cite{Tucker1963}, \cite{Tucker1964}, \cite{Tucker1966}) and Carroll and Chang \cite{Carroll1970} and Harshman in 1970 \cite{Harshman1970} with applications in psychometrics. In 1981 Appellof and Davidson \cite{Appellof1981} used tensor decomposition in chemometrics which have been an popular field of application of tensor decomposition since then.
 
-In last twenty years tensor decomposition applications have expanded to many fields such as signal processing, numberical linear algebra, computer vision, numerical analysis, neuroscience, data mining, graph analysis. Figure \ref{fig:applications} shows seminal papers which opened broad application fields to tensor decomposition, plot also shows the amount of documents published about these works according to Scopus.
+As shown figure \ref{fig:applications}, in last twenty years tensor decomposition applications have expanded to many fields such as signal processing, numberical linear algebra, computer vision, numerical analysis, neuroscience, data mining, graph analysis. Figure \ref{fig:applications} shows seminal papers which opened broad application fields to tensor decomposition, plot also shows the amount of documents published about these works according to Scopus.
 
 \begin{figure}[!ht]
 \centering
@@ -217,9 +220,10 @@ Kolda \cite{Kolda2009}, Acar \cite{Acar2009} and \cite{Comon2014} present an exh
 
 In following sections we explain some of basic methods to tensor decomposition which have been inspiration to many others methods propossed. Also, we summarize recently  works and approaches of tensor decomposition on different application fields.
 
+%extend and compare
 \paragraph{Chemometrics}
 
-\cite{Chaudhury2014} A computationally efficient technique for the solution of multi-dimensional PBMs of granulation via tensor decomposition
+\cite{Chaudhury2014} Propose a computationally efficient technique for the solution of multi-dimensional PBMs of granulation via tensor decomposition
 
 %bioinformatics
 \paragraph{Bioinformatics}
@@ -425,7 +429,12 @@ Therefore, the cost function to minimize is
 
 \subsection{General problems}
 
- Usually, tensor factorization address the folowing problems independent of the application: blind source separation, tensor completion.
+%  Usually, tensor factorization address the folowing problems independent of the application: blind source separation, tensor completion.
+
+ \subsection{Blind Source Separation}
+ 
+ %rewrite, it is c&p
+Blind source separation (BSS) and related methods, e.g., independent component analysis (ICA), employ a wide class of unsupervised learning algorithms and have found important applications across several areas from engineering to neuroscience \ref{Cichocki2009}. The recent trends in blind source separation and generalized (flexible) component analysis (GCA) are to consider problems in the framework of matrix factorization or more general multi-dimensional data or signal decomposition with probabilistic generative models and exploit a priori knowledge about true nature, morphology or structure of latent (hidden) variables or sources such as nonnegativity, sparseness, spatiotemporal decorrelation, statistical independence, smoothness or lowest possible complexity. The goal of BSS can be considered as estimation of true physical sources and parameters of a mixing system, while the objective of GCA is to find a reduced or hierarchical and structured component representation for the observed (sensor) data that can be interpreted as physically or physiologically meaningful coding or blind signal decomposition. The key issue is to find such a transformation or coding which has true physical meaning and interpretation.
 
  \subsection{Tensor completion}
  
@@ -478,7 +487,21 @@ Hence, they present an approach to complete the missing entries and simultaneous
 
 \section{Problem Statement}
 
-Matrix and analogous tensor factorization is central to different important tasks in machine learning and information retrieval such as: clustering, latent topic analysis, recommendation, blind source separation, completion, among others.  The widespread use of multisensor technology and the emergence of big data sets have highlighted the limitations of standard flat-view matrix models and the necessity to move toward more versatile data analysis tools \cite{Cichocki2015}. Conventional methods preprocess multiway data by arranging them into a matrix, which might lose the original multiway structure of the data  \cite{Wang2013}. Hence, tensors address multimodal or multiview data, and tensor factorization brings tools to perform common machine learning tasks.
+%Importance of tensor decomposition
+%	- Advantage over matrix factorization
+%Why use kernels
+%Challenges of kernelized methods
+%Literature gap regard to kernel tensor decomposition
+
+Tensor factorization (including matrix factorization) is central to different important tasks in machine learning and information retrieval such as: clustering, latent topic analysis, recommendation, blind source separation, completion, denoising, among others. 
+
+The widespread use of multisensor technology and the emergence of big data sets have highlighted the limitations of standard flat-view matrix models and the necessity to move toward more versatile data analysis tools \cite{Cichocki2015}. Conventional methods preprocess multiway data by arranging them into a matrix, which might lose the original multiway structure of the data  \cite{Wang2013}. Hence, tensors address multimodal or multiview data, and tensor factorization brings tools to perform common machine learning tasks.%move this paragraph to the justification
+
+%highlight problem
+%problem dimensionality tensor and kernel trick to deal with it
+%exploit no-linear relations
+
+Tensor factorizations have several advantages over two-way matrix factorizations including uniqueness of the optimal solution and component identification even when most of the data is missing  \cite{Morup2011}.
 
 On the other hand, kernel methods are ubiquitous in machine learning, performance of these methods have been broadly demostrated, and there are evidence between some types of kernels and robustness. However, there are few exploration of kernel tensor factorization approaches.
 
@@ -497,27 +520,23 @@ An answer to the question derivate in a method which factorize a given tensor in
 
 \section{Goals}
 
-The general problem addressed by this research proposal is the design of non-supervised learning algorithms, in particular tensor factorization algorithms, applied in the space induced by a kernel function. 
+% The general problem addressed by this research proposal is the design of non-supervised learning algorithms, in particular tensor factorization algorithms, applied in the space induced by a kernel function. 
 
-\subsection*{General objective}
+ \subsection*{General objective}
 
-To build an kernel-based tensor factorization algorithm for unsupervised learning.
-% 
-% 
-% 
+To design, implement and evaluate a kernel-based tensor factorization algorithm for unsupervised learning.
+ 
 \subsection*{Specific objectives}
 
-\begin{enumerate}[(a)]
- \item To design an efficient and effective kernel tensor factorization algorithms.
- \item To Implement algorithm.
- \item To evaluate the impact, in terms of robustness and accuracy, of using particular kernels in kernel-based methods for tensor factorization. 
- \item To evaluate the performance of the proposed algorithms in both synthetic and real world datasets, and its impact in particular learning tasks: completion, clustering and blind source separation.
- \item To evaluate scalability comparing algorithms’ complexity and parallelization prospectives.
-\end{enumerate}
+\begin{itemize}
+\item To evaluate different strategies for combining kernel-based methods with matrix and tensor factorization techniques.
+\item To design an algorithm for kernel-based tensor factorization.
+\item To develop an efficient implementation of the algorithm able to deal with large scale data sets.
+\item To assess the effectivity of the method in specific unsupervised learning tasks.
+\end{itemize}
 
 
 \section{Jusification}
-
 
 
 Due to the rich characteristics of natural processes and environments, it is rare that a single acquisition method provides complete understanding thereof. Information about a phenomenon or a system of interest can be obtained from different types of instruments, measurement techniques, experimental setups, and other types of sources. The increasing availability of multiple data sets that contain information, obtained using different acquisition methods, about the same system, introduces new degrees of freedom that raise questions beyond those related to analyzing each data set separately.
@@ -534,32 +553,125 @@ Tensor decompositions are in frequent use today in a variety of fields ranging f
 Matrix and analogous tensor factorization is central to different important tasks in machine learning and information retrieval such as: clustering, latent topic analysis, recommendation, tensor completion, blind source separation, among others.
 
 
+
 \section{Methodology}
-
-Each specific objective is to be attained through the following approaches:
-
-\begin{itemize}[(a)]
- \item Design and implementation of Kernel Tensor Factorization algorithm: An kernel matrix factorization methods will be adapted to use tensorial kernels. Efficient implementations will be developed exploiting particularities of the used kernels. In particular, an on-line learning strategy for matrix factorization will be designed.
- \item Strategy to evaluate robustness: In order to evaluete algorithm capabilities to deal with noise and outliers, a collection of synthetic and real datasets with different degrees of contamination will be assembled. An experimental setup for algorithm evaluation will be designed taking into account different factors (kernel type, contamination degree, etc) and the robustness measures as influence curve and/or the breakdown bound adapted to tensor factorization.
-\end{itemize}
-
-\item 
-
-To evaluate the impact, in terms of robustness and accuracy, of using particular kernels in kernel-based methods for tensor factorization.
- \item To design an efficient and effective kernel tensor factorization algorithms.
- \item To Implement algorithm.
- \item To evaluate the performance of the proposed algorithms in both synthetic and real world datasets, and its impact in particular learning tasks: completion, clustering and blind source separation.
- \item To evaluate scalability comparing algorithms’ complexity and parallelization prospectives.
-% 
 % \item \textbf{METHODOLOGY}\\ 
 % % 8. METODOLOGÍA: (Descripción del procedimiento a emplear para obtener los 
 % objetivos propuestos).
 % % 
-% 
-% \end{enumerate}
-% 
-% %  \item \textbf{ACTIVITIES} \\
+
+
+This research is an experimental study with experimental design and quantitative strategies such as accuracy, specificity and sensitivity in a cross-sectional study with standard images.
+
+Each specific objective is to be attained through the following approaches:
+
+\begin{enumerate}[(a)]
+ \item \textit{Review kernel-based methods proposed to matrix and tensor factorization}. A systematic literature review will be leaded to identify the matrix and tensor factorization methods witch incorporate kernels. Methods to address the pre-image problem in kernel-methods also will be included in this review.
+
+\item \textit{Design and implementation of Kernel Tensor Factorization algorithm}. An kernel matrix factorization methods will be adapted to use tensorial kernels. Efficient implementations will be developed exploiting particularities of the used kernels. 
+\item \textit{Strategy to assess method precision in specific unsupervised-learning tasks}. In order to evaluete algorithm effectivity solving completion and blind source separation problems, the method will be applied in both synthetic and real world datasets to assess performance.
+
+%to deal with noise and outliers, a collection of synthetic and real datasets with different degrees of contamination will be assembled. An experimental setup for algorithm evaluation will be designed taking into account different factors (kernel type, contamination degree, etc) and the robustness measures as influence curve and/or the breakdown bound adapted to tensor factorization.
+
+\item \textit{Measuring algorithm scalability}. An theoretical time and space complexity bound will be assesed to the algorithm. Furthermore, an parallelizable version of algorithm will be suggested.
+\end{enumerate}
+
+
+%\subsection{Data}
+%datasets
+
 % % 9. ACTIVIDADES A DESARROLLAR:
+ 
+\section{Activities}
+
+Project activities and results are structured within \textit{Work Packages} (WP) in terms of \textit{Tasks} (T) and \textit{Deliverables}, as described below.
+
+\subsection*{WP0: Cross activities - Divulgation}
+\subsubsection*{TASKS }
+\begin{itemize}
+\item T0: Proposal writing.
+\item T1: Proposal presentation.
+\item T2: Write articles for journals or conferences.
+\item T3: Dissertation writing.
+\item T4: Dissartation defence.
+\end{itemize}
+\subsubsection*{DELIVERABLES }
+\begin{itemize}
+ \item Proposal
+ \item Articles
+ \item Dissertation
+\end{itemize}
+
+
+
+\subsection*{WP1: Literature Review}
+An systematic literature review will be done to review tensor factorization methods, in particular, 
+kernel-based matrix and tensor factorization methods. Furthermore, we will include methods to address the pre-image problem in kernel methods.
+\subsubsection*{TASKS }
+\begin{itemize}
+\item T0: Stablish research question and criteria for document inclusion.
+\item T1: Search process
+\item T2: Quality assessment and data collection
+\item T3: Data analysis
+\end{itemize}
+\subsubsection*{DELIVERABLES }
+\begin{itemize}
+\item Document summarizing literature review
+\end{itemize}
+
+\subsection*{WP2: Evaluation of strategies for combining kernel-based methods with matrix and tensor factorization techniques}
+According to literature review, we will analyze and contrast strategies for combining kernel-based methods with matrix and tensor factorization techniques
+\subsubsection*{TASKS}
+\begin{itemize}
+\item T0: Review and compare methods
+\end{itemize}
+\subsubsection*{DELIVERABLES}
+\begin{itemize}
+\item Technical report 
+\end{itemize}
+
+\subsection*{WP3: Design of algorithm for kernel-based tensor factorization.}
+\subsubsection*{TASKS}
+\begin{itemize}
+\item T0: Model tensor factorization algorithm.
+\item T1: Address pre-image problem if it is pertinent.
+\item T2: Stablish how to apply the algorithm to tensor completion problem and blind source separation.
+\end{itemize}
+\subsubsection*{DELIVERABLES}
+\begin{itemize}
+ \item Algorithm pseudocode
+\end{itemize}
+
+
+\subsection*{WP4: Developing an efficient algorithm implementation able to deal with large scale data sets.}
+\subsubsection*{TASKS}
+\begin{itemize}
+\item T0: Adapt algorithm to scale if it is required.
+\item T1: Implement kernel tensor factorization algorithm.
+\item T2: Design experimental setup.
+\item T3: Execute experiments and measure performance.
+\item T4: Collect and analyze results
+\end{itemize}
+\subsubsection*{DELIVERABLES}
+\begin{itemize}
+ \item source code
+ \item Technical report
+\end{itemize}
+
+
+
+\subsection*{WP5: Assessing the effectivity of the method in specific unsupervised learning tasks.}
+\subsubsection*{TASKS}
+\begin{itemize}
+\item T0: Design experimental setup.
+\item T1: Execute experiments and measure performance.
+\item T2: Collect and analyze results
+\end{itemize}
+\subsubsection*{DELIVERABLES}
+\begin{itemize}
+ \item source code
+ \item Technical report
+\end{itemize}
 % 
 % 
 % Project activities and results are structured within \textit{Work Packages} 
@@ -626,10 +738,50 @@ To evaluate the impact, in terms of robustness and accuracy, of using particular
 % \subsubsection*{DELIVERABLES }
 % 
 % \clearpage
-% 
+\section{Schedule}
 % %  \item \textbf{SCHEDULE}\\
 % % 10. CRONOGRAMA:
 % 
+\begin{table}[!h]
+\small
+\centering
+ \begin{tabular}{|c|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|@{}c@{}|}
+  \hline
+ & \multicolumn{32}{|c|}{Semester/Month}\\
+\hline
+\multicolumn{1}{|c|}{Actividad} & \multicolumn{4}{|c|}{1} & \multicolumn{4}{|c|}{2} & \multicolumn{4}{|c|}{3} & \multicolumn{4}{|c|}{4} & \multicolumn{4}{|c|}{5} & \multicolumn{4}{|c|}{6} & \multicolumn{4}{|c|}{7} & \multicolumn{4}{|c|}{8}\\
+\hline
+ WP0.T0. & $\blacksquare$   & $\blacksquare$   & $\blacksquare$   & $\blacksquare$   & $\blacksquare$   & $\blacksquare$   & $\blacksquare$ & $\blacksquare$ &  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP0.T1. &   &   &   &   &   &   &   &   & $\blacksquare$ & $\blacksquare$ &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP0.T2. &   &   &   &   &   &   &   & $\blacksquare$ & $\blacksquare$ &  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP0.T3. &   &   &   &   &   &   &   &   &  & $\blacksquare$ &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP0.T4. &   &   &   &   &   &   &   &   & $\blacksquare$ & $\blacksquare$ &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  \hline
+  WP1.T0. & $\blacksquare$ &   &   &   &   &   &   &   &  &  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP1.T1. & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ &   &  &  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP1.T2. & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ &   &  &  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP1.T3. &  &  &  & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ &  &  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  \hline
+  WP2.T0. &  &   &   &   & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ &  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  \hline
+  WP3.T0. &  &   &   &   &   & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP3.T1. &  &   &   &   &   & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP3.T2. &  &   &   &   &   & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$ & $\blacksquare$  &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  \hline
+  WP4.T0. &  &   &   &   &   &   &   &   &  &  &   &   &   &   & $\blacksquare$  & $\blacksquare$  & $\blacksquare$ & $\blacksquare$  & $\blacksquare$ &  &   &   &   &   &   &   &   &   &   &  & & \\
+  WP4.T1. &  &   &   &   &   &   &   &   &  &  &   &   &   &   & $\blacksquare$  & $\blacksquare$  & $\blacksquare$ & $\blacksquare$  & $\blacksquare$ &  &   &   &   &   &   &   &   &   &   &  & & \\
+  WP4.T2. &  &   &   &   &   &   &   &   &  &  &   &   &   &   & $\blacksquare$  & $\blacksquare$  & $\blacksquare$ & $\blacksquare$  & $\blacksquare$ &  &   &   &   &   &   &   &   &   &   &  & & \\
+  WP4.T3. &  &   &   &   &   &   &   &   &  &  &   &   &   &   & $\blacksquare$  & $\blacksquare$  & $\blacksquare$ & $\blacksquare$  & $\blacksquare$ &  &   &   &   &   &   &   &   &   &   &  & & \\
+  WP4.T4. &  &   &   &   &   &   &   &   &  &  &   &   &   & $\blacksquare$ & $\blacksquare$  & $\blacksquare$  & $\blacksquare$ & $\blacksquare$  & $\blacksquare$ &  &   &   &   &   &   &   &   &   &   &  & & \\
+  \hline
+  WP5.T0. &  &   &   &   &   &   &   & $\blacksquare$  & $\blacksquare$ & $\blacksquare$ & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP5.T1. &  &   &   &   &   &   &   & $\blacksquare$  & $\blacksquare$ & $\blacksquare$ & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  &   &   &   &   &   &   &   &   &   &   &   &  & & \\
+  WP5.T2. &  &   &   &   &   &   &   & $\blacksquare$  & $\blacksquare$ & $\blacksquare$ & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  &   & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  & $\blacksquare$  &   &   &   &   &   &  & & \\
+  \hline
+ \end{tabular}
+\caption{Gantt chart: project planning}
+\label{tb:gantt}
+\end{table}
 % 
 % %  \item \textbf{BIBLIOGRAPHY:}\\
 % % 11. BIBLIOGRAFÍA BÁSICA:
@@ -648,31 +800,32 @@ To evaluate the impact, in terms of robustness and accuracy, of using particular
 % A work station with a computer with internet and bibliographic material.
 % 
 % 
-% %  \item \textbf{COSTS AND FINANCIAL SOURCES}\\
+% %  \item 
+\textbf{COSTS AND FINANCIAL SOURCES}\\
 % % 13. COSTOS DEL TRABAJO Y FUENTES DE FINANCIACIÓN:
 % 
-% \begin{table}[!h]
-% \centering
-% \begin{tabular}{l l r}
-% \hline
-%  \textbf{Concept} & \textbf{Source} & \textbf{Total cost}* \\
-%  \hline
-%  Salary researcher & Researcher & \$144 \\
-%  Advisor salary & Universidad Nacional de Colombia & \$80\\
-%  Conferences and events & Universidad Nacional de Colombia/Researcher & \$10 
+ \begin{table}[!h]
+ \centering
+ \begin{tabular}{l l r}
+ \hline
+  \textbf{Concept} & \textbf{Source} & \textbf{Total cost}* \\
+  \hline
+  Salary researcher & Researcher & \$144 \\
+  Advisor salary & Universidad Nacional de Colombia & \$80\\
+  Conferences and events & Universidad Nacional de Colombia/Researcher & \$10 
 % \\
 %  \hline
-%  Notebook & Researcher & \$2\\
-%  Desktop computer & Research group MindLAB & \$1.6\\
-%  High performance computer & Research group MindLAB & \$20\\
-%  \hline
-%  Office supplies & Researcher & \$1.5\\
-%  Bibliography & Universidad Nacional de Colombia & \$1\\
-%  \hline
-%  \textbf{Total} & & \textbf{\$260.1}
-% \end{tabular} 
-% \end{table}
-% \textit{*Millions of colombian pesos (COP)}
+  Notebook & Researcher & \$2\\
+  Desktop computer & Research group MindLAB & \$1.6\\
+  High performance computer & Research group MindLAB & \$20\\
+  \hline
+  Office supplies & Researcher & \$1.5\\
+  Bibliography & Universidad Nacional de Colombia & \$1\\
+  \hline
+  \textbf{Total} & & \textbf{\$260.1}
+ \end{tabular} 
+ \end{table}
+ \textit{*Millions of colombian pesos (COP)}
 % 
 % 
 % 

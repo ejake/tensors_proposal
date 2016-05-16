@@ -4,15 +4,15 @@
 \contentsline {section}{\numberline {2}Tensor Decomposition}{4}
 \contentsline {paragraph}{Chemometrics}{5}
 \contentsline {paragraph}{Bioinformatics}{5}
-\contentsline {paragraph}{Image processing}{5}
-\contentsline {paragraph}{Machine Learning}{5}
-\contentsline {paragraph}{Text mining}{5}
+\contentsline {paragraph}{Image processing}{6}
+\contentsline {paragraph}{Machine Learning}{6}
+\contentsline {paragraph}{Text mining}{6}
 \contentsline {paragraph}{Numerical analysis}{6}
 \contentsline {paragraph}{Neuroscience}{6}
 \contentsline {paragraph}{Signal processing}{6}
 \contentsline {paragraph}{Other applications}{6}
-\contentsline {subsection}{\numberline {2.1}Tensor Factorization Methods}{6}
-\contentsline {subsubsection}{\numberline {2.1.1}Canonica Polyadic Decomposition / PARAFAC}{6}
+\contentsline {subsection}{\numberline {2.1}Tensor Factorization Methods}{7}
+\contentsline {subsubsection}{\numberline {2.1.1}Canonica Polyadic Decomposition / PARAFAC}{7}
 \contentsline {subsubsection}{\numberline {2.1.2}TUCKER Decomposition}{7}
 \contentsline {subsubsection}{\numberline {2.1.3}Non-negative Tensor Factorization}{8}
 \contentsline {paragraph}{Non-negative Matrix Factorization}{8}
@@ -21,8 +21,11 @@
 \contentsline {subsection}{\numberline {2.2}Kernel methods}{9}
 \contentsline {section}{\numberline {3}Kernel Non-negative Matrix Factorization}{10}
 \contentsline {subsection}{\numberline {3.1}General problems}{10}
-\contentsline {subsection}{\numberline {3.2}Tensor completion}{10}
-\contentsline {section}{\numberline {4}Problem Statement}{11}
-\contentsline {section}{\numberline {5}Goals}{12}
+\contentsline {subsection}{\numberline {3.2}Blind Source Separation}{10}
+\contentsline {subsection}{\numberline {3.3}Tensor completion}{11}
+\contentsline {section}{\numberline {4}Problem Statement}{12}
+\contentsline {section}{\numberline {5}Goals}{13}
 \contentsline {section}{\numberline {6}Jusification}{13}
-\contentsline {section}{\numberline {7}Methodology}{13}
+\contentsline {section}{\numberline {7}Methodology}{14}
+\contentsline {section}{\numberline {8}Activities}{14}
+\contentsline {section}{\numberline {9}Schedule}{17}
