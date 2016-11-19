@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  14 MAY 2016 16:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  22 MAY 2016 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1037,17 +1037,7 @@ au-ral
  []
 
 [18] [19] [20] [21])
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.818   Notebook &
-                   Researcher & \$2\\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-
-Overfull \hbox (56.55092pt too wide) in paragraph at lines 809--827
+Overfull \hbox (49.68039pt too wide) in paragraph at lines 809--826
  [][] 
  []
 
@@ -1082,7 +1072,7 @@ blic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx17
 28.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/t
 exmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfti1200.pfb>
-Output written on tensorfactorization_propossal.pdf (22 pages, 638940 bytes).
+Output written on tensorfactorization_propossal.pdf (22 pages, 638942 bytes).
 PDF statistics:
  196 PDF objects out of 1000 (max. 8388607)
  131 compressed objects within 2 object streams
