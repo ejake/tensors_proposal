@@ -104,7 +104,16 @@ Engineering
 
 Data-driven unsupervised learning has been establishing itself as a critical component of scientific discovery in domains ranging from astrophysics to social sciences and computational journalism. It manifests itself, among many forms, through modeling, machine learning, data mining, pattern recognition, data analytics, anomaly detection, and visualization. Nowaday, have rised a high volume of multiway data since the widespread use of multisensor technology and natural multiway structure of multimedia data, such as images, video or audio. This context have highlighted the limitations of standard flat-view matrix models and the necessity to move toward more versatile data analysis tools. In that sense, multiway analysis is of paramount importance. Data analysis techniques using tensor decompositions are shown to have great flexibility in the choice of constraints which match data properties and extract more general latent components in the data than matrix-based methods.
 
-\subsection{Basics of tensors}
+Tensors (or multidimensional arrays) are higher order arrays which generalize the notion of vectors (first-order tensor) or matrices (second-order tensor). Information about a phenomenon or a system of interest can be obtained from different types of instruments, measurement techniques, experimental setups, and other types of sources. Hence, tensors raise from many fields. Given the rich characteristics of natural processes and environments, it is rare that a single acquisition method provides complete understanding thereof. The increasing availability of multiple data sets that contain information obtained using different acquisition methods, about the same system, introduces new degrees of freedom that raise questions beyond those related to analyzing each data set separately. If natural high-order arrays are treated as a matrix, information would be lost since lack the original multiway structure of the data.
+
+Multiway analysis enables one to effectively capture the multilinear structure of the data, which is usually available as a prior information about the data. Hence, the development of theory and algorithms for tensor decompositions (factorizations) has been an active area of study within the past decade  \cite{Kolda2009,Cichocki2015}.
+
+Recently there has been an increasing interest in the cross-fertilization of ideas coming from kernel methods and tensor-based data analysis. On the one hand it became apparent that machine learning algorithms can greatly benefit from the rich structure of tensor-based data representations. %[53, 42, 43, 24]." 
+Within transductive techniques, in particular, tensor completion and tensor recovery emerged as a useful higher order generalization of their matrix counterpart %[30, 19, 45, 44, 49, 33, 29, 10, 31]"
+
+This paper is organized as follow: Section \ref{sec:basic_tensors} introduce tensor definitions and some elemental operations over tensors. Later, section \ref{sec:tensor_apps} describe some outstanding applications where data are represented as a high-order tensor. Furthermore, section \ref{sec:tensor_methods} presents an overview of main tensor decomposition  methods. Section \ref{sec:kernel} describe kernel methods and tensor factorization approaches incorporating them. Finally, section \ref{sec:kerne_tensor} describe approaches addressing kernel-based tensor analysis and a brief discussion of challenges of reviewed methods in section \ref{sec:conclusion}.
+
+\subsection{Basics of tensors}\label{sec:basic_tensors}
 
 Tensors are multidimensional arrays, i.e. an $N$-way or $N$-order tensor is an element of tensor product of $N$ vector spaces, each of which has its own coordinate system. A first order tensor is a vector, a second order tensor is a matrix, tensors of higher order are called high-order tensors. The order (ways or modes) of a tensor is the number of dimensions. Figure \ref{fig:3tensor} represents a 3-order tensor $\mathcal{X}\in\mathbb{R}^{I\times J\times K}$.
 
@@ -191,6 +200,10 @@ $\mathcal{X}$ is a \textit{Rank-one} tensor if it is equal to the outer product 
 
 Ding and Wei \cite{Ding2015} present a fast algorithm for Hankel tensor-vector products. And \cite{Dourbal2016} a method of fast linear transform algorithm synthesis for an arbitrary tensor.
 
+
+\subsection{Common tensor analysis applications}\label{sec:tensor_apps}
+
+
 \section{Tensor Decomposition}
 
 % The tensor decomposition problem consists of break down a tensor in a 
@@ -199,7 +212,7 @@ Tensor decomposition originated with Hitchcock in 1927 \cite{Hitchcock1927}, and
 
 Tensor works had attention in 60s with Tucker (\cite{Tucker1963}, \cite{Tucker1964}, \cite{Tucker1966}) and Carroll and Chang \cite{Carroll1970} and Harshman in 1970 \cite{Harshman1970} with applications in psychometrics. In 1981 Appellof and Davidson \cite{Appellof1981} used tensor decomposition in chemometrics which have been an popular field of application of tensor decomposition since then.
 
-As shown figure \ref{fig:applications}, in last twenty years tensor decomposition applications have expanded to many fields such as signal processing, numberical linear algebra, computer vision, numerical analysis, neuroscience, data mining, graph analysis. Figure \ref{fig:applications} shows seminal papers which opened broad application fields to tensor decomposition, plot also shows the amount of documents published about these works according to Scopus.
+As shown figure \ref{fig:applications}, in last twenty years tensor decomposition applications have expanded to many fields such as signal processing, numberical linear algebra, computer vision, numerical analysis, neuroscience, data mining, graph analysis. Figure \ref{fig:applications} shows seminal papers which opened broad application fields to tensor decomposition, plot also shows the amount of documents published about these works according to Scopus (A plain search ).
 
 \begin{figure}[!ht]
 \centering
@@ -215,6 +228,20 @@ As shown figure \ref{fig:applications}, in last twenty years tensor decompositio
 
 
 % Extend applications descriptions and cite paper and survey Specific for each field.
+
+\paragraph{Datamining}
+
+Social network-analysis
+
+In online social networks, people tend to interact with each other in a variety of ways: they message each other, they post on each other’s pages, and so on. All these different means of interaction are different aspects of the same social network of people, and can be modeled as a three-mode tensor, a “data cube,” of (user, user, means of interaction \cite{Papalexakis2016}
+
+Recommendation systems, collaborative filtering
+
+3.1.3. Handling M issing V a lues. When dealing with real data, there are many reasons we can expect some elements to be missing. Whether because of corruption, faulty measurements, or incomplete information (e.g., in recommender systems), there is a need to equip our algorithms with the ability to handle missing data.\cite{Papalexakis2016}
+
+
+
+Data fusion is a common application of tensor 
 
 Kolda \cite{Kolda2009}, Acar \cite{Acar2009} and \cite{Comon2014} present an exhaustive and detailed review of fundamental decomposition methods and applications. Furthermore, \cite{Dartois2016} presents tensor properties as extension of estructural properties of matrices. On the other hand, Fanaee and Gama \cite{Fanaee-T2016} introduce an interdisciplinary survey about tensor-based anomaly detection.
 
@@ -300,6 +327,8 @@ where $a_r\in\mathbb{R}^I$, $b_r\in\mathbb{R}^J$, $c_r\in\mathbb{R}^K$ and $R$ i
 %figure
 
 Domanov \cite{Domanov2015} shows relaxed uniqueness conditions and algebraic algorithm for Canonical polyadic decomposition, as well as a reduction to generalized eigenvalue decomposition \cite{Domanov2014} and uniqueness properties \cite{Domanov2013} of third-order tensors.
+
+CP is one of the most popular tensor decompositions, in part due to its ease of interpretation \cite{Papalexakis2016}. Each rank-one component of the decomposition serves as a latent “concept” or cluster in the data. The factor vectors for component r can be interpreted as soft membership to the r-th latent cluster. As Harshman [1970] stated when he introduced CP,this is an explanatory model.
 
 
 \subsubsection{TUCKER Decomposition}

@@ -1,31 +1,31 @@
 \contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {subsection}{\numberline {1.1}Basics of tensors}{3}
-\contentsline {subsubsection}{\numberline {1.1.1}Unfolding and Folding Tensors}{4}
-\contentsline {section}{\numberline {2}Tensor Decomposition}{4}
-\contentsline {paragraph}{Chemometrics}{5}
-\contentsline {paragraph}{Bioinformatics}{5}
+\contentsline {subsection}{\numberline {1.1}Basics of tensors}{4}
+\contentsline {subsubsection}{\numberline {1.1.1}Unfolding and Folding Tensors}{5}
+\contentsline {section}{\numberline {2}Tensor Decomposition}{5}
+\contentsline {paragraph}{Chemometrics}{6}
+\contentsline {paragraph}{Bioinformatics}{6}
 \contentsline {paragraph}{Image processing}{6}
 \contentsline {paragraph}{Machine Learning}{6}
 \contentsline {paragraph}{Text mining}{6}
 \contentsline {paragraph}{Numerical analysis}{6}
-\contentsline {paragraph}{Neuroscience}{6}
-\contentsline {paragraph}{Signal processing}{6}
-\contentsline {paragraph}{Other applications}{6}
+\contentsline {paragraph}{Neuroscience}{7}
+\contentsline {paragraph}{Signal processing}{7}
+\contentsline {paragraph}{Other applications}{7}
 \contentsline {subsection}{\numberline {2.1}Tensor Factorization Methods}{7}
 \contentsline {subsubsection}{\numberline {2.1.1}Canonica Polyadic Decomposition / PARAFAC}{7}
-\contentsline {subsubsection}{\numberline {2.1.2}TUCKER Decomposition}{7}
+\contentsline {subsubsection}{\numberline {2.1.2}TUCKER Decomposition}{8}
 \contentsline {subsubsection}{\numberline {2.1.3}Non-negative Tensor Factorization}{8}
 \contentsline {paragraph}{Non-negative Matrix Factorization}{8}
-\contentsline {paragraph}{Non-negative Tensor Factorization}{8}
+\contentsline {paragraph}{Non-negative Tensor Factorization}{9}
 \contentsline {subsubsection}{\numberline {2.1.4}Other methods}{9}
-\contentsline {subsection}{\numberline {2.2}Kernel methods}{9}
-\contentsline {section}{\numberline {3}Kernel Non-negative Matrix Factorization}{10}
-\contentsline {subsection}{\numberline {3.1}General problems}{10}
-\contentsline {subsection}{\numberline {3.2}Blind Source Separation}{10}
+\contentsline {subsection}{\numberline {2.2}Kernel methods}{10}
+\contentsline {section}{\numberline {3}Kernel Non-negative Matrix Factorization}{11}
+\contentsline {subsection}{\numberline {3.1}General problems}{11}
+\contentsline {subsection}{\numberline {3.2}Blind Source Separation}{11}
 \contentsline {subsection}{\numberline {3.3}Tensor completion}{11}
-\contentsline {section}{\numberline {4}Problem Statement}{12}
+\contentsline {section}{\numberline {4}Problem Statement}{13}
 \contentsline {section}{\numberline {5}Goals}{13}
-\contentsline {section}{\numberline {6}Jusification}{13}
+\contentsline {section}{\numberline {6}Jusification}{14}
 \contentsline {section}{\numberline {7}Methodology}{14}
-\contentsline {section}{\numberline {8}Activities}{14}
+\contentsline {section}{\numberline {8}Activities}{15}
 \contentsline {section}{\numberline {9}Schedule}{17}

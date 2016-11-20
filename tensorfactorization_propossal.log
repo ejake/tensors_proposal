@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  22 MAY 2016 13:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  18 NOV 2016 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -796,6 +796,30 @@ rted-to.pdf>]
 
 
 ]
+
+LaTeX Warning: Reference `sec:basic_tensors' on page 3 undefined on input line 
+114.
+
+
+LaTeX Warning: Reference `sec:tensor_apps' on page 3 undefined on input line 11
+5.
+
+
+LaTeX Warning: Reference `sec:tensor_methods' on page 3 undefined on input line
+ 115.
+
+
+LaTeX Warning: Reference `sec:kernel' on page 3 undefined on input line 115.
+
+
+LaTeX Warning: Reference `sec:kerne_tensor' on page 3 undefined on input line 1
+15.
+
+
+LaTeX Warning: Reference `sec:conclusion' on page 3 undefined on input line 115
+.
+
+[3]
 Package epstopdf Info: Source file: <Images/3rd-order_tensor.eps>
 (epstopdf)                    date: 2016-03-25 09:21:59
 (epstopdf)                    size: 55496 bytes
@@ -805,15 +829,15 @@ df>
 (epstopdf)                    size: 14317 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order_tensor-ep
 s-converted-to.pdf Images/3rd-order_tensor.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 123.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/3rd-order_tensor-eps-converted-to.pdf, id=19, 447.6725pt x 297.11pt>
+<Images/3rd-order_tensor-eps-converted-to.pdf, id=22, 447.6725pt x 297.11pt>
 File: Images/3rd-order_tensor-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/3rd-order_tensor-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3rd-order_tensor-eps-converted-to.pdf used on i
-nput line 113.
+nput line 123.
 (pdftex.def)             Requested size: 179.06583pt x 118.84189pt.
 Package epstopdf Info: Source file: <Images/3rd-order-tensor-fiber_mode-1.eps>
 (epstopdf)                    date: 2016-03-25 11:46:41
@@ -824,16 +848,16 @@ onverted-to.pdf>
 (epstopdf)                    size: 27534 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order-tensor-fi
 ber_mode-1-eps-converted-to.pdf Images/3rd-order-tensor-fiber_mode-1.eps>
-(epstopdf)             \includegraphics on input line 122.
+(epstopdf)             \includegraphics on input line 132.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/3rd-order-tensor-fiber_mode-1-eps-converted-to.pdf, id=20, 278.03876pt 
+<Images/3rd-order-tensor-fiber_mode-1-eps-converted-to.pdf, id=23, 278.03876pt 
 x 305.14pt>
 File: Images/3rd-order-tensor-fiber_mode-1-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use Images/3rd-order-tensor-fiber_mode-1-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3rd-order-tensor-fiber_mode-1-eps-converted-to.
-pdf used on input line 122.
+pdf used on input line 132.
 (pdftex.def)             Requested size: 125.74689pt x 138.00546pt.
 Package epstopdf Info: Source file: <Images/3rd-order-tensor-fiber_mode-2.eps>
 (epstopdf)                    date: 2016-03-25 11:47:28
@@ -844,16 +868,16 @@ onverted-to.pdf>
 (epstopdf)                    size: 26966 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order-tensor-fi
 ber_mode-2-eps-converted-to.pdf Images/3rd-order-tensor-fiber_mode-2.eps>
-(epstopdf)             \includegraphics on input line 126.
+(epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/3rd-order-tensor-fiber_mode-2-eps-converted-to.pdf, id=21, 305.14pt x 2
+<Images/3rd-order-tensor-fiber_mode-2-eps-converted-to.pdf, id=24, 305.14pt x 2
 76.03125pt>
 File: Images/3rd-order-tensor-fiber_mode-2-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use Images/3rd-order-tensor-fiber_mode-2-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3rd-order-tensor-fiber_mode-2-eps-converted-to.
-pdf used on input line 126.
+pdf used on input line 136.
 (pdftex.def)             Requested size: 143.09538pt x 129.44829pt.
 Package epstopdf Info: Source file: <Images/3rd-order-tensor-fiber_mode-3.eps>
 (epstopdf)                    date: 2016-03-25 11:48:55
@@ -864,16 +888,16 @@ onverted-to.pdf>
 (epstopdf)                    size: 43077 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order-tensor-fi
 ber_mode-3-eps-converted-to.pdf Images/3rd-order-tensor-fiber_mode-3.eps>
-(epstopdf)             \includegraphics on input line 130.
+(epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.pdf, id=22, 319.1925pt x
+<Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.pdf, id=25, 319.1925pt x
  289.08pt>
 File: Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.pdf>
 Package pdftex.def Info: Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.
-pdf used on input line 130.
+pdf used on input line 140.
 (pdftex.def)             Requested size: 143.09538pt x 129.59517pt.
 Package epstopdf Info: Source file: <Images/slices-frontal.eps>
 (epstopdf)                    date: 2016-04-16 08:12:42
@@ -884,15 +908,15 @@ Package epstopdf Info: Source file: <Images/slices-frontal.eps>
 (epstopdf)                    size: 6954 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/slices-frontal-eps-
 converted-to.pdf Images/slices-frontal.eps>
-(epstopdf)             \includegraphics on input line 141.
+(epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/slices-frontal-eps-converted-to.pdf, id=23, 440.64626pt x 361.35pt>
+<Images/slices-frontal-eps-converted-to.pdf, id=26, 440.64626pt x 361.35pt>
 File: Images/slices-frontal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/slices-frontal-eps-converted-to.pdf>
 Package pdftex.def Info: Images/slices-frontal-eps-converted-to.pdf used on inp
-ut line 141.
+ut line 151.
 (pdftex.def)             Requested size: 125.74689pt x 103.11815pt.
 Package epstopdf Info: Source file: <Images/slices-horizontal.eps>
 (epstopdf)                    date: 2016-04-16 08:13:05
@@ -903,15 +927,15 @@ pdf>
 (epstopdf)                    size: 35381 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/slices-horizontal-e
 ps-converted-to.pdf Images/slices-horizontal.eps>
-(epstopdf)             \includegraphics on input line 145.
+(epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/slices-horizontal-eps-converted-to.pdf, id=24, 440.64626pt x 361.35pt>
+<Images/slices-horizontal-eps-converted-to.pdf, id=27, 440.64626pt x 361.35pt>
 File: Images/slices-horizontal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/slices-horizontal-eps-converted-to.pdf>
 Package pdftex.def Info: Images/slices-horizontal-eps-converted-to.pdf used on 
-input line 145.
+input line 155.
 (pdftex.def)             Requested size: 143.09538pt x 117.34361pt.
 Package epstopdf Info: Source file: <Images/slices-vertical.eps>
 (epstopdf)                    date: 2016-04-16 08:13:30
@@ -922,21 +946,20 @@ f>
 (epstopdf)                    size: 22827 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/slices-vertical-eps
 -converted-to.pdf Images/slices-vertical.eps>
-(epstopdf)             \includegraphics on input line 149.
+(epstopdf)             \includegraphics on input line 159.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/slices-vertical-eps-converted-to.pdf, id=25, 440.64626pt x 361.35pt>
+<Images/slices-vertical-eps-converted-to.pdf, id=28, 440.64626pt x 361.35pt>
 File: Images/slices-vertical-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/slices-vertical-eps-converted-to.pdf>
 Package pdftex.def Info: Images/slices-vertical-eps-converted-to.pdf used on in
-put line 149.
+put line 159.
 (pdftex.def)             Requested size: 143.09538pt x 117.34361pt.
- [3 <./Images/3rd-order_tensor-eps-converted-to.pdf>] [4 <./Images/3rd-order-te
-nsor-fiber_mode-1-eps-converted-to.pdf> <./Images/3rd-order-tensor-fiber_mode-2
--eps-converted-to.pdf> <./Images/3rd-order-tensor-fiber_mode-3-eps-converted-to
-.pdf> <./Images/slices-frontal-eps-converted-to.pdf> <./Images/slices-horizonta
-l-eps-converted-to.pdf> <./Images/slices-vertical-eps-converted-to.pdf>]
+ [4 <./Images/3rd-order_tensor-eps-converted-to.pdf> <./Images/3rd-order-tensor
+-fiber_mode-1-eps-converted-to.pdf> <./Images/3rd-order-tensor-fiber_mode-2-eps
+-converted-to.pdf> <./Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.pdf
+>]
 Package epstopdf Info: Source file: <Images/time-line.eps>
 (epstopdf)                    date: 2016-04-16 08:35:24
 (epstopdf)                    size: 185062 bytes
@@ -945,28 +968,30 @@ Package epstopdf Info: Source file: <Images/time-line.eps>
 (epstopdf)                    size: 86418 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/time-line-eps-conve
 rted-to.pdf Images/time-line.eps>
-(epstopdf)             \includegraphics on input line 206.
+(epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/time-line-eps-converted-to.pdf, id=68, 901.3675pt x 433.62pt>
+<Images/time-line-eps-converted-to.pdf, id=57, 901.3675pt x 433.62pt>
 File: Images/time-line-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/time-line-eps-converted-to.pdf>
 Package pdftex.def Info: Images/time-line-eps-converted-to.pdf used on input li
-ne 206.
+ne 216.
 (pdftex.def)             Requested size: 450.68263pt x 216.80946pt.
 
-Overfull \hbox (17.06262pt too wide) in paragraph at lines 206--207
+Overfull \hbox (17.06262pt too wide) in paragraph at lines 216--217
  [][] 
  []
 
 
-Overfull \hbox (9.68416pt too wide) in paragraph at lines 219--220
+Overfull \hbox (9.68416pt too wide) in paragraph at lines 229--230
 \T1/cmr/m/n/12 Fanaee and Gama [[]] in-tro-duce an in-ter-dis-ci-plinary sur-ve
 y about tensor-based anomaly
  []
 
-[5 <./Images/time-line-eps-converted-to.pdf>]
+[5 <./Images/slices-frontal-eps-converted-to.pdf> <./Images/slices-horizontal-e
+ps-converted-to.pdf> <./Images/slices-vertical-eps-converted-to.pdf>] [6 <./Ima
+ges/time-line-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images/tensor_decomposition_methods.eps>
 (epstopdf)                    date: 2016-03-26 07:28:22
 (epstopdf)                    size: 211728 bytes
@@ -976,48 +1001,52 @@ nverted-to.pdf>
 (epstopdf)                    size: 61419 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/tensor_decompositio
 n_methods-eps-converted-to.pdf Images/tensor_decomposition_methods.eps>
-(epstopdf)             \includegraphics on input line 284.
+(epstopdf)             \includegraphics on input line 294.
 Package epstopdf Info: Output file is already uptodate.
 
-<Images/tensor_decomposition_methods-eps-converted-to.pdf, id=75, 922.44624pt x
+<Images/tensor_decomposition_methods-eps-converted-to.pdf, id=78, 922.44624pt x
  567.11874pt>
 File: Images/tensor_decomposition_methods-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use Images/tensor_decomposition_methods-eps-converted-to.pdf>
 Package pdftex.def Info: Images/tensor_decomposition_methods-eps-converted-to.p
-df used on input line 284.
+df used on input line 294.
 (pdftex.def)             Requested size: 461.22198pt x 283.55867pt.
 
-Overfull \hbox (27.60197pt too wide) in paragraph at lines 284--285
+Overfull \hbox (27.60197pt too wide) in paragraph at lines 294--295
  [][][] 
  []
 
-[6] [7 <./Images/tensor_decomposition_methods-eps-converted-to.pdf>] [8]
-[9]
+[7] [8 <./Images/tensor_decomposition_methods-eps-converted-to.pdf>] [9]
 
 LaTeX Warning: Citation `kwok2004preimage' on page 10 undefined on input line 4
-06.
+16.
+
+[10]
+
+LaTeX Warning: Reference `Cichocki2009' on page 11 undefined on input line 447.
 
 
-LaTeX Warning: Reference `Cichocki2009' on page 10 undefined on input line 437.
-
-
-[10] [11]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 511.
+[11] [12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 521.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 511.
- [12]
-[13] [14]
-Overfull \hbox (2.77002pt too wide) in paragraph at lines 622--622
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 521.
+ [13]
+[14] [15]
+Overfull \hbox (2.77002pt too wide) in paragraph at lines 632--632
 []\T1/cmr/bx/n/14.4 WP2: Eval-u-a-tion of strate-gies for com-bin-ing kernel-ba
 sed meth-
  []
 
-[15] [16] (./tensorfactorization_propossal.bbl
+[16]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./tensorfactorization_propossal.bbl
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -1030,27 +1059,27 @@ l.1 \begin{thebibliography}{10}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[17]
+[17] [18]
 Underfull \hbox (badness 1152) in paragraph at lines 65--70
 \T1/cmr/m/n/12 ten-sor fac-tori-sa-tion of mod-u-la-tion spec-tro-grams for mon
 au-ral
  []
 
-[18] [19] [20] [21])
-Overfull \hbox (49.68039pt too wide) in paragraph at lines 809--826
+[19] [20] [21] [22])
+Overfull \hbox (49.68039pt too wide) in paragraph at lines 819--836
  [][] 
  []
 
-[22] (./tensorfactorization_propossal.aux)
+[23] (./tensorfactorization_propossal.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12851 strings out of 493304
- 230799 string characters out of 6139871
- 316766 words of memory out of 5000000
- 16015 multiletter control sequences out of 15000+600000
+ 12857 strings out of 493304
+ 230901 string characters out of 6139871
+ 316767 words of memory out of 5000000
+ 16021 multiletter control sequences out of 15000+600000
  17712 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  56i,17n,55p,1281b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1072,10 +1101,10 @@ blic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx17
 28.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/t
 exmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/pub
 lic/cm-super/sfti1200.pfb>
-Output written on tensorfactorization_propossal.pdf (22 pages, 638942 bytes).
+Output written on tensorfactorization_propossal.pdf (23 pages, 641134 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
+ 199 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
