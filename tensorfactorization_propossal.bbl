@@ -61,6 +61,11 @@ Javier Arnedo, Daniel Mamah, David~A Baranger, Michael~P Harms, Deanna~M Barch,
   schizophrenias with distinct patterns of white matter anisotropy.}
 \newblock {\em NeuroImage}, 120:43--54, oct 2015.
 
+\bibitem{Ballani2013}
+Jonas Ballani, Lars Grasedyck, and Melanie Kluge.
+\newblock {Black box approximation of tensors in hierarchical Tucker format}.
+\newblock {\em Linear Algebra and its Applications}, 438(2):639--657, 2013.
+
 \bibitem{Barker2014}
 Tom Barker and Tuomas Virtanen.
 \newblock {Semi-supervised non-negative tensor factorisation of modulation
@@ -85,6 +90,11 @@ Peter Benner, Venera Khoromskaia, and Boris~N. Khoromskij.
 A.~Bernardi, J.~Brachat, P.~Comon, and B.~Mourrain.
 \newblock {General tensor decomposition, moment matrices and applications}.
 \newblock {\em Journal of Symbolic Computation}, 52:51--71, may 2013.
+
+\bibitem{Bhadra2016}
+Sahely Bhadra, Samuel Kaski, and Juho Rousu.
+\newblock {Multi-view Kernel Completion}.
+\newblock feb 2016.
 
 \bibitem{Bilen2016}
 Cagdas Bilen, Alexey Ozerov, and Patrick P{\'{e}}rez.
@@ -219,6 +229,18 @@ M~Figueiredo.
 D.~Fitzgerald, M.~Cranitch, and E.~Coyle.
 \newblock {Shifted 2D Non-negative Tensor Factorisation}, 2006.
 
+\bibitem{Hackbusch2009}
+W.~Hackbusch and S.~K{\"{u}}hn.
+\newblock {A New Scheme for the Tensor Representation}.
+\newblock {\em Journal of Fourier Analysis and Applications}, 15(5):706--722,
+  oct 2009.
+
+\bibitem{Hardoon2010}
+David~R. Hardoon and John Shawe-Taylor.
+\newblock {Decomposing the tensor kernel support vector machine for
+  neuroscience data with structured labels}.
+\newblock {\em Machine Learning}, 79(1-2):29--46, may 2010.
+
 \bibitem{Harshman1970}
 RA~Harshman.
 \newblock {Foundations of the PARAFAC procedure: Models and conditions for an"
@@ -273,23 +295,22 @@ J~M{\"{o}}cks.
 \newblock {\em IEEE transactions on bio-medical engineering}, 35(6):482--4, jun
   1988.
 
-\bibitem{Morup2011}
-Morten M{\o}rup.
-\newblock {Applications of tensor (multiway array) factorizations and
-  decompositions in data mining}.
-\newblock {\em Wiley Interdisciplinary Reviews: Data Mining and Knowledge
-  Discovery}, 1(1):24--40, jan 2011.
-
-\bibitem{Morup2008}
-Morten M{\o}rup, Lars~Kai Hansen, and Sidse~M Arnfred.
-\newblock {Algorithms for sparse nonnegative Tucker decompositions.}
-\newblock {\em Neural computation}, 20(8):2112--31, aug 2008.
+\bibitem{Papalexakis2016}
+Evangelos~E. Papalexakis, Christos Faloutsos, and Nicholas~D. Sidiropoulos.
+\newblock {Tensors for Data Mining and Data Fusion}.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology},
+  8(2):1--44, oct 2016.
 
 \bibitem{Rosipal2001}
 Roman Rosipal, Mark Girolami, Leonard~J. Trejo, and Andrzej Cichocki.
 \newblock {Kernel PCA for Feature Extraction and De-Noising in Nonlinear
   Regression}.
 \newblock {\em Neural Computing {\&} Applications}, 10(3):231--243, dec 2001.
+
+\bibitem{Seung1999}
+H.~Sebastian Seung and Daniel~D. Lee.
+\newblock {Learning the parts of objects by non-negative matrix factorization}.
+\newblock {\em Nature}, 401(6755):788--791, oct 1999.
 
 \bibitem{Shashua2005}
 Amnon Shashua and Tamir Hazan.
@@ -303,6 +324,24 @@ Amnon Shashua and Tamir Hazan.
 John Shawe-Taylor and Nello Cristianini.
 \newblock {\em {Kernel Methods for Pattern Analysis}}.
 \newblock Cambridge University Press, 2004.
+
+\bibitem{Signoretto2013}
+Marco Signoretto, Lieven {De Lathauwer}, and Johan A.~K. Suykens.
+\newblock {Learning Tensors in Reproducing Kernel Hilbert Spaces with
+  Multilinear Spectral Penalties}.
+\newblock oct 2013.
+
+\bibitem{Signoretto2011}
+Marco Signoretto, Lieven {De Lathauwer}, and Johan~A.K. Suykens.
+\newblock {A kernel-based framework to tensorial data analysis}.
+\newblock {\em Neural Networks}, 24(8):861--874, 2011.
+
+\bibitem{Signoretto2012}
+Marco Signoretto, Emanuele Olivetti, Lieven {De Lathauwer}, and Johan A.~K.
+  Suykens.
+\newblock {Classification of Multichannel Signals With Cumulant-Based Kernels}.
+\newblock {\em IEEE Transactions on Signal Processing}, 60(5):2304--2314, may
+  2012.
 
 \bibitem{Tucker1966}
 Ledyard~R Tucker.
@@ -345,5 +384,11 @@ S~Zafeiriou and M~Petrou.
   procedure: algorithms, convergence, probabilistic interpretations and novel
   probabilistic tensor}.
 \newblock {\em Data Mining and Knowledge Discovery}, 2011.
+
+\bibitem{Zhao2013}
+Qibin Zhao, Guoxu Zhou, Tulay Adali, Liqing Zhang, and Andrzej Cichocki.
+\newblock {Kernelization of Tensor-Based Models for Multiway Data Analysis:
+  Processing of Multidimensional Structured Data}.
+\newblock {\em IEEE Signal Processing Magazine}, 30(4):137--148, jul 2013.
 
 \end{thebibliography}

@@ -51,6 +51,17 @@ url = {http://www.sciencedirect.com/science/article/pii/S0169743910001437},
 volume = {106},
 year = {2011}
 }
+@article{Acar2011a,
+abstract = {Joint analysis of data from multiple sources has the potential to improve our understanding of the underlying structures in complex data sets. For instance, in restaurant recommendation systems, recommendations can be based on rating histories of customers. In addition to rating histories, customers' social networks (e.g., Facebook friendships) and restaurant categories information (e.g., Thai or Italian) can also be used to make better recommendations. The task of fusing data, however, is challenging since data sets can be incomplete and heterogeneous, i.e., data consist of both matrices, e.g., the person by person social network matrix or the restaurant by category matrix, and higher-order tensors, e.g., the "ratings" tensor of the form restaurant by meal by person. In this paper, we are particularly interested in fusing data sets with the goal of capturing their underlying latent structures. We formulate this problem as a coupled matrix and tensor factorization (CMTF) problem where heterogeneous data sets are modeled by fitting outer-product models to higher-order tensors and matrices in a coupled manner. Unlike traditional approaches solving this problem using alternating algorithms, we propose an all-at-once optimization approach called CMTF-OPT (CMTF-OPTimization), which is a gradient-based optimization approach for joint analysis of matrices and higher-order tensors. We also extend the algorithm to handle coupled incomplete data sets. Using numerical experiments, we demonstrate that the proposed all-at-once approach is more accurate than the alternating least squares approach.},
+archivePrefix = {arXiv},
+arxivId = {1105.3422},
+author = {Acar, Evrim and Kolda, Tamara G. and Dunlavy, Daniel M.},
+eprint = {1105.3422},
+month = {may},
+title = {{All-at-once Optimization for Coupled Matrix and Tensor Factorizations}},
+url = {http://arxiv.org/abs/1105.3422},
+year = {2011}
+}
 @article{Acar2014,
 abstract = {BACKGROUND: Analysis of data from multiple sources has the potential to enhance knowledge discovery by capturing underlying structures, which are, otherwise, difficult to extract. Fusing data from multiple sources has already proved useful in many applications in social network analysis, signal processing and bioinformatics. However, data fusion is challenging since data from multiple sources are often (i) heterogeneous (i.e., in the form of higher-order tensors and matrices), (ii) incomplete, and (iii) have both shared and unshared components. In order to address these challenges, in this paper, we introduce a novel unsupervised data fusion model based on joint factorization of matrices and higher-order tensors.
 
@@ -195,6 +206,19 @@ month = {feb},
 title = {{Reinforcement Learning of POMDP's using Spectral Methods}},
 url = {http://arxiv.org/abs/1602.07764},
 year = {2016}
+}
+@article{Ballani2013,
+abstract = {We derive and analyse a scheme for the approximation of order d tensors A∈Rn1×⋯×nd in the hierarchical (H-) Tucker format, a dimension-multilevel variant of the Tucker format and strongly related to the TT (tensor train) format. For a fixed rank parameter k, the storage complexity of a tensor in H-Tucker format is Odk3+k∑i=1dni and we present a (heuristic) algorithm that finds an approximation to a tensor in the H-Tucker format in Odk4+log(d)k2∑i=1dni by inspection of only Odk3+log(d)k2∑i=1dni entries. Under mild assumptions, tensors in the H-Tucker format are reconstructed. For general tensors we derive error bounds that are based on the approximability of matrices (matricizations of the tensor) by few outer products of its rows and columns. The construction parallelizes with respect to the order d and we also propose an adaptive approach that aims at finding the rank parameter for a given target accuracy $\epsilon$ automatically.},
+author = {Ballani, Jonas and Grasedyck, Lars and Kluge, Melanie},
+doi = {10.1016/j.laa.2011.08.010},
+issn = {00243795},
+journal = {Linear Algebra and its Applications},
+number = {2},
+pages = {639--657},
+publisher = {North-Holland},
+title = {{Black box approximation of tensors in hierarchical Tucker format}},
+volume = {438},
+year = {2013}
 }
 @article{Barker2013,
 annote = {Single source audio separation by NMF or NTF},
@@ -775,24 +799,6 @@ title = {{Canonical polyadic decomposition of third-order tensors: reduction to 
 url = {http://epubs.siam.org/doi/abs/10.1137/130916084},
 year = {2014}
 }
-@article{Domanov2013,
-abstract = {Canonical polyadic (also known as Candecomp/Parafac) decomposition (CPD) of a higher-order tensor is decomposition into a minimal number of rank-{\$}1{\$} tensors. In Part I, we gave an overview of existing results concerning uniqueness and presented new, relaxed, conditions that guarantee uniqueness of one factor matrix. In Part II we use these results for establishing overall CPD uniqueness in cases where none of the factor matrices has full column rank. We obtain uniqueness conditions involving Khatri--Rao products of compound matrices and Kruskal-type conditions. We consider both deterministic and generic uniqueness. We also discuss uniqueness of INDSCAL and other constrained polyadic decompositions.},
-author = {Domanov, Ignat and {De Lathauwer}, Lieven},
-doi = {10.1137/120877258},
-file = {:home/ajaque/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Domanov, De Lathauwer - 2013 - On the Uniqueness of the Canonical Polyadic Decomposition of Third-Order Tensors---Part II Uniqueness of.pdf:pdf},
-issn = {0895-4798},
-journal = {SIAM Journal on Matrix Analysis and Applications},
-keywords = {15A23,15A69,Candecomp,Khatri--Rao product,Parafac,canonical polyadic decomposition,compound matrix,multilinear algebra,tensor,three-way array},
-language = {en},
-month = {jul},
-number = {3},
-pages = {876--903},
-publisher = {Society for Industrial and Applied Mathematics},
-title = {{On the Uniqueness of the Canonical Polyadic Decomposition of Third-Order Tensors---Part II: Uniqueness of the Overall Decomposition}},
-url = {http://epubs.siam.org/doi/abs/10.1137/120877258},
-volume = {34},
-year = {2013}
-}
 @article{Domanov2013a,
 abstract = {Canonical polyadic decomposition (CPD) of a higher-order tensor is decomposition into a minimal number of rank-{\$}1{\$} tensors. We give an overview of existing results concerning uniqueness. We present new, relaxed, conditions that guarantee uniqueness of one factor matrix. These conditions involve Khatri--Rao products of compound matrices. We make links with existing results involving ranks and k-ranks of factor matrices. We give a shorter proof, based on properties of second compound matrices, of existing results concerning overall CPD uniqueness in the case where one factor matrix has full column rank. We develop basic material involving {\$}m{\$}th compound matrices that will be instrumental in Part II for establishing overall CPD uniqueness in cases where none of the factor matrices has full column rank.},
 annote = {comparing advantage of tensors (multilinear algebra) with matrices (linear algebra)},
@@ -809,6 +815,24 @@ pages = {855--875},
 publisher = {Society for Industrial and Applied Mathematics},
 title = {{On the Uniqueness of the Canonical Polyadic Decomposition of Third-Order Tensors---Part I: Basic Results and Uniqueness of One Factor Matrix}},
 url = {http://epubs.siam.org/doi/abs/10.1137/120877234},
+volume = {34},
+year = {2013}
+}
+@article{Domanov2013,
+abstract = {Canonical polyadic (also known as Candecomp/Parafac) decomposition (CPD) of a higher-order tensor is decomposition into a minimal number of rank-{\$}1{\$} tensors. In Part I, we gave an overview of existing results concerning uniqueness and presented new, relaxed, conditions that guarantee uniqueness of one factor matrix. In Part II we use these results for establishing overall CPD uniqueness in cases where none of the factor matrices has full column rank. We obtain uniqueness conditions involving Khatri--Rao products of compound matrices and Kruskal-type conditions. We consider both deterministic and generic uniqueness. We also discuss uniqueness of INDSCAL and other constrained polyadic decompositions.},
+author = {Domanov, Ignat and {De Lathauwer}, Lieven},
+doi = {10.1137/120877258},
+file = {:home/ajaque/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Domanov, De Lathauwer - 2013 - On the Uniqueness of the Canonical Polyadic Decomposition of Third-Order Tensors---Part II Uniqueness of.pdf:pdf},
+issn = {0895-4798},
+journal = {SIAM Journal on Matrix Analysis and Applications},
+keywords = {15A23,15A69,Candecomp,Khatri--Rao product,Parafac,canonical polyadic decomposition,compound matrix,multilinear algebra,tensor,three-way array},
+language = {en},
+month = {jul},
+number = {3},
+pages = {876--903},
+publisher = {Society for Industrial and Applied Mathematics},
+title = {{On the Uniqueness of the Canonical Polyadic Decomposition of Third-Order Tensors---Part II: Uniqueness of the Overall Decomposition}},
+url = {http://epubs.siam.org/doi/abs/10.1137/120877258},
 volume = {34},
 year = {2013}
 }
@@ -1124,6 +1148,20 @@ title = {{A novel methodology for prediction of spatial-temporal activities usin
 volume = {62},
 year = {2017}
 }
+@article{Hackbusch2009,
+author = {Hackbusch, W. and K{\"{u}}hn, S.},
+doi = {10.1007/s00041-009-9094-9},
+issn = {1069-5869},
+journal = {Journal of Fourier Analysis and Applications},
+month = {oct},
+number = {5},
+pages = {706--722},
+publisher = {SP Birkh{\"{a}}user Verlag Boston},
+title = {{A New Scheme for the Tensor Representation}},
+url = {http://link.springer.com/10.1007/s00041-009-9094-9},
+volume = {15},
+year = {2009}
+}
 @inproceedings{Haeffele2014,
 author = {Haeffele, Benjamin and Young, Eric and Vidal, Rene},
 booktitle = {Proceedings of the 31st International Conference on Machine Learning (ICML-14)},
@@ -1184,21 +1222,20 @@ title = {{Nonnegative Tensor Decomposition}},
 url = {http://link.springer.com/10.1007/978-3-642-38398-4},
 year = {2014}
 }
-@article{Hardoon2009,
+@article{Hardoon2010a,
 author = {Hardoon, David R. and Shawe-Taylor, John},
 doi = {10.1007/s10994-009-5159-x},
 file = {:home/ajaque/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Hardoon, Shawe-Taylor - 2010 - Decomposing the tensor kernel support vector machine for neuroscience data with structured labels.pdf:pdf},
 issn = {0885-6125},
 journal = {Machine Learning},
-keywords = {kernel,tensor},
-mendeley-tags = {kernel,tensor},
-month = {dec},
+month = {may},
 number = {1-2},
 pages = {29--46},
+publisher = {Springer US},
 title = {{Decomposing the tensor kernel support vector machine for neuroscience data with structured labels}},
 url = {http://link.springer.com/10.1007/s10994-009-5159-x},
 volume = {79},
-year = {2009}
+year = {2010}
 }
 @article{Hardoon2010,
 annote = {This work address tensor analysis tasks with kernels.},
@@ -1216,20 +1253,21 @@ url = {http://link.springer.com/10.1007/s10994-009-5159-x},
 volume = {79},
 year = {2010}
 }
-@article{Hardoon2010a,
+@article{Hardoon2009,
 author = {Hardoon, David R. and Shawe-Taylor, John},
 doi = {10.1007/s10994-009-5159-x},
 file = {:home/ajaque/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Hardoon, Shawe-Taylor - 2010 - Decomposing the tensor kernel support vector machine for neuroscience data with structured labels.pdf:pdf},
 issn = {0885-6125},
 journal = {Machine Learning},
-month = {may},
+keywords = {kernel,tensor},
+mendeley-tags = {kernel,tensor},
+month = {dec},
 number = {1-2},
 pages = {29--46},
-publisher = {Springer US},
 title = {{Decomposing the tensor kernel support vector machine for neuroscience data with structured labels}},
 url = {http://link.springer.com/10.1007/s10994-009-5159-x},
 volume = {79},
-year = {2010}
+year = {2009}
 }
 @article{Harshman1970,
 author = {Harshman, RA},
@@ -2560,6 +2598,16 @@ title = {{Mining Online Social Data for Detecting Social Network Mental Disorder
 url = {http://dl.acm.org/citation.cfm?id=2872427.2882996},
 year = {2016}
 }
+@incollection{Signoretto2010,
+author = {Signoretto, Marco and {De Lathauwer}, Lieven and Suykens, Johan A. K.},
+doi = {10.1007/978-3-642-15822-3_7},
+file = {:home/ajaque/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Signoretto, De Lathauwer, Suykens - 2010 - Kernel-Based Learning from Infinite Dimensional 2-Way Tensors.pdf:pdf},
+pages = {59--69},
+publisher = {Springer Berlin Heidelberg},
+title = {{Kernel-Based Learning from Infinite Dimensional 2-Way Tensors}},
+url = {http://link.springer.com/10.1007/978-3-642-15822-3{\_}7},
+year = {2010}
+}
 @article{Signoretto2013,
 abstract = {We present a general framework to learn functions in tensor product reproducing kernel Hilbert spaces (TP-RKHSs). The methodology is based on a novel representer theorem suitable for existing as well as new spectral penalties for tensors. When the functions in the TP-RKHS are defined on the Cartesian product of finite discrete sets, in particular, our main problem formulation admits as a special case existing tensor completion problems. Other special cases include transfer learning with multimodal side information and multilinear multitask learning. For the latter case, our kernel-based view is instrumental to derive nonlinear extensions of existing model classes. We give a novel algorithm and show in experiments the usefulness of the proposed extensions.},
 archivePrefix = {arXiv},
@@ -2571,16 +2619,6 @@ month = {oct},
 title = {{Learning Tensors in Reproducing Kernel Hilbert Spaces with Multilinear Spectral Penalties}},
 url = {http://arxiv.org/abs/1310.4977},
 year = {2013}
-}
-@incollection{Signoretto2010,
-author = {Signoretto, Marco and {De Lathauwer}, Lieven and Suykens, Johan A. K.},
-doi = {10.1007/978-3-642-15822-3_7},
-file = {:home/ajaque/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Signoretto, De Lathauwer, Suykens - 2010 - Kernel-Based Learning from Infinite Dimensional 2-Way Tensors.pdf:pdf},
-pages = {59--69},
-publisher = {Springer Berlin Heidelberg},
-title = {{Kernel-Based Learning from Infinite Dimensional 2-Way Tensors}},
-url = {http://link.springer.com/10.1007/978-3-642-15822-3{\_}7},
-year = {2010}
 }
 @article{Signoretto2011,
 abstract = {Tensor-based techniques for learning allow one to exploit the structure of carefully chosen representations of data. This is a desirable feature in particular when the number of training patterns is small which is often the case in areas such as biosignal processing and chemometrics. However, the class of tensor-based models is somewhat restricted and might suffer from limited discriminative power. On a different track, kernel methods lead to flexible nonlinear models that have been proven successful in many different contexts. Nonetheless, a na{\"{i}}ve application of kernel methods does not exploit structural properties possessed by the given tensorial representations. The goal of this work is to go beyond this limitation by introducing non-parametric tensor-based models. The proposed framework aims at improving the discriminative power of supervised tensor-based models while still exploiting the structural information embodied in the data. We begin by introducing a feature space formed by multilinear functionals. The latter can be considered as the infinite dimensional analogue of tensors. Successively we show how to implicitly map input patterns in such a feature space by means of kernels that exploit the algebraic structure of data tensors. The proposed tensorial kernel links to the MLSVD and features an interesting invariance property; the approach leads to convex optimization and fits into the same primal–dual framework underlying SVM-like algorithms.},
@@ -2770,16 +2808,6 @@ url = {http://link.springer.com/10.1007/BF02289464},
 volume = {31},
 year = {1966}
 }
-@article{Tucker1964,
-annote = {Seminal paper, important author},
-author = {Tucker, LR},
-journal = {Contributions to mathematical psicology},
-keywords = {tensor},
-mendeley-tags = {tensor},
-title = {{The extension of factor analysis to three-dimensional matrices}},
-url = {https://scholar.google.com.co/scholar?q=tucker+the+extension+of+factor+analysis+for+three-dimensional+matrices{\&}btnG={\&}hl=en{\&}as{\_}sdt=0{\%}252C5{\#}0},
-year = {1964}
-}
 @article{Tucker1963,
 annote = {Seminal paper, important author},
 author = {Tucker, LR},
@@ -2789,6 +2817,16 @@ mendeley-tags = {tensor},
 title = {{Implications of factor analysis of three-way matrices for measurement of change}},
 url = {https://scholar.google.com.co/scholar?hl=en{\&}q=tucker+implications+of+factor+analysis+of+three-way{\&}btnG={\&}as{\_}sdt=1{\%}252C5{\&}as{\_}sdtp={\#}0},
 year = {1963}
+}
+@article{Tucker1964,
+annote = {Seminal paper, important author},
+author = {Tucker, LR},
+journal = {Contributions to mathematical psicology},
+keywords = {tensor},
+mendeley-tags = {tensor},
+title = {{The extension of factor analysis to three-dimensional matrices}},
+url = {https://scholar.google.com.co/scholar?q=tucker+the+extension+of+factor+analysis+for+three-dimensional+matrices{\&}btnG={\&}hl=en{\&}as{\_}sdt=0{\%}252C5{\#}0},
+year = {1964}
 }
 @article{Turzi2016,
 abstract = {The orientational order of nematic liquid crystals is traditionally studied by means of the second-rank ordering tensor {\$}\backslashmathbb{\{}S{\}}{\$}. When this is calculated through experiments or simulations, the symmetry group of the phase is not known $\backslash$emph{\{}a-priori{\}}, but need to be deduced from the numerical realisation of {\$}\backslashmathbb{\{}S{\}}{\$}, which is affected by numerical errors. There is no generally accepted procedure to perform this analysis. Here, we provide a new algorithm suited to identifying the symmetry group of the phase. As a by product, we prove that there are only five phase-symmetry classes of the second-rank ordering tensor and give a canonical representation of {\$}\backslashmathbb{\{}S{\}}{\$} for each class. The nearest tensor of the assigned symmetry is determined by group-projection. In order to test our procedure, we generate uniaxial and biaxial phases in a system of interacting particles, endowed with {\$}D{\_}{\{}\backslashinfty h{\}}{\$} or {\$}D{\_}{\{}2h{\}}{\$}, which mimic the outcome of Monte-Carlo simulations. The actual symmetry of the phases is correctly identified, along with the optimal choice of laboratory frame.},
@@ -2991,6 +3029,19 @@ url = {http://electronicimaging.spiedigitallibrary.org/article.aspx?articleid=24
 volume = {25},
 year = {2016}
 }
+@incollection{Xiong2010,
+address = {Philadelphia, PA},
+author = {Xiong, Liang and Chen, Xi and Huang, Tzu-Kuo and Schneider, Jeff and Carbonell, Jaime G.},
+booktitle = {Proceedings of the 2010 SIAM International Conference on Data Mining},
+doi = {10.1137/1.9781611972801.19},
+file = {:home/ajaque/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Xiong et al. - 2010 - Temporal Collaborative Filtering with Bayesian Probabilistic Tensor Factorization.pdf:pdf},
+month = {apr},
+pages = {211--222},
+publisher = {Society for Industrial and Applied Mathematics},
+title = {{Temporal Collaborative Filtering with Bayesian Probabilistic Tensor Factorization}},
+url = {http://epubs.siam.org/doi/abs/10.1137/1.9781611972801.19},
+year = {2010}
+}
 @article{Xu2014,
 abstract = {Higher-order singular value decomposition (HOSVD) is an efficient way for data reduction and also eliciting intrinsic structure of multi-dimensional array data. It has been used in many applications, and some of them involve incomplete data. To obtain HOSVD of the data with missing values, one can first impute the missing entries through a certain tensor completion method and then perform HOSVD to the reconstructed data. However, the two-step procedure can be inefficient and does not make reliable decomposition.   In this paper, we formulate an incomplete HOSVD problem and combine the two steps into solving a single optimization problem, which simultaneously achieves imputation of missing values and also tensor decomposition. We also present two algorithms for solving the problem based on block coordinate update. Global convergence of both algorithms is shown under mild assumptions. The convergence of the second algorithm implies that of the popular higher-order orthogonality iteration (HOOI) method, and thus we, for the first time, give global convergence of HOOI.   In addition, we compare the proposed methods to state-of-the-art ones for solving incomplete HOSVD and also low-rank tensor completion problems and demonstrate the superior performance of our methods over other compared ones. Furthermore, we apply them to face recognition and MRI image reconstruction to show their practical performance.},
 archivePrefix = {arXiv},
@@ -3070,17 +3121,6 @@ url = {http://ieeexplore.ieee.org/document/6629993/},
 volume = {37},
 year = {2015}
 }
-@article{Xu2011a,
-abstract = {Tensor decomposition is a powerful computational tool for multiway data analysis. Many popular tensor decomposition approaches---such as the Tucker decomposition and CANDECOMP/PARAFAC (CP)---amount to multi-linear factorization. They are insufficient to model (i) complex interactions between data entities, (ii) various data types (e.g. missing data and binary data), and (iii) noisy observations and outliers. To address these issues, we propose tensor-variate latent nonparametric Bayesian models, coupled with efficient inference methods, for multiway data analysis. We name these models InfTucker. Using these InfTucker, we conduct Tucker decomposition in an infinite feature space. Unlike classical tensor decomposition models, our new approaches handle both continuous and binary data in a probabilistic framework. Unlike previous Bayesian models on matrices and tensors, our models are based on latent Gaussian or {\$}t{\$} processes with nonlinear covariance functions. To efficiently learn the InfTucker from data, we develop a variational inference technique on tensors. Compared with classical implementation, the new technique reduces both time and space complexities by several orders of magnitude. Our experimental results on chemometrics and social network datasets demonstrate that our new models achieved significantly higher prediction accuracy than the most state-of-art tensor decomposition},
-archivePrefix = {arXiv},
-arxivId = {1108.6296},
-author = {Xu, Zenglin and Yan, Feng and Yuan and Qi},
-eprint = {1108.6296},
-month = {aug},
-title = {{Infinite Tucker Decomposition: Nonparametric Bayesian Models for Multiway Data Analysis}},
-url = {http://arxiv.org/abs/1108.6296},
-year = {2011}
-}
 @article{Xu2011b,
 archivePrefix = {arXiv},
 arxivId = {1108.6296},
@@ -3098,6 +3138,17 @@ arxivId = {1108.6296},
 author = {Xu, Zenglin and Yan, Feng and Yuan and Qi},
 eprint = {1108.6296},
 file = {:home/ajaque/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Xu et al. - 2011 - Infinite Tucker Decomposition Nonparametric Bayesian Models for Multiway Data Analysis.pdf:pdf},
+month = {aug},
+title = {{Infinite Tucker Decomposition: Nonparametric Bayesian Models for Multiway Data Analysis}},
+url = {http://arxiv.org/abs/1108.6296},
+year = {2011}
+}
+@article{Xu2011a,
+abstract = {Tensor decomposition is a powerful computational tool for multiway data analysis. Many popular tensor decomposition approaches---such as the Tucker decomposition and CANDECOMP/PARAFAC (CP)---amount to multi-linear factorization. They are insufficient to model (i) complex interactions between data entities, (ii) various data types (e.g. missing data and binary data), and (iii) noisy observations and outliers. To address these issues, we propose tensor-variate latent nonparametric Bayesian models, coupled with efficient inference methods, for multiway data analysis. We name these models InfTucker. Using these InfTucker, we conduct Tucker decomposition in an infinite feature space. Unlike classical tensor decomposition models, our new approaches handle both continuous and binary data in a probabilistic framework. Unlike previous Bayesian models on matrices and tensors, our models are based on latent Gaussian or {\$}t{\$} processes with nonlinear covariance functions. To efficiently learn the InfTucker from data, we develop a variational inference technique on tensors. Compared with classical implementation, the new technique reduces both time and space complexities by several orders of magnitude. Our experimental results on chemometrics and social network datasets demonstrate that our new models achieved significantly higher prediction accuracy than the most state-of-art tensor decomposition},
+archivePrefix = {arXiv},
+arxivId = {1108.6296},
+author = {Xu, Zenglin and Yan, Feng and Yuan and Qi},
+eprint = {1108.6296},
 month = {aug},
 title = {{Infinite Tucker Decomposition: Nonparametric Bayesian Models for Multiway Data Analysis}},
 url = {http://arxiv.org/abs/1108.6296},

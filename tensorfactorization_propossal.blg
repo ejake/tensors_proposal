@@ -2,50 +2,84 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: tensorfactorization_propossal.aux
 The style file: plain.bst
-Database file #1: refs.bib
+Database file #1: refs_multi.bib
+Database file #2: refs_mat.bib
+Repeated entry---line 187 of file refs_mat.bib
+ : @article{Wang2013
+ :                  ,
+I'm skipping whatever remains of this entry
+Database file #3: refs_ker.bib
+Repeated entry---line 39 of file refs_ker.bib
+ : @article{Bhadra2016
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 136 of file refs_ker.bib
+ : @article{Hardoon2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 337 of file refs_ker.bib
+ : @article{Signoretto2013
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 349 of file refs_ker.bib
+ : @article{Signoretto2011
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 362 of file refs_ker.bib
+ : @article{Signoretto2012
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 474 of file refs_ker.bib
+ : @article{Zhao2013
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Morup2008"
 Warning--I didn't find a database entry for "kwok2004preimage"
+Warning--I didn't find a database entry for "Morup2011"
 Warning--empty journal in Anandkumar2012
+Warning--empty journal in Bhadra2016
 Warning--empty journal in Dartois2016
 Warning--empty journal in Dourbal2016
-You've used 57 entries,
+Warning--empty journal in Signoretto2013
+You've used 65 entries,
             2118 wiz_defined-function locations,
-            880 strings with 15227 characters,
-and the built_in function-call counts, 20370 in all, are:
-= -- 2047
-> -- 963
+            940 strings with 16729 characters,
+and the built_in function-call counts, 23164 in all, are:
+= -- 2321
+> -- 1118
 < -- 15
-+ -- 377
-- -- 320
-* -- 1561
-:= -- 3350
-add.period$ -- 177
-call.type$ -- 57
-change.case$ -- 328
++ -- 437
+- -- 372
+* -- 1798
+:= -- 3827
+add.period$ -- 201
+call.type$ -- 65
+change.case$ -- 378
 chr.to.int$ -- 0
-cite$ -- 60
-duplicate$ -- 729
-empty$ -- 1532
-format.name$ -- 320
-if$ -- 4211
+cite$ -- 70
+duplicate$ -- 815
+empty$ -- 1727
+format.name$ -- 372
+if$ -- 4763
 int.to.chr$ -- 0
-int.to.str$ -- 57
-missing$ -- 56
-newline$ -- 286
-num.names$ -- 116
-pop$ -- 306
+int.to.str$ -- 65
+missing$ -- 64
+newline$ -- 326
+num.names$ -- 132
+pop$ -- 348
 preamble$ -- 1
-purify$ -- 272
+purify$ -- 314
 quote$ -- 0
-skip$ -- 533
+skip$ -- 592
 stack$ -- 0
-substring$ -- 1408
-swap$ -- 156
+substring$ -- 1595
+swap$ -- 162
 text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 226
-warning$ -- 3
-while$ -- 207
-width$ -- 59
-write$ -- 622
-(There were 4 warnings)
+type$ -- 258
+warning$ -- 5
+while$ -- 235
+width$ -- 67
+write$ -- 706
+(There were 7 error messages)

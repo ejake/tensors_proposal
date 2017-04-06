@@ -3,7 +3,7 @@
 
 
 @Article{Cichocki2015,
-  Title                    = {Tensor Decompositions for Signal Processing Applications: From two-way to multiway component analysis},
+  Title                    = {{Tensor Decompositions for Signal Processing Applications: From two-way to multiway component analysis}},
   Author                   = {Cichocki, Andrzej and Mandic, Danilo and {De Lathauwer}, Lieven and Zhou, Guoxu and Zhao, Qibin and Caiafa, Cesar and PHAN, HUY ANH},
   Journal                  = {IEEE Signal Processing Magazine},
   Year                     = {2015},
