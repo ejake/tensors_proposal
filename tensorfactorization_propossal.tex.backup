@@ -111,7 +111,7 @@ Multiway analysis enables one to effectively capture the multilinear structure o
 Recently there has been an increasing interest in the cross-fertilization of ideas coming from kernel methods and tensor-based data analysis. On the one hand it became apparent that machine learning algorithms can greatly benefit from the rich structure of tensor-based data representations. %[53, 42, 43, 24]." 
 Within transductive techniques, in particular, tensor completion and tensor recovery emerged as a useful higher order generalization of their matrix counterpart %[30, 19, 45, 44, 49, 33, 29, 10, 31]"
 
-This paper is organized as follow: Section \ref{sec:basic_tensors} introduce tensor definitions and some elemental operations over tensors. Later, section \ref{sec:tensor_apps} describe some outstanding applications where data are represented as a high-order tensor. Furthermore,  section \ref{sec:tensor_methods} presents an overview of main tensor decomposition  methods. Section \ref{sec:kernel} describe kernel methods and tensor factorization approaches incorporating them. Finally, section \ref{sec:kernel_tensor} describe approaches addressing kernel-based tensor analysis and a brief discussion of challenges of reviewed methods in section \ref{sec:conclusion}.
+This paper is organized as follow: Section \ref{sec:basic_tensors} introduce tensor definitions and some elemental operations over tensors. Later, section \ref{sec:tensor_apps} describe some outstanding applications where data are represented as a high-order tensor. Furthermore,  section \ref{sec:tensor_methods} presents an overview of main tensor decomposition  methods. Section \ref{sec:kernel} describe kernel methods and tensor factorization approaches incorporating them. Finally, section \ref{sec:kernel_tensor} describe approach	es addressing kernel-based tensor analysis and a brief discussion of challenges of reviewed methods in section \ref{sec:conclusion}.
 
 \subsection{Basics of tensors}\label{sec:basic_tensors}
 
@@ -359,13 +359,37 @@ PARAFAC-2 & Can jointly analyze heterogeneous pieces of data that cannot be expr
 \subsubsection{Data Fusion}
 
 
-Information about the same phenomenon can be acquiered from different types of detectors, in multiple experimental setups, at different  conditions or subjects, among others. The term ``modality'' is often used to point out each acquisition framework. Multiple modalities demand an jointly analysis rather than analyze each modality separately.
+Information about the same phenomenon can be acquiered from different types of detectors, in multiple experimental setups, at different  conditions or subjects, among others. The term ``modality'' is often used to point out each acquisition framework. Multiple modalities demand an jointly analysis rather than analyze each modality separately. Each modality is complementary in the way which each one add value that cannot be deduced or obtained from any of the others modalities in the setup, i.e. \textit{diversity}.
 
 Data fusion is a common application in tensor analysis, in many application we have data represented as a tensor and have side information or metadata that may form matrices or other tensors.
 
+``if all data sets share the same underlying factorization model, and in addition, admit a (multi)linear relationship, then it may be possible to use a single matrix or tensor decomposition in order to perform data fusion.'' \cite{Lahat2015}
 
+\cite{Lahat2015} presents a comprehensive review of challenges in data fusion and techniques to perform it.
 
 In order to integrate that kind of data, one of the most popular models is the Coupled Matrix-Tensor Factorization (CMTF) \cite{Acar2011}, where one or more matrices are coupled with a tensor.
+
+%----
+%(Lahat, 2015)
+
+
+
+%----
+
+%---
+%Coupled Matrix-Tensor Factorization (CMTF)    (Acar, et.al, 2011)
+Assuming a CP decomposition
+
+Assuming a Tucker decomposition (Ermis,et al. 2015)
+
+“An important issue when we have two or more heterogeneous pieces of data coupled with each other is the one we informally call “drowning,” that is, when one of the datasets is vastly denser or larger than the other(s) and thus dominates the approximation error. In order to alleviate such problems, we have to weigh the different datasets accordingly” (Wilderjans et al. 2009).
+
+(Acar, et.al. 2013,2014) Introduce a flexible couple decomposition where some latent components are assumed as independent and others shared for each array.
+
+A multiset dataset is a collection of matrices ${X_k}$ for $k=1\ldots K$ that have one mode in common. Close to form a tensor this matrices have different dimensions on the nonshared modes. The PARAFAC2 (Harshman, 1972) method is intruduced to face such cases.
+%---
+
+
 
 Closely related to the coupled datasets is the \textit{multiset} data, i.e. a collection of $K$ matrices $\{X_k\}$ that have one mode in common. Rather than a common tensor approach, the nonshared mode has different dimensions, and thus it has to be handled carefully. The PARAFAC2 model, was designed by Harshman \cite{Harshman1970} for such scenes. PARAFAC2 decomposes each matrix in the multiset as
 
@@ -394,6 +418,8 @@ Blind source separation (BSS) and related methods, e.g., independent component a
   \text{s.t. } & X_\Omega = M_\Omega
  \end{split}
 \end{equation}
+
+
 
 where $\Omega$ is an index set, then $X_\Omega$ is coping entries of $X$ in the indexes $\Omega$ and missed entries $\hat{\Omega}$ would be $0$
 
