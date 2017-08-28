@@ -20,8 +20,8 @@
 \contentsline {paragraph}{Recommendation systems}{13}
 \contentsline {paragraph}{Chemometrics}{13}
 \contentsline {paragraph}{Bioinformatics}{13}
-\contentsline {paragraph}{Image processing}{13}
-\contentsline {paragraph}{Machine Learning}{13}
+\contentsline {paragraph}{Image processing}{14}
+\contentsline {paragraph}{Machine Learning}{14}
 \contentsline {paragraph}{Text mining}{14}
 \contentsline {paragraph}{Numerical analysis}{14}
 \contentsline {paragraph}{Neuroscience}{14}

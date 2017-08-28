@@ -62,7 +62,7 @@
 Engineering
   \item \textbf{ADVISOR:} Fabio Augusto Gonz\'alez Osorio\\
   \textbf{DEPARTMENT:} Computer Science and Industrial Engineering
-  \item \textbf{TITLE: Kernel Tensor Factorization }%check
+  \item \textbf{TITLE: A Kernel Tensor Factorization Algorithm for Multimodal data Analysis}%check
   \item \textbf{AREA:} Computer Science
   \item \textbf{LINE OF RESEARCH:} Machine Learning
   \item COMMENTARY WITH ADVISOR APROVAL
@@ -111,7 +111,7 @@ Multiway analysis enables one to effectively capture the multilinear structure o
 Recently there has been an increasing interest in the cross-fertilization of ideas coming from kernel methods and tensor-based data analysis. On the one hand it became apparent that machine learning algorithms can greatly benefit from the rich structure of tensor-based data representations. %[53, 42, 43, 24]." 
 Within transductive techniques, in particular, tensor completion and tensor recovery emerged as a useful higher order generalization of their matrix counterpart %[30, 19, 45, 44, 49, 33, 29, 10, 31]"
 
-This paper is organized as follow: Section \ref{sec:basic_tensors} introduce tensor definitions and some elemental operations over tensors. Later, section \ref{sec:tensor_apps} describe some outstanding applications where data are represented as a high-order tensor. Furthermore,  section \ref{sec:tensor_methods} presents an overview of main tensor decomposition  methods. Section \ref{sec:kernel} describe kernel methods and tensor factorization approaches incorporating them. Finally, section \ref{sec:kernel_tensor} describe approaches addressing kernel-based tensor analysis. %and a brief discussion of challenges of reviewed methods in section \ref{sec:conclusion}.
+This paper is organized as follow: Section \ref{sec:basic_tensors} introduce tensor definitions and some elemental operations over tensors. Later, section \ref{sec:tensor_apps} describe some outstanding applications where data are represented as a high-order tensor. Furthermore,  section \ref{sec:tensor_methods} presents an overview of main tensor decomposition  methods. Section \ref{sec:kernel} describe kernel methods and tensor factorization approaches incorporating them. Finally, section \ref{sec:kernel_tensor} describe approaches addressing kernel-based tensor analysis and a brief discussion of challenges of reviewed methods in section \ref{sec:conclusion}.
 
 \subsection{Basics of tensors}\label{sec:basic_tensors}
 
@@ -329,7 +329,7 @@ There are generally two types of NTF model—NTD \cite{Morup2008} and more restr
  
 \subsubsection{Summary} 
 
-Table \ref{tb:summary_methods}
+Table \ref{tb:summary_methods} summarize strengths and drawbacks of tensor decompostion methods reviewed in this section.
  
  \begin{table}[!ht]
   \centering
@@ -358,7 +358,12 @@ PARAFAC-2 & Can jointly analyze heterogeneous pieces of data that cannot be expr
 
 \subsubsection{Data Fusion}
 
+
+Information about the same phenomenon can be acquiered from different types of detectors, in multiple experimental setups, at different  conditions or subjects, among others. The term ``modality'' is often used to point out each acquisition framework. Multiple modalities demand an jointly analysis rather than analyze each modality separately.
+
 Data fusion is a common application in tensor analysis, in many application we have data represented as a tensor and have side information or metadata that may form matrices or other tensors.
+
+
 
 In order to integrate that kind of data, one of the most popular models is the Coupled Matrix-Tensor Factorization (CMTF) \cite{Acar2011}, where one or more matrices are coupled with a tensor.
 
@@ -577,6 +582,68 @@ Therefore, the cost function to minimize is
  Where kernel $K=\phi^T(X)phi(X)$
  
 
+\subsection{kernel-based tensor analysis}\label{sec:kerne_tensor}
+
+Tensor decompositions consist of several linear transformations collaboratively performed in different modes, using multilinear algebra, which enables us to capture the underlying interactions among multiple modes. As a result, their extension to capture nonlinear multimode interactions of data is highly desirable \cite{Zhao2013}.%exact text, plagiarism, we must change it
+
+Recent research has addressed the incorporation of the kernel concept into tensor decompositions, table \ref{tb:tensor_kernel} collect these works. \cite{Hardoon2010} proposes an tensor kernel approach for SVM. \cite{Signoretto2011} deal with linear tensor-based models and a systematic approach to the construction of non-parametric tensor-based models is still missing. 
+
+
+\begin{table}[!ht]
+%% increase table row spacing, adjust to taste
+\renewcommand{\arraystretch}{1.3}
+% if using array.sty, it might be a good idea to tweak the value of
+% \extrarowheight as needed to properly center the text within the cells
+\caption{Work linking kernels in tensor decomposition}
+\label{tb:tensor_kernel}
+\centering
+%% Some packages, such as MDW tools, offer better commands for making tables
+%% than the plain LaTeX2e tabular which is used here.
+\begin{tabular}{|p{7cm}|r|}
+\hline
+Method & Year\\
+\hline
+\hline
+Multi-view kernel completion & 2016 \cite{Bhadra2016}\\
+\hline
+A general framework to learn functions in tensor product reproducing kernel Hilbert spaces (TP-RKHSs) & 2013 \cite{Signoretto2013}\\
+\hline
+Kernel Tensor Partial Least Squares (KTPLS) and Kernel Tensor Canonical Correlation Analysis (KTCCA) & 2013 \cite{Zhao2013}\\
+\hline
+Classification of Multichannel Signals With Cumulant-Based Kernels & 2012 \cite{Signoretto2012}\\
+\hline
+A kernel-based framework to tensorial data analysis & 2011 \cite{Signoretto2011}\\
+\hline
+Tensor kernels for SVM & 2010 \cite{Hardoon2010}\\
+\hline
+\end{tabular}
+\end{table}
+
+
+Tensor representation is able to construct a multifactor structure of image ensembles while tensor decompositions allow us to extract multiple low-dimensional components in different modes, which can be employed for image recognition and image synthesis \cite{Zhao2013}%exact text, plagiarism, I must change it 
+
+\cite{Signoretto2012} presents a method for classification of multichannel signals with cumulant-based kernels applied to magnetoencephalography (MEG) images.
+
+\cite{Zhao2013} proposes two methods: The Kernel Tensor Partial Least Squares (KTPLS) which extends High-Order Partial Least Squares (HOPLS) combining it with Kernel Partial Least Squares (KPLS). HOPLS predicts a tensor $\mathcal{Y}$ from a tensor $\mathcal{X}$ through multilinear projection of the data onto the latent space followed by regression against the latent variables. And The Kernel Tensor Canonical Correlation Analysis (KTCCA), KTCCA extends Kernel Canonical Correlation Analysis (KCCA) to high-order tensors. CCA finds the directions of maximum correlation while PLS finds the directions of maximum covariance.
+
+\cite{Signoretto2013} proposes a general framework to learn functions in tensor product reproducing kernel Hilbert spaces (TP-RKHSs). The methodology is based on a novel representer theorem suitable for existing as well as new spectral penalties for tensors.
+
+Finally, \cite{Bhadra2016} presents a method for multi-view kernel completion. The method compute kernels over tensor slices and through kernel matrix compute costs which accumulative sum are used to recover missing tensor parts.
+
+
+Tensor factorization (including matrix factorization) is central to different important tasks in machine learning and information retrieval such as: clustering, latent topic analysis, recommendation, blind source separation, completion, denoising, among others. 
+
+The widespread use of multisensor technology and the emergence of data sets where the collected data is most naturally stored or represented in a multi-dimensional array have highlighted the limitations of standard flat-view matrix models and the necessity to move toward more versatile data analysis tools [22]. %move this paragraph to the justification
+
+%highlight problem
+%problem dimensionality tensor and kernel trick to deal with it
+%exploit no-linear relations
+
+Tensor factorizations have several advantages over two-way matrix factorizations including uniqueness of the optimal solution and component identification even when most of the data is missing.\cite{Morup2011}
+
+Conventional methods preprocess multiway data by arranging them into a matrix, which might lose the original multiway structure of the data [55]. Hence, tensors address multimodal or multiview data, and tensor factorization brings tools to perform common machine learning tasks.
+
+On the other hand, kernel methods are ubiquitous in machine learning, performance of these methods have been broadly demonstrated, and there are evidence between some types of kernels and robustness. However, there are few exploration of kernel tensor factorization approaches.
 
 % \subsection{Tensor probability}
 

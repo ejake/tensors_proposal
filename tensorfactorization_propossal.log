@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.3.30)  20 NOV 2016 23:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.5)  25 AUG 2017 10:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tensorfactorization_propossal.tex
 (./tensorfactorization_propossal.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+Babel <3.9h> and hyphenation patterns for 2 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -753,10 +753,10 @@ ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package epstopdf Info: Source file: <Images/un_logo.eps>
-(epstopdf)                    date: 2015-05-24 13:25:17
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 43175 bytes
 (epstopdf)             Output file: <Images/un_logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-03-22 18:07:41
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 15844 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/un_logo-eps-convert
 ed-to.pdf Images/un_logo.eps>
@@ -802,11 +802,11 @@ LaTeX Warning: Reference `sec:conclusion' on page 3 undefined on input line 114
 
 [3]
 Package epstopdf Info: Source file: <Images/3rd-order_tensor.eps>
-(epstopdf)                    date: 2016-03-25 09:21:59
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 55496 bytes
 (epstopdf)             Output file: <Images/3rd-order_tensor-eps-converted-to.p
 df>
-(epstopdf)                    date: 2016-03-25 09:30:27
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 14317 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order_tensor-ep
 s-converted-to.pdf Images/3rd-order_tensor.eps>
@@ -821,11 +821,11 @@ Package pdftex.def Info: Images/3rd-order_tensor-eps-converted-to.pdf used on i
 nput line 122.
 (pdftex.def)             Requested size: 179.06583pt x 118.84189pt.
 Package epstopdf Info: Source file: <Images/3rd-order-tensor-fiber_mode-1.eps>
-(epstopdf)                    date: 2016-03-25 11:46:41
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 209778 bytes
 (epstopdf)             Output file: <Images/3rd-order-tensor-fiber_mode-1-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-03-25 11:54:07
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 27534 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order-tensor-fi
 ber_mode-1-eps-converted-to.pdf Images/3rd-order-tensor-fiber_mode-1.eps>
@@ -841,11 +841,11 @@ Package pdftex.def Info: Images/3rd-order-tensor-fiber_mode-1-eps-converted-to.
 pdf used on input line 131.
 (pdftex.def)             Requested size: 125.74689pt x 138.00546pt.
 Package epstopdf Info: Source file: <Images/3rd-order-tensor-fiber_mode-2.eps>
-(epstopdf)                    date: 2016-03-25 11:47:28
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 92448 bytes
 (epstopdf)             Output file: <Images/3rd-order-tensor-fiber_mode-2-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-03-25 11:54:10
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 26966 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order-tensor-fi
 ber_mode-2-eps-converted-to.pdf Images/3rd-order-tensor-fiber_mode-2.eps>
@@ -861,11 +861,11 @@ Package pdftex.def Info: Images/3rd-order-tensor-fiber_mode-2-eps-converted-to.
 pdf used on input line 135.
 (pdftex.def)             Requested size: 143.09538pt x 129.44829pt.
 Package epstopdf Info: Source file: <Images/3rd-order-tensor-fiber_mode-3.eps>
-(epstopdf)                    date: 2016-03-25 11:48:55
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 244347 bytes
 (epstopdf)             Output file: <Images/3rd-order-tensor-fiber_mode-3-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-03-25 11:54:14
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 43077 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/3rd-order-tensor-fi
 ber_mode-3-eps-converted-to.pdf Images/3rd-order-tensor-fiber_mode-3.eps>
@@ -881,11 +881,11 @@ Package pdftex.def Info: Images/3rd-order-tensor-fiber_mode-3-eps-converted-to.
 pdf used on input line 139.
 (pdftex.def)             Requested size: 143.09538pt x 129.59517pt.
 Package epstopdf Info: Source file: <Images/slices-frontal.eps>
-(epstopdf)                    date: 2016-04-16 08:12:42
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 93522 bytes
 (epstopdf)             Output file: <Images/slices-frontal-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2016-04-16 08:18:17
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 6954 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/slices-frontal-eps-
 converted-to.pdf Images/slices-frontal.eps>
@@ -900,11 +900,11 @@ Package pdftex.def Info: Images/slices-frontal-eps-converted-to.pdf used on inp
 ut line 150.
 (pdftex.def)             Requested size: 125.74689pt x 103.11815pt.
 Package epstopdf Info: Source file: <Images/slices-horizontal.eps>
-(epstopdf)                    date: 2016-04-16 08:13:05
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 265512 bytes
 (epstopdf)             Output file: <Images/slices-horizontal-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2016-04-16 08:18:18
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 35381 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/slices-horizontal-e
 ps-converted-to.pdf Images/slices-horizontal.eps>
@@ -919,11 +919,11 @@ Package pdftex.def Info: Images/slices-horizontal-eps-converted-to.pdf used on
 input line 154.
 (pdftex.def)             Requested size: 143.09538pt x 117.34361pt.
 Package epstopdf Info: Source file: <Images/slices-vertical.eps>
-(epstopdf)                    date: 2016-04-16 08:13:30
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 83932 bytes
 (epstopdf)             Output file: <Images/slices-vertical-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2016-04-16 08:18:18
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 22827 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/slices-vertical-eps
 -converted-to.pdf Images/slices-vertical.eps>
@@ -954,11 +954,11 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:methods' on page 5 undefined on input line 210.
 
 Package epstopdf Info: Source file: <Images/tensor_decomposition_methods2.eps>
-(epstopdf)                    date: 2016-11-20 22:45:18
+(epstopdf)                    date: 2017-08-24 12:15:29
 (epstopdf)                    size: 125870 bytes
 (epstopdf)             Output file: <Images/tensor_decomposition_methods2-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2016-11-20 23:04:51
+(epstopdf)                    date: 2017-08-24 12:15:29
 (epstopdf)                    size: 34504 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/tensor_decompositio
 n_methods2-eps-converted-to.pdf Images/tensor_decomposition_methods2.eps>
@@ -978,10 +978,10 @@ pdf used on input line 214.
 ps-converted-to.pdf> <./Images/slices-vertical-eps-converted-to.pdf>] [6 <./Ima
 ges/tensor_decomposition_methods2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Images/h_tucker_bt.eps>
-(epstopdf)                    date: 2016-11-20 20:58:29
+(epstopdf)                    date: 2017-08-24 12:15:29
 (epstopdf)                    size: 115367 bytes
 (epstopdf)             Output file: <Images/h_tucker_bt-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-11-20 20:59:32
+(epstopdf)                    date: 2017-08-24 12:15:29
 (epstopdf)                    size: 38773 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/h_tucker_bt-eps-con
 verted-to.pdf Images/h_tucker_bt.eps>
@@ -1232,58 +1232,59 @@ LaTeX Warning: Text page 10 contains only floats.
 
 [10]
 
-LaTeX Warning: Reference `Cichocki2009' on page 11 undefined on input line 378.
+LaTeX Warning: Reference `Cichocki2009' on page 11 undefined on input line 383.
 
 
-[11]
+[11] [12]
 Package epstopdf Info: Source file: <Images/time-line.eps>
-(epstopdf)                    date: 2016-04-16 08:35:24
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 185062 bytes
 (epstopdf)             Output file: <Images/time-line-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-04-16 08:45:43
+(epstopdf)                    date: 2017-04-18 11:34:47
 (epstopdf)                    size: 86418 bytes
 (epstopdf)             Command: <repstopdf --outfile=Images/time-line-eps-conve
 rted-to.pdf Images/time-line.eps>
-(epstopdf)             \includegraphics on input line 437.
+(epstopdf)             \includegraphics on input line 442.
 Package epstopdf Info: Output file is already uptodate.
- <Images/time-line-eps-converted-to.pdf, id=98, 901.3675pt x 433.62pt>
+
+<Images/time-line-eps-converted-to.pdf, id=101, 901.3675pt x 433.62pt>
 File: Images/time-line-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/time-line-eps-converted-to.pdf>
 Package pdftex.def Info: Images/time-line-eps-converted-to.pdf used on input li
-ne 437.
+ne 442.
 (pdftex.def)             Requested size: 450.68263pt x 216.80946pt.
 
-Overfull \hbox (17.06262pt too wide) in paragraph at lines 437--438
+Overfull \hbox (17.06262pt too wide) in paragraph at lines 442--443
  [][] 
  []
 
-[12] [13 <./Images/time-line-eps-converted-to.pdf>] [14]
+[13 <./Images/time-line-eps-converted-to.pdf>] [14]
 
 LaTeX Warning: Citation `kwok2004preimage' on page 15 undefined on input line 5
-58.
+63.
 
 [15] [16]
 
-LaTeX Warning: Citation `Morup2011' on page 17 undefined on input line 637.
+LaTeX Warning: Citation `Morup2011' on page 17 undefined on input line 642.
 
 [17]
 
-LaTeX Warning: Citation `Morup2011' on page 18 undefined on input line 663.
+LaTeX Warning: Citation `Morup2011' on page 18 undefined on input line 668.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 670.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 675.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 670.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 675.
  [18]
 
-LaTeX Warning: Citation `Morup2011' on page 19 undefined on input line 706.
+LaTeX Warning: Citation `Morup2011' on page 19 undefined on input line 711.
 
 [19] [20]
-Overfull \hbox (2.77002pt too wide) in paragraph at lines 781--781
+Overfull \hbox (2.77002pt too wide) in paragraph at lines 786--786
 []\T1/cmr/bx/n/14.4 WP2: Eval-u-a-tion of strate-gies for com-bin-ing kernel-ba
 sed meth-
  []
@@ -1299,7 +1300,7 @@ Markus
  []
 
 [26] [27])
-Overfull \hbox (49.68039pt too wide) in paragraph at lines 968--985
+Overfull \hbox (49.68039pt too wide) in paragraph at lines 973--990
  [][] 
  []
 
@@ -1309,35 +1310,35 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12876 strings out of 493304
- 231309 string characters out of 6139871
- 316892 words of memory out of 5000000
- 16039 multiletter control sequences out of 15000+600000
+ 12876 strings out of 495028
+ 231309 string characters out of 6181498
+ 312606 words of memory out of 5000000
+ 15790 multiletter control sequences out of 15000+600000
  17712 words of font info for 52 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  56i,17n,55p,1281b,459s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx17
-28.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/t
-exmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/pub
-lic/cm-super/sfti1200.pfb>
-Output written on tensorfactorization_propossal.pdf (28 pages, 666627 bytes).
+ </home/rajaquep/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </hom
+e/rajaquep/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/rajaqu
+ep/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/rajaquep/.texm
+f-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/rajaquep/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/rajaquep/.texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecbx1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msbm10.pfb>
+Output written on tensorfactorization_propossal.pdf (28 pages, 629408 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
+ 578 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
